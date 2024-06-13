@@ -1,0 +1,4514 @@
+# ACE/gr parameter file
+#
+@version 40102
+@page layout free
+@ps linewidth begin 1
+@ps linewidth increment 2
+@hardcopy device 1
+@page 5
+@page inout 5
+@link page off
+@default linestyle 1
+@default linewidth 1
+@default color 1
+@default char size 1.000000
+@default font 4
+@default font source 0
+@default symbol size 1.000000
+@timestamp off
+@timestamp 0.03, 0.03
+@timestamp linewidth 1
+@timestamp color 1
+@timestamp rot 0
+@timestamp font 4
+@timestamp char size 1.000000
+@timestamp def "Thu Apr 18 14:36:04 2024"
+@with line
+@    line on
+@    line loctype world
+@    line g0
+@    line 19.6962616822, 1.11203128594, 24.7196261682, 2.2438463308
+@    line linewidth 7
+@    line linestyle 1
+@    line color 1
+@    line arrow 1
+@    line arrow size 1.000000
+@    line arrow type 0
+@line def
+@with string
+@    string on
+@    string loctype view
+@    string 0.41, 0.49
+@    string linewidth 1
+@    string color 1
+@    string rot 0
+@    string font 0
+@    string just 0
+@    string char size 2.010000
+@    string def "\1equilibration simulations"
+@with g0
+@g0 on
+@g0 label off
+@g0 hidden false
+@g0 type xy
+@g0 autoscale type AUTO
+@g0 fixedpoint off
+@g0 fixedpoint type 0
+@g0 fixedpoint xy 0.000000, 0.000000
+@g0 fixedpoint format general general
+@g0 fixedpoint prec 6, 6
+@    world xmin 0
+@    world xmax 70
+@    world ymin 0
+@    world ymax 4
+@    stack world 0, 0, 0, 0 tick 0, 0, 0, 0
+@    view xmin 0.150000
+@    view xmax 0.850000
+@    view ymin 0.150000
+@    view ymax 0.850000
+@    title "\13.45M"
+@    title font 0
+@    title size 2.000000
+@    title color 1
+@    title linewidth 1
+@    subtitle "\1d=3\cE\C"
+@    subtitle font 0
+@    subtitle size 1.450000
+@    subtitle color 1
+@    subtitle linewidth 1
+@    s0 symbol 0
+@    s0 symbol size 1.000000
+@    s0 symbol fill 0
+@    s0 symbol color 4
+@    s0 symbol linewidth 1
+@    s0 symbol linestyle 1
+@    s0 symbol center false
+@    s0 symbol char 0
+@    s0 skip 0
+@    s0 linestyle 1
+@    s0 linewidth 7
+@    s0 color 4
+@    s0 fill 0
+@    s0 fill with color
+@    s0 fill color 1
+@    s0 fill pattern 0
+@    s0 errorbar type BOTH
+@    s0 errorbar length 1.000000
+@    s0 errorbar linewidth 1
+@    s0 errorbar linestyle 1
+@    s0 errorbar riser on
+@    s0 errorbar riser linewidth 1
+@    s0 errorbar riser linestyle 1
+@    s0 xyz 0.000000, 0.000000
+@    s0 comment "/Users/janforsman/hongdo/RPM/tests_HDstruct/primitivemodel_nonrestricted/MI/muex_bch/reversewid/clm/varying_epsr/L134_D3/cielec20/rdf"
+@    s1 symbol 0
+@    s1 symbol size 1.000000
+@    s1 symbol fill 0
+@    s1 symbol color 12
+@    s1 symbol linewidth 1
+@    s1 symbol linestyle 1
+@    s1 symbol center false
+@    s1 symbol char 0
+@    s1 skip 0
+@    s1 linestyle 4
+@    s1 linewidth 7
+@    s1 color 12
+@    s1 fill 0
+@    s1 fill with color
+@    s1 fill color 1
+@    s1 fill pattern 0
+@    s1 errorbar type BOTH
+@    s1 errorbar length 1.000000
+@    s1 errorbar linewidth 1
+@    s1 errorbar linestyle 1
+@    s1 errorbar riser on
+@    s1 errorbar riser linewidth 1
+@    s1 errorbar riser linestyle 1
+@    s1 xyz 0.000000, 0.000000
+@    s1 comment "/Users/janforsman/hongdo/RPM/tests_HDstruct/primitivemodel_nonrestricted/MI/muex_bch/reversewid/clm/varying_epsr/L134_D3/cielec21/rdf"
+@    s2 symbol 0
+@    s2 symbol size 1.000000
+@    s2 symbol fill 0
+@    s2 symbol color 2
+@    s2 symbol linewidth 1
+@    s2 symbol linestyle 1
+@    s2 symbol center false
+@    s2 symbol char 0
+@    s2 skip 0
+@    s2 linestyle 4
+@    s2 linewidth 7
+@    s2 color 2
+@    s2 fill 0
+@    s2 fill with color
+@    s2 fill color 1
+@    s2 fill pattern 0
+@    s2 errorbar type BOTH
+@    s2 errorbar length 1.000000
+@    s2 errorbar linewidth 1
+@    s2 errorbar linestyle 1
+@    s2 errorbar riser on
+@    s2 errorbar riser linewidth 1
+@    s2 errorbar riser linestyle 1
+@    s2 xyz 0.000000, 0.000000
+@    s2 comment "2M/large_N1600/fk0.5_cdielc20/sumrdf"
+@    s3 symbol 0
+@    s3 symbol size 1.000000
+@    s3 symbol fill 0
+@    s3 symbol color 1
+@    s3 symbol linewidth 1
+@    s3 symbol linestyle 1
+@    s3 symbol center false
+@    s3 symbol char 0
+@    s3 skip 0
+@    s3 linestyle 4
+@    s3 linewidth 7
+@    s3 color 1
+@    s3 fill 0
+@    s3 fill with color
+@    s3 fill color 1
+@    s3 fill pattern 0
+@    s3 errorbar type BOTH
+@    s3 errorbar length 1.000000
+@    s3 errorbar linewidth 1
+@    s3 errorbar linestyle 1
+@    s3 errorbar riser on
+@    s3 errorbar riser linewidth 1
+@    s3 errorbar riser linestyle 1
+@    s3 xyz 0.000000, 0.000000
+@    s3 comment "1M/large_N800/fk0.5_cdielc20/sumrdf"
+@    s4 symbol 0
+@    s4 symbol size 1.000000
+@    s4 symbol fill 0
+@    s4 symbol color 11
+@    s4 symbol linewidth 1
+@    s4 symbol linestyle 1
+@    s4 symbol center false
+@    s4 symbol char 0
+@    s4 skip 0
+@    s4 linestyle 4
+@    s4 linewidth 7
+@    s4 color 11
+@    s4 fill 0
+@    s4 fill with color
+@    s4 fill color 1
+@    s4 fill pattern 0
+@    s4 errorbar type BOTH
+@    s4 errorbar length 1.000000
+@    s4 errorbar linewidth 1
+@    s4 errorbar linestyle 1
+@    s4 errorbar riser on
+@    s4 errorbar riser linewidth 1
+@    s4 errorbar riser linestyle 1
+@    s4 xyz 0.000000, 0.000000
+@    s4 comment "/Users/janforsman/hongdo/RPM/tests_HDstruct/primitivemodel_nonrestricted/MI/muex_bch/reversewid/clm/varying_epsr/L134_D3/cielec21/again_backtocielec23/rdf.eq54"
+@    s5 symbol 0
+@    s5 symbol size 1.000000
+@    s5 symbol fill 0
+@    s5 symbol color 15
+@    s5 symbol linewidth 1
+@    s5 symbol linestyle 1
+@    s5 symbol center false
+@    s5 symbol char 0
+@    s5 skip 0
+@    s5 linestyle 1
+@    s5 linewidth 7
+@    s5 color 15
+@    s5 fill 0
+@    s5 fill with color
+@    s5 fill color 1
+@    s5 fill pattern 0
+@    s5 errorbar type BOTH
+@    s5 errorbar length 1.000000
+@    s5 errorbar linewidth 1
+@    s5 errorbar linestyle 1
+@    s5 errorbar riser on
+@    s5 errorbar riser linewidth 1
+@    s5 errorbar riser linestyle 1
+@    s5 xyz 0.000000, 0.000000
+@    s5 comment "/Users/janforsman/hongdo/RPM/tests_HDstruct/primitivemodel_nonrestricted/MI/muex_bch/reversewid/clm/varying_epsr/L134_D3/cielec21/backtocielec23/rdf"
+@    xaxis  tick on
+@    xaxis  tick major 20
+@    xaxis  tick minor 10
+@    xaxis  tick offsetx 0.000000
+@    xaxis  tick offsety 0.000000
+@    xaxis  label "\1r/\cE\c"
+@    xaxis  label layout para
+@    xaxis  label place auto
+@    xaxis  label char size 2.010000
+@    xaxis  label font 0
+@    xaxis  label color 1
+@    xaxis  label linewidth 1
+@    xaxis  ticklabel on
+@    xaxis  ticklabel type auto
+@    xaxis  ticklabel prec 5
+@    xaxis  ticklabel format general
+@    xaxis  ticklabel append ""
+@    xaxis  ticklabel prepend ""
+@    xaxis  ticklabel layout horizontal
+@    xaxis  ticklabel place on ticks
+@    xaxis  ticklabel skip 0
+@    xaxis  ticklabel stagger 0
+@    xaxis  ticklabel op bottom
+@    xaxis  ticklabel sign normal
+@    xaxis  ticklabel start type auto
+@    xaxis  ticklabel start 0.000000
+@    xaxis  ticklabel stop type auto
+@    xaxis  ticklabel stop 0.000000
+@    xaxis  ticklabel char size 1.450000
+@    xaxis  ticklabel font 0
+@    xaxis  ticklabel color 1
+@    xaxis  ticklabel linewidth 2
+@    xaxis  tick major on
+@    xaxis  tick minor on
+@    xaxis  tick default 6
+@    xaxis  tick in
+@    xaxis  tick major color 1
+@    xaxis  tick major linewidth 5
+@    xaxis  tick major linestyle 1
+@    xaxis  tick minor color 1
+@    xaxis  tick minor linewidth 4
+@    xaxis  tick minor linestyle 1
+@    xaxis  tick log off
+@    xaxis  tick size 1.000000
+@    xaxis  tick minor size 0.500000
+@    xaxis  bar off
+@    xaxis  bar color 1
+@    xaxis  bar linestyle 1
+@    xaxis  bar linewidth 1
+@    xaxis  tick major grid off
+@    xaxis  tick minor grid off
+@    xaxis  tick op bottom
+@    xaxis  tick type auto
+@    xaxis  tick spec 0
+@    yaxis  tick on
+@    yaxis  tick major 1
+@    yaxis  tick minor 0.5
+@    yaxis  tick offsetx 0.000000
+@    yaxis  tick offsety 0.000000
+@    yaxis  label "\1g\s++\N(r)"
+@    yaxis  label layout para
+@    yaxis  label place auto
+@    yaxis  label char size 2.010000
+@    yaxis  label font 0
+@    yaxis  label color 1
+@    yaxis  label linewidth 1
+@    yaxis  ticklabel on
+@    yaxis  ticklabel type auto
+@    yaxis  ticklabel prec 5
+@    yaxis  ticklabel format general
+@    yaxis  ticklabel append ""
+@    yaxis  ticklabel prepend ""
+@    yaxis  ticklabel layout horizontal
+@    yaxis  ticklabel place on ticks
+@    yaxis  ticklabel skip 0
+@    yaxis  ticklabel stagger 0
+@    yaxis  ticklabel op left
+@    yaxis  ticklabel sign normal
+@    yaxis  ticklabel start type auto
+@    yaxis  ticklabel start 0.000000
+@    yaxis  ticklabel stop type auto
+@    yaxis  ticklabel stop 0.000000
+@    yaxis  ticklabel char size 1.450000
+@    yaxis  ticklabel font 0
+@    yaxis  ticklabel color 1
+@    yaxis  ticklabel linewidth 2
+@    yaxis  tick major on
+@    yaxis  tick minor on
+@    yaxis  tick default 6
+@    yaxis  tick in
+@    yaxis  tick major color 1
+@    yaxis  tick major linewidth 5
+@    yaxis  tick major linestyle 1
+@    yaxis  tick minor color 1
+@    yaxis  tick minor linewidth 4
+@    yaxis  tick minor linestyle 1
+@    yaxis  tick log off
+@    yaxis  tick size 1.000000
+@    yaxis  tick minor size 0.500000
+@    yaxis  bar off
+@    yaxis  bar color 1
+@    yaxis  bar linestyle 1
+@    yaxis  bar linewidth 1
+@    yaxis  tick major grid off
+@    yaxis  tick minor grid off
+@    yaxis  tick op left
+@    yaxis  tick type auto
+@    yaxis  tick spec 0
+@    zeroxaxis  tick on
+@    zeroxaxis  tick major 20
+@    zeroxaxis  tick minor 10
+@    zeroxaxis  tick offsetx 0.000000
+@    zeroxaxis  tick offsety 0.000000
+@    zeroxaxis  label ""
+@    zeroxaxis  label layout para
+@    zeroxaxis  label place auto
+@    zeroxaxis  label char size 1.000000
+@    zeroxaxis  label font 4
+@    zeroxaxis  label color 1
+@    zeroxaxis  label linewidth 1
+@    zeroxaxis  ticklabel off
+@    zeroxaxis  ticklabel type auto
+@    zeroxaxis  ticklabel prec 5
+@    zeroxaxis  ticklabel format general
+@    zeroxaxis  ticklabel append ""
+@    zeroxaxis  ticklabel prepend ""
+@    zeroxaxis  ticklabel layout horizontal
+@    zeroxaxis  ticklabel place on ticks
+@    zeroxaxis  ticklabel skip 0
+@    zeroxaxis  ticklabel stagger 0
+@    zeroxaxis  ticklabel op bottom
+@    zeroxaxis  ticklabel sign normal
+@    zeroxaxis  ticklabel start type auto
+@    zeroxaxis  ticklabel start 0.000000
+@    zeroxaxis  ticklabel stop type auto
+@    zeroxaxis  ticklabel stop 0.000000
+@    zeroxaxis  ticklabel char size 1.450000
+@    zeroxaxis  ticklabel font 0
+@    zeroxaxis  ticklabel color 1
+@    zeroxaxis  ticklabel linewidth 2
+@    zeroxaxis  tick major off
+@    zeroxaxis  tick minor on
+@    zeroxaxis  tick default 6
+@    zeroxaxis  tick in
+@    zeroxaxis  tick major color 1
+@    zeroxaxis  tick major linewidth 5
+@    zeroxaxis  tick major linestyle 1
+@    zeroxaxis  tick minor color 1
+@    zeroxaxis  tick minor linewidth 4
+@    zeroxaxis  tick minor linestyle 1
+@    zeroxaxis  tick log off
+@    zeroxaxis  tick size 1.000000
+@    zeroxaxis  tick minor size 0.500000
+@    zeroxaxis  bar off
+@    zeroxaxis  bar color 1
+@    zeroxaxis  bar linestyle 1
+@    zeroxaxis  bar linewidth 1
+@    zeroxaxis  tick major grid off
+@    zeroxaxis  tick minor grid off
+@    zeroxaxis  tick op bottom
+@    zeroxaxis  tick type auto
+@    zeroxaxis  tick spec 0
+@    zeroyaxis  tick on
+@    zeroyaxis  tick major 1
+@    zeroyaxis  tick minor 0.5
+@    zeroyaxis  tick offsetx 0.000000
+@    zeroyaxis  tick offsety 0.000000
+@    zeroyaxis  label ""
+@    zeroyaxis  label layout para
+@    zeroyaxis  label place auto
+@    zeroyaxis  label char size 1.000000
+@    zeroyaxis  label font 4
+@    zeroyaxis  label color 1
+@    zeroyaxis  label linewidth 1
+@    zeroyaxis  ticklabel off
+@    zeroyaxis  ticklabel type auto
+@    zeroyaxis  ticklabel prec 5
+@    zeroyaxis  ticklabel format general
+@    zeroyaxis  ticklabel append ""
+@    zeroyaxis  ticklabel prepend ""
+@    zeroyaxis  ticklabel layout horizontal
+@    zeroyaxis  ticklabel place on ticks
+@    zeroyaxis  ticklabel skip 0
+@    zeroyaxis  ticklabel stagger 0
+@    zeroyaxis  ticklabel op left
+@    zeroyaxis  ticklabel sign normal
+@    zeroyaxis  ticklabel start type auto
+@    zeroyaxis  ticklabel start 0.000000
+@    zeroyaxis  ticklabel stop type auto
+@    zeroyaxis  ticklabel stop 0.000000
+@    zeroyaxis  ticklabel char size 1.450000
+@    zeroyaxis  ticklabel font 0
+@    zeroyaxis  ticklabel color 1
+@    zeroyaxis  ticklabel linewidth 2
+@    zeroyaxis  tick major off
+@    zeroyaxis  tick minor on
+@    zeroyaxis  tick default 6
+@    zeroyaxis  tick in
+@    zeroyaxis  tick major color 1
+@    zeroyaxis  tick major linewidth 5
+@    zeroyaxis  tick major linestyle 1
+@    zeroyaxis  tick minor color 1
+@    zeroyaxis  tick minor linewidth 4
+@    zeroyaxis  tick minor linestyle 1
+@    zeroyaxis  tick log off
+@    zeroyaxis  tick size 1.000000
+@    zeroyaxis  tick minor size 0.500000
+@    zeroyaxis  bar off
+@    zeroyaxis  bar color 1
+@    zeroyaxis  bar linestyle 1
+@    zeroyaxis  bar linewidth 1
+@    zeroyaxis  tick major grid off
+@    zeroyaxis  tick minor grid off
+@    zeroyaxis  tick op left
+@    zeroyaxis  tick type auto
+@    zeroyaxis  tick spec 0
+@    legend on
+@    legend loctype view
+@    legend layout 0
+@    legend vgap 3
+@    legend hgap 1
+@    legend length 3
+@    legend box off
+@    legend box fill off
+@    legend box fill with color
+@    legend box fill color 0
+@    legend box fill pattern 1
+@    legend box color 1
+@    legend box linewidth 1
+@    legend box linestyle 1
+@    legend x1 0.3
+@    legend y1 0.78
+@    legend font 0
+@    legend char size 2.000000
+@    legend linestyle 1
+@    legend linewidth 1
+@    legend color 1
+@    legend string 0 "\8e\1\sC\N=21, phase separated start"
+@    legend string 5 "\8e\1\sC\N=23, equilibrated"
+@    frame on
+@    frame type 1
+@    frame linestyle 1
+@    frame linewidth 5
+@    frame color 1
+@    frame fill off
+@    frame background color 0
+@WITH G0
+@G0 ON
+@TARGET S0
+@TYPE xy
+            0.05                0
+            0.15                0
+            0.25                0
+            0.35                0
+            0.45                0
+            0.55                0
+            0.65                0
+            0.75                0
+            0.85                0
+            0.95                0
+            1.05                0
+            1.15                0
+            1.25                0
+            1.35                0
+            1.45                0
+            1.55                0
+            1.65                0
+            1.75                0
+            1.85                0
+            1.95                0
+            2.05                0
+            2.15                0
+            2.25                0
+            2.35                0
+            2.45                0
+            2.55                0
+            2.65                0
+            2.75                0
+            2.85                0
+            2.95                0
+            3.05         0.106935
+            3.15         0.215029
+            3.25         0.384661
+            3.35         0.612363
+            3.45         0.902268
+            3.55          1.21748
+            3.65          1.56164
+            3.75          1.91962
+            3.85           2.2472
+            3.95          2.56135
+            4.05           2.8495
+            4.15          3.10034
+            4.25          3.29681
+            4.35          3.45276
+            4.45          3.55615
+            4.55          3.63934
+            4.65          3.67423
+            4.75          3.68774
+            4.85          3.66605
+            4.95          3.63363
+            5.05          3.59004
+            5.15          3.54369
+            5.25          3.49328
+            5.35          3.45286
+            5.45          3.42068
+            5.55          3.41149
+            5.65          3.41194
+            5.75          3.42867
+            5.85          3.46941
+            5.95          3.53617
+            6.05          3.47563
+            6.15          3.10965
+            6.25          2.73271
+            6.35          2.44175
+            6.45           2.2191
+            6.55          2.06303
+            6.65          1.94701
+            6.75          1.86924
+            6.85          1.81074
+            6.95          1.77723
+            7.05          1.75923
+            7.15           1.7526
+            7.25          1.75762
+            7.35          1.77084
+            7.45          1.79072
+            7.55          1.81809
+            7.65          1.85286
+            7.75          1.88838
+            7.85          1.93047
+            7.95          1.97308
+            8.05          2.01936
+            8.15           2.0634
+            8.25          2.10835
+            8.35          2.15427
+            8.45          2.20283
+            8.55          2.23944
+            8.65          2.28378
+            8.75          2.31946
+            8.85          2.35425
+            8.95          2.38239
+            9.05           2.4093
+            9.15          2.43068
+            9.25          2.44153
+            9.35          2.44894
+            9.45          2.44843
+            9.55          2.44036
+            9.65          2.43207
+            9.75           2.4142
+            9.85          2.39215
+            9.95          2.36593
+           10.05          2.34033
+           10.15           2.3071
+           10.25          2.27481
+           10.35          2.24446
+           10.45          2.21394
+           10.55          2.18334
+           10.65          2.15344
+           10.75          2.12681
+           10.85          2.10146
+           10.95          2.07676
+           11.05           2.0585
+           11.15          2.03768
+           11.25           2.0232
+           11.35          2.01098
+           11.45          2.00074
+           11.55          1.99036
+           11.65          1.98583
+           11.75           1.9815
+           11.85          1.97703
+           11.95          1.97926
+           12.05          1.98014
+           12.15          1.98125
+           12.25           1.9881
+           12.35          1.99274
+           12.45          1.99903
+           12.55          2.00576
+           12.65          2.01369
+           12.75          2.02052
+           12.85          2.02909
+           12.95           2.0376
+           13.05          2.04565
+           13.15          2.05261
+           13.25          2.05749
+           13.35          2.06068
+           13.45          2.06332
+           13.55          2.06768
+           13.65          2.06706
+           13.75          2.06607
+           13.85          2.06249
+           13.95          2.06137
+           14.05          2.05568
+           14.15          2.05092
+           14.25          2.04481
+           14.35          2.03795
+           14.45          2.02933
+           14.55          2.02081
+           14.65          2.01377
+           14.75          2.00452
+           14.85          1.99584
+           14.95          1.98689
+           15.05          1.97847
+           15.15          1.96918
+           15.25          1.96167
+           15.35          1.95435
+           15.45           1.9444
+           15.55          1.93726
+           15.65          1.93041
+           15.75          1.92667
+           15.85          1.92145
+           15.95          1.91507
+           16.05          1.91172
+           16.15          1.90721
+           16.25          1.90563
+           16.35           1.9027
+           16.45          1.90107
+           16.55          1.89977
+           16.65          1.89959
+           16.75          1.89905
+           16.85          1.89932
+           16.95          1.89719
+           17.05          1.89763
+           17.15          1.89835
+           17.25          1.89669
+           17.35          1.89863
+           17.45          1.89822
+           17.55          1.89651
+           17.65          1.89635
+           17.75          1.89444
+           17.85          1.89404
+           17.95          1.89118
+           18.05          1.89086
+           18.15          1.88803
+           18.25          1.88591
+           18.35          1.88102
+           18.45          1.87828
+           18.55          1.87683
+           18.65           1.8736
+           18.75          1.86907
+           18.85          1.86531
+           18.95          1.86186
+           19.05          1.85727
+           19.15          1.85356
+           19.25          1.84859
+           19.35          1.84634
+           19.45          1.84034
+           19.55          1.83565
+           19.65           1.8321
+           19.75          1.82743
+           19.85          1.82482
+           19.95          1.82003
+           20.05          1.81684
+           20.15          1.81252
+           20.25           1.8087
+           20.35          1.80695
+           20.45           1.8037
+           20.55          1.80005
+           20.65           1.7981
+           20.75           1.7957
+           20.85          1.79338
+           20.95            1.789
+           21.05          1.78745
+           21.15          1.78584
+           21.25          1.78296
+           21.35          1.78104
+           21.45          1.78012
+           21.55          1.77612
+           21.65          1.77447
+           21.75          1.77299
+           21.85          1.77137
+           21.95          1.76977
+           22.05          1.76851
+           22.15          1.76553
+           22.25          1.76282
+           22.35          1.76096
+           22.45          1.75846
+           22.55          1.75608
+           22.65          1.75359
+           22.75          1.75065
+           22.85          1.74746
+           22.95          1.74619
+           23.05          1.74199
+           23.15          1.74041
+           23.25          1.73727
+           23.35          1.73422
+           23.45          1.73175
+           23.55          1.72825
+           23.65          1.72547
+           23.75          1.72191
+           23.85          1.71912
+           23.95          1.71575
+           24.05          1.71294
+           24.15          1.70921
+           24.25          1.70704
+           24.35          1.70431
+           24.45          1.70036
+           24.55          1.69769
+           24.65          1.69629
+           24.75          1.69219
+           24.85          1.69043
+           24.95          1.68711
+           25.05          1.68565
+           25.15          1.68215
+           25.25          1.68021
+           25.35          1.67741
+           25.45          1.67502
+           25.55          1.67303
+           25.65          1.67122
+           25.75          1.66798
+           25.85          1.66568
+           25.95          1.66423
+           26.05          1.66216
+           26.15          1.65967
+           26.25          1.65662
+           26.35          1.65538
+           26.45          1.65242
+           26.55          1.64982
+           26.65          1.64809
+           26.75          1.64523
+           26.85          1.64322
+           26.95          1.63986
+           27.05           1.6372
+           27.15          1.63512
+           27.25          1.63248
+           27.35          1.63061
+           27.45          1.62784
+           27.55          1.62498
+           27.65          1.62328
+           27.75          1.62049
+           27.85          1.61786
+           27.95          1.61388
+           28.05            1.613
+           28.15          1.61076
+           28.25          1.60735
+           28.35          1.60485
+           28.45          1.60322
+           28.55          1.60004
+           28.65          1.59757
+           28.75          1.59501
+           28.85          1.59236
+           28.95          1.59045
+           29.05          1.58763
+           29.15          1.58539
+           29.25           1.5833
+           29.35          1.58069
+           29.45            1.578
+           29.55          1.57633
+           29.65          1.57363
+           29.75          1.57181
+           29.85          1.56864
+           29.95          1.56693
+           30.05          1.56459
+           30.15          1.56252
+           30.25          1.55998
+           30.35            1.557
+           30.45          1.55562
+           30.55          1.55315
+           30.65          1.55096
+           30.75          1.54792
+           30.85          1.54551
+           30.95          1.54411
+           31.05          1.54119
+           31.15          1.53894
+           31.25          1.53664
+           31.35          1.53539
+           31.45          1.53257
+           31.55          1.53048
+           31.65          1.52833
+           31.75          1.52505
+           31.85           1.5235
+           31.95           1.5206
+           32.05           1.5179
+           32.15          1.51533
+           32.25          1.51399
+           32.35          1.51175
+           32.45          1.50848
+           32.55          1.50648
+           32.65          1.50491
+           32.75          1.50204
+           32.85          1.50015
+           32.95          1.49781
+           33.05          1.49583
+           33.15          1.49322
+           33.25          1.49169
+           33.35          1.48941
+           33.45          1.48683
+           33.55          1.48487
+           33.65          1.48262
+           33.75          1.48104
+           33.85          1.47859
+           33.95          1.47616
+           34.05          1.47331
+           34.15          1.47083
+           34.25          1.46949
+           34.35          1.46688
+           34.45          1.46537
+           34.55           1.4624
+           34.65          1.46061
+           34.75          1.45827
+           34.85          1.45556
+           34.95          1.45388
+           35.05          1.45183
+           35.15          1.44965
+           35.25          1.44749
+           35.35          1.44479
+           35.45           1.4425
+           35.55          1.44103
+           35.65          1.43833
+           35.75           1.4367
+           35.85           1.4345
+           35.95          1.43233
+           36.05             1.43
+           36.15          1.42806
+           36.25          1.42523
+           36.35          1.42351
+           36.45          1.42193
+           36.55          1.41935
+           36.65           1.4172
+           36.75          1.41456
+           36.85          1.41286
+           36.95          1.41104
+           37.05          1.40876
+           37.15          1.40695
+           37.25          1.40554
+           37.35          1.40304
+           37.45          1.40133
+           37.55          1.39947
+           37.65          1.39748
+           37.75          1.39525
+           37.85          1.39291
+           37.95          1.39103
+           38.05          1.38926
+           38.15          1.38718
+           38.25          1.38508
+           38.35          1.38296
+           38.45          1.38055
+           38.55          1.37827
+           38.65          1.37662
+           38.75          1.37403
+           38.85          1.37185
+           38.95          1.37042
+           39.05          1.36767
+           39.15          1.36554
+           39.25          1.36349
+           39.35          1.36184
+           39.45          1.35921
+           39.55          1.35734
+           39.65          1.35535
+           39.75          1.35358
+           39.85          1.35191
+           39.95           1.3498
+           40.05          1.34796
+           40.15          1.34562
+           40.25          1.34377
+           40.35          1.34161
+           40.45          1.34014
+           40.55           1.3377
+           40.65          1.33573
+           40.75          1.33422
+           40.85          1.33149
+           40.95          1.33025
+           41.05          1.32851
+           41.15          1.32634
+           41.25          1.32432
+           41.35           1.3228
+           41.45          1.32057
+           41.55          1.31851
+           41.65          1.31648
+           41.75          1.31472
+           41.85          1.31264
+           41.95          1.31067
+           42.05          1.30867
+           42.15          1.30621
+           42.25          1.30443
+           42.35          1.30247
+           42.45          1.30062
+           42.55          1.29878
+           42.65          1.29679
+           42.75          1.29487
+           42.85           1.2931
+           42.95          1.29146
+           43.05          1.28886
+           43.15          1.28689
+           43.25            1.285
+           43.35          1.28325
+           43.45          1.28122
+           43.55          1.27955
+           43.65          1.27755
+           43.75           1.2752
+           43.85          1.27375
+           43.95          1.27161
+           44.05          1.26979
+           44.15          1.26772
+           44.25          1.26592
+           44.35          1.26396
+           44.45          1.26247
+           44.55          1.26047
+           44.65          1.25844
+           44.75          1.25689
+           44.85          1.25507
+           44.95          1.25317
+           45.05          1.25142
+           45.15           1.2497
+           45.25          1.24752
+           45.35          1.24569
+           45.45          1.24375
+           45.55            1.242
+           45.65          1.23992
+           45.75          1.23826
+           45.85          1.23645
+           45.95          1.23447
+           46.05          1.23248
+           46.15          1.23063
+           46.25          1.22907
+           46.35          1.22691
+           46.45          1.22544
+           46.55          1.22363
+           46.65          1.22189
+           46.75           1.2201
+           46.85          1.21833
+           46.95          1.21622
+           47.05          1.21422
+           47.15          1.21297
+           47.25          1.21094
+           47.35           1.2089
+           47.45          1.20759
+           47.55          1.20583
+           47.65          1.20394
+           47.75          1.20213
+           47.85          1.19999
+           47.95          1.19852
+           48.05          1.19686
+           48.15          1.19513
+           48.25          1.19347
+           48.35          1.19205
+           48.45          1.19056
+           48.55          1.18866
+           48.65          1.18713
+           48.75          1.18479
+           48.85          1.18364
+           48.95          1.18169
+           49.05          1.17966
+           49.15          1.17859
+           49.25           1.1765
+           49.35          1.17465
+           49.45          1.17309
+           49.55          1.17122
+           49.65          1.16989
+           49.75          1.16806
+           49.85          1.16583
+           49.95          1.16471
+           50.05          1.16291
+           50.15          1.16163
+           50.25           1.1598
+           50.35          1.15814
+           50.45          1.15652
+           50.55           1.1549
+           50.65           1.1534
+           50.75          1.15172
+           50.85          1.15001
+           50.95          1.14826
+           51.05          1.14691
+           51.15          1.14521
+           51.25          1.14349
+           51.35          1.14177
+           51.45          1.14029
+           51.55          1.13886
+           51.65          1.13706
+           51.75          1.13537
+           51.85          1.13426
+           51.95          1.13251
+           52.05          1.13118
+           52.15           1.1295
+           52.25          1.12786
+           52.35          1.12654
+           52.45          1.12463
+           52.55          1.12329
+           52.65          1.12164
+           52.75          1.12021
+           52.85          1.11873
+           52.95          1.11727
+           53.05          1.11566
+           53.15          1.11416
+           53.25          1.11243
+           53.35          1.11102
+           53.45          1.10958
+           53.55          1.10798
+           53.65          1.10651
+           53.75          1.10482
+           53.85          1.10369
+           53.95          1.10236
+           54.05          1.10068
+           54.15           1.0996
+           54.25          1.09781
+           54.35          1.09675
+           54.45          1.09537
+           54.55          1.09365
+           54.65          1.09267
+           54.75          1.09108
+           54.85          1.08939
+           54.95          1.08795
+           55.05          1.08653
+           55.15          1.08513
+           55.25          1.08378
+           55.35          1.08226
+           55.45          1.08095
+           55.55           1.0796
+           55.65          1.07824
+           55.75          1.07665
+           55.85          1.07531
+           55.95          1.07402
+           56.05          1.07275
+           56.15          1.07116
+           56.25          1.06999
+           56.35          1.06864
+           56.45          1.06766
+           56.55           1.0658
+           56.65          1.06467
+           56.75          1.06317
+           56.85          1.06164
+           56.95          1.06054
+           57.05          1.05936
+           57.15          1.05798
+           57.25          1.05671
+           57.35          1.05542
+           57.45          1.05391
+           57.55          1.05258
+           57.65          1.05139
+           57.75          1.05005
+           57.85          1.04878
+           57.95          1.04764
+           58.05          1.04619
+           58.15          1.04483
+           58.25          1.04366
+           58.35          1.04236
+           58.45          1.04106
+           58.55          1.03995
+           58.65           1.0387
+           58.75          1.03764
+           58.85           1.0363
+           58.95          1.03495
+           59.05          1.03372
+           59.15          1.03243
+           59.25          1.03127
+           59.35          1.03023
+           59.45          1.02866
+           59.55          1.02754
+           59.65          1.02627
+           59.75           1.0252
+           59.85           1.0239
+           59.95          1.02297
+           60.05          1.02135
+           60.15          1.02016
+           60.25          1.01896
+           60.35          1.01795
+           60.45          1.01681
+           60.55          1.01565
+           60.65           1.0145
+           60.75          1.01296
+           60.85           1.0122
+           60.95          1.01104
+           61.05          1.00984
+           61.15          1.00878
+           61.25          1.00731
+           61.35           1.0061
+           61.45          1.00519
+           61.55          1.00397
+           61.65          1.00273
+           61.75          1.00161
+           61.85          1.00049
+           61.95         0.999215
+           62.05          0.99834
+           62.15         0.997423
+           62.25         0.996273
+           62.35         0.995029
+           62.45         0.993975
+           62.55         0.992926
+           62.65          0.99197
+           62.75         0.990857
+           62.85         0.989573
+           62.95         0.988616
+           63.05         0.987594
+           63.15         0.986322
+           63.25         0.985223
+           63.35         0.984278
+           63.45         0.983291
+           63.55         0.982328
+           63.65         0.981251
+           63.75         0.980154
+           63.85         0.979493
+           63.95         0.978063
+           64.05         0.976984
+           64.15         0.975986
+           64.25         0.975141
+           64.35         0.973963
+           64.45         0.972904
+           64.55          0.97202
+           64.65          0.97129
+           64.75         0.970013
+           64.85         0.968984
+           64.95         0.968092
+           65.05         0.967032
+           65.15         0.966164
+           65.25         0.964939
+           65.35         0.964105
+           65.45         0.962997
+           65.55         0.962286
+           65.65         0.961181
+           65.75         0.960252
+           65.85         0.959318
+           65.95         0.958191
+           66.05         0.957489
+           66.15          0.95659
+           66.25         0.955473
+           66.35          0.95443
+           66.45         0.953682
+           66.55         0.953012
+           66.65         0.952003
+           66.75         0.951161
+           66.85         0.950236
+           66.95         0.949012
+&
+@TARGET S1
+@TYPE xy
+            0.05                0
+            0.15                0
+            0.25                0
+            0.35                0
+            0.45                0
+            0.55                0
+            0.65                0
+            0.75                0
+            0.85                0
+            0.95                0
+            1.05                0
+            1.15                0
+            1.25                0
+            1.35                0
+            1.45                0
+            1.55                0
+            1.65                0
+            1.75                0
+            1.85                0
+            1.95                0
+            2.05                0
+            2.15                0
+            2.25                0
+            2.35                0
+            2.45                0
+            2.55                0
+            2.65                0
+            2.75                0
+            2.85                0
+            2.95                0
+            3.05         0.105066
+            3.15         0.204878
+            3.25         0.322999
+            3.35         0.485151
+            3.45         0.686025
+            3.55         0.949152
+            3.65          1.14808
+            3.75          1.40992
+            3.85          1.63974
+            3.95          1.87846
+            4.05          2.09245
+            4.15          2.33859
+            4.25          2.48574
+            4.35          2.66488
+            4.45          2.75666
+            4.55          2.86889
+            4.65          2.94444
+            4.75          2.96763
+            4.85          3.05207
+            4.95          3.01829
+            5.05          3.01354
+            5.15           3.0405
+            5.25          2.99386
+            5.35          2.99615
+            5.45           3.0095
+            5.55          2.98489
+            5.65          3.00966
+            5.75          2.99754
+            5.85          3.03651
+            5.95          3.07664
+            6.05           3.0178
+            6.15          2.77115
+            6.25          2.53026
+            6.35          2.29535
+            6.45          2.11152
+            6.55          1.95434
+            6.65          1.83902
+            6.75          1.78994
+            6.85          1.72115
+            6.95          1.66284
+            7.05          1.64264
+            7.15          1.61487
+            7.25          1.60048
+            7.35          1.59948
+            7.45          1.62327
+            7.55          1.61614
+            7.65          1.64239
+            7.75          1.66206
+            7.85          1.67177
+            7.95          1.70098
+            8.05          1.73355
+            8.15          1.76256
+            8.25          1.78769
+            8.35          1.82008
+            8.45          1.85352
+            8.55          1.87498
+            8.65          1.90199
+            8.75          1.93447
+            8.85          1.97233
+            8.95          1.99384
+            9.05          2.02355
+            9.15          2.02938
+            9.25           2.0712
+            9.35          2.08779
+            9.45          2.08498
+            9.55          2.09155
+            9.65          2.08788
+            9.75          2.07363
+            9.85          2.08332
+            9.95          2.07421
+           10.05            2.056
+           10.15          2.04897
+           10.25          2.03268
+           10.35          2.01603
+           10.45          1.99733
+           10.55          1.98085
+           10.65          1.94399
+           10.75          1.93863
+           10.85          1.91814
+           10.95          1.89371
+           11.05          1.88136
+           11.15          1.87208
+           11.25           1.8507
+           11.35          1.82738
+           11.45          1.81072
+           11.55          1.80037
+           11.65          1.79095
+           11.75          1.77594
+           11.85          1.77035
+           11.95          1.76726
+           12.05          1.77367
+           12.15           1.7613
+           12.25           1.7637
+           12.35           1.7696
+           12.45          1.77137
+           12.55          1.76599
+           12.65          1.77435
+           12.75          1.77481
+           12.85            1.791
+           12.95          1.78139
+           13.05           1.7961
+           13.15          1.79598
+           13.25          1.80373
+           13.35           1.8006
+           13.45          1.81069
+           13.55          1.81255
+           13.65          1.82138
+           13.75          1.81173
+           13.85          1.81562
+           13.95          1.80847
+           14.05          1.81013
+           14.15          1.81101
+           14.25          1.80777
+           14.35          1.79616
+           14.45          1.80066
+           14.55          1.80019
+           14.65          1.80239
+           14.75          1.79801
+           14.85          1.78706
+           14.95          1.77641
+           15.05          1.77773
+           15.15           1.7679
+           15.25          1.76375
+           15.35          1.75496
+           15.45          1.75069
+           15.55          1.74345
+           15.65           1.7374
+           15.75          1.72825
+           15.85          1.72622
+           15.95          1.72951
+           16.05          1.72634
+           16.15          1.72307
+           16.25          1.71082
+           16.35          1.71699
+           16.45          1.71453
+           16.55          1.70539
+           16.65          1.70757
+           16.75          1.69873
+           16.85          1.70299
+           16.95          1.69707
+           17.05          1.69271
+           17.15          1.69242
+           17.25          1.68505
+           17.35          1.68867
+           17.45          1.68728
+           17.55          1.67997
+           17.65          1.68749
+           17.75          1.68664
+           17.85          1.68609
+           17.95          1.68355
+           18.05          1.68094
+           18.15          1.68265
+           18.25          1.67663
+           18.35          1.68032
+           18.45          1.67444
+           18.55          1.67002
+           18.65          1.66918
+           18.75          1.67161
+           18.85          1.66623
+           18.95          1.66691
+           19.05          1.66694
+           19.15          1.66395
+           19.25          1.66435
+           19.35          1.65837
+           19.45          1.65898
+           19.55          1.65437
+           19.65          1.65117
+           19.75          1.65306
+           19.85          1.64569
+           19.95          1.64764
+           20.05           1.6443
+           20.15          1.63419
+           20.25          1.63366
+           20.35          1.63243
+           20.45          1.62873
+           20.55          1.62686
+           20.65          1.62168
+           20.75          1.62421
+           20.85          1.61653
+           20.95           1.6175
+           21.05          1.61684
+           21.15          1.61554
+           21.25          1.61701
+           21.35          1.61239
+           21.45          1.60427
+           21.55          1.60119
+           21.65          1.60639
+           21.75          1.59795
+           21.85           1.6001
+           21.95          1.59972
+           22.05          1.59977
+           22.15          1.58791
+           22.25          1.59362
+           22.35          1.59244
+           22.45          1.58956
+           22.55          1.59374
+           22.65          1.58703
+           22.75          1.58915
+           22.85          1.57883
+           22.95          1.58027
+           23.05          1.58032
+           23.15          1.57721
+           23.25          1.57906
+           23.35          1.57251
+           23.45          1.56915
+           23.55           1.5714
+           23.65           1.5696
+           23.75           1.5667
+           23.85          1.56219
+           23.95          1.56183
+           24.05          1.55935
+           24.15          1.55676
+           24.25          1.55914
+           24.35          1.55598
+           24.45          1.55027
+           24.55          1.53923
+           24.65          1.54265
+           24.75          1.54253
+           24.85          1.54039
+           24.95          1.54081
+           25.05          1.53809
+           25.15          1.53602
+           25.25          1.53322
+           25.35          1.53479
+           25.45          1.53093
+           25.55          1.52863
+           25.65          1.52814
+           25.75           1.5301
+           25.85          1.52176
+           25.95          1.52153
+           26.05          1.52211
+           26.15          1.51892
+           26.25            1.517
+           26.35          1.51799
+           26.45          1.52103
+           26.55          1.51243
+           26.65          1.51106
+           26.75          1.51023
+           26.85          1.50792
+           26.95          1.50618
+           27.05          1.50501
+           27.15          1.50369
+           27.25          1.50066
+           27.35          1.49954
+           27.45          1.50339
+           27.55          1.49655
+           27.65          1.49507
+           27.75          1.49048
+           27.85          1.48943
+           27.95          1.48595
+           28.05          1.48765
+           28.15          1.48272
+           28.25          1.48544
+           28.35           1.4771
+           28.45          1.47698
+           28.55          1.47665
+           28.65          1.47329
+           28.75          1.46805
+           28.85          1.47228
+           28.95          1.46985
+           29.05          1.46789
+           29.15          1.46546
+           29.25          1.46448
+           29.35          1.46058
+           29.45          1.46146
+           29.55          1.45932
+           29.65          1.45734
+           29.75          1.45447
+           29.85          1.45379
+           29.95          1.45472
+           30.05          1.44821
+           30.15           1.4465
+           30.25          1.44605
+           30.35           1.4449
+           30.45          1.44452
+           30.55          1.44111
+           30.65          1.44219
+           30.75          1.43671
+           30.85          1.43717
+           30.95          1.43184
+           31.05          1.43247
+           31.15          1.43015
+           31.25          1.42748
+           31.35          1.42729
+           31.45          1.42296
+           31.55          1.42626
+           31.65          1.42628
+           31.75          1.42596
+           31.85          1.42288
+           31.95          1.42077
+           32.05           1.4192
+           32.15          1.41397
+           32.25          1.41486
+           32.35          1.41482
+           32.45          1.41067
+           32.55          1.40777
+           32.65          1.40615
+           32.75           1.4056
+           32.85          1.40007
+           32.95          1.39948
+           33.05          1.40047
+           33.15          1.39711
+           33.25          1.39489
+           33.35          1.39346
+           33.45            1.391
+           33.55          1.38934
+           33.65          1.38729
+           33.75          1.38497
+           33.85          1.38611
+           33.95          1.38199
+           34.05           1.3755
+           34.15          1.37816
+           34.25          1.37623
+           34.35          1.37737
+           34.45          1.37129
+           34.55           1.3742
+           34.65          1.36959
+           34.75          1.36761
+           34.85           1.3694
+           34.95           1.3638
+           35.05          1.36238
+           35.15          1.36244
+           35.25           1.3615
+           35.35          1.35958
+           35.45          1.35922
+           35.55          1.35925
+           35.65          1.35669
+           35.75           1.3536
+           35.85          1.35362
+           35.95           1.3516
+           36.05          1.34856
+           36.15          1.34768
+           36.25          1.34682
+           36.35           1.3439
+           36.45          1.34073
+           36.55           1.3405
+           36.65          1.33658
+           36.75          1.33708
+           36.85          1.33753
+           36.95          1.33397
+           37.05          1.33239
+           37.15          1.32856
+           37.25            1.326
+           37.35          1.32931
+           37.45          1.32497
+           37.55          1.32435
+           37.65          1.32071
+           37.75          1.32039
+           37.85          1.31808
+           37.95          1.31465
+           38.05          1.31467
+           38.15          1.31326
+           38.25          1.30805
+           38.35          1.31068
+           38.45          1.30578
+           38.55          1.30557
+           38.65          1.30499
+           38.75          1.30492
+           38.85          1.30072
+           38.95          1.29961
+           39.05          1.29576
+           39.15          1.29694
+           39.25          1.29364
+           39.35          1.29319
+           39.45          1.28999
+           39.55          1.28873
+           39.65          1.28551
+           39.75          1.28749
+           39.85          1.28516
+           39.95          1.28271
+           40.05          1.28429
+           40.15          1.28121
+           40.25          1.27914
+           40.35          1.27799
+           40.45          1.27584
+           40.55          1.27518
+           40.65          1.27111
+           40.75          1.26951
+           40.85          1.26904
+           40.95          1.26861
+           41.05           1.2643
+           41.15          1.26508
+           41.25          1.26581
+           41.35          1.26141
+           41.45            1.261
+           41.55          1.25839
+           41.65          1.25531
+           41.75          1.25359
+           41.85          1.25142
+           41.95          1.24992
+           42.05           1.2486
+           42.15          1.25048
+           42.25          1.24501
+           42.35          1.24246
+           42.45          1.24322
+           42.55          1.23979
+           42.65          1.23958
+           42.75          1.23835
+           42.85          1.23562
+           42.95          1.23633
+           43.05          1.23255
+           43.15          1.23001
+           43.25          1.22967
+           43.35           1.2272
+           43.45          1.22588
+           43.55           1.2236
+           43.65          1.22404
+           43.75          1.22054
+           43.85          1.22005
+           43.95          1.21755
+           44.05          1.21724
+           44.15          1.21648
+           44.25          1.21349
+           44.35          1.21295
+           44.45          1.20857
+           44.55          1.20902
+           44.65          1.21014
+           44.75           1.2043
+           44.85          1.20244
+           44.95          1.20344
+           45.05          1.20072
+           45.15          1.19822
+           45.25          1.19563
+           45.35          1.19539
+           45.45           1.1944
+           45.55          1.19564
+           45.65          1.19041
+           45.75          1.19037
+           45.85          1.18965
+           45.95          1.18844
+           46.05          1.18546
+           46.15          1.18489
+           46.25          1.18211
+           46.35          1.18135
+           46.45          1.17949
+           46.55          1.17585
+           46.65          1.17563
+           46.75          1.17566
+           46.85          1.17473
+           46.95          1.17225
+           47.05          1.17012
+           47.15           1.1681
+           47.25          1.16768
+           47.35          1.16874
+           47.45          1.16514
+           47.55          1.16213
+           47.65          1.16002
+           47.75          1.16019
+           47.85          1.15875
+           47.95          1.15711
+           48.05           1.1531
+           48.15          1.15499
+           48.25          1.15162
+           48.35          1.15004
+           48.45          1.14857
+           48.55          1.14576
+           48.65          1.14547
+           48.75          1.14333
+           48.85          1.14368
+           48.95          1.14132
+           49.05          1.13889
+           49.15          1.13839
+           49.25          1.13833
+           49.35          1.13665
+           49.45          1.13697
+           49.55          1.13435
+           49.65           1.1334
+           49.75          1.13163
+           49.85          1.12997
+           49.95          1.12557
+           50.05          1.12785
+           50.15          1.12629
+           50.25          1.12433
+           50.35          1.12306
+           50.45          1.12194
+           50.55          1.11985
+           50.65           1.1207
+           50.75           1.1193
+           50.85          1.11522
+           50.95          1.11597
+           51.05          1.11431
+           51.15          1.11251
+           51.25          1.11207
+           51.35          1.11048
+           51.45          1.10904
+           51.55          1.10657
+           51.65          1.10688
+           51.75          1.10518
+           51.85          1.10204
+           51.95          1.10328
+           52.05          1.10024
+           52.15          1.10038
+           52.25          1.09893
+           52.35            1.096
+           52.45          1.09598
+           52.55          1.09422
+           52.65          1.09215
+           52.75          1.09027
+           52.85          1.09238
+           52.95          1.08904
+           53.05          1.08809
+           53.15          1.08834
+           53.25          1.08677
+           53.35          1.08499
+           53.45          1.08423
+           53.55          1.08248
+           53.65          1.08048
+           53.75          1.08135
+           53.85          1.07858
+           53.95          1.07883
+           54.05          1.07817
+           54.15          1.07535
+           54.25          1.07496
+           54.35          1.07363
+           54.45          1.07224
+           54.55          1.07238
+           54.65          1.06876
+           54.75          1.06856
+           54.85          1.06921
+           54.95           1.0684
+           55.05           1.0667
+           55.15          1.06485
+           55.25          1.06449
+           55.35          1.06192
+           55.45          1.06206
+           55.55          1.06007
+           55.65          1.05912
+           55.75           1.0603
+           55.85          1.05796
+           55.95          1.05749
+           56.05          1.05408
+           56.15          1.05357
+           56.25          1.05229
+           56.35          1.05326
+           56.45          1.05097
+           56.55          1.05198
+           56.65          1.05083
+           56.75          1.04876
+           56.85          1.04688
+           56.95          1.04655
+           57.05          1.04382
+           57.15          1.04481
+           57.25          1.04281
+           57.35          1.04349
+           57.45          1.04155
+           57.55          1.04005
+           57.65          1.04031
+           57.75          1.03846
+           57.85          1.03679
+           57.95          1.03689
+           58.05          1.03516
+           58.15          1.03573
+           58.25          1.03441
+           58.35          1.03405
+           58.45          1.03292
+           58.55          1.03301
+           58.65          1.03095
+           58.75          1.02954
+           58.85          1.02954
+           58.95          1.02755
+           59.05          1.02648
+           59.15          1.02698
+           59.25          1.02469
+           59.35          1.02407
+           59.45          1.02246
+           59.55          1.02139
+           59.65          1.02049
+           59.75          1.02079
+           59.85          1.02043
+           59.95          1.01911
+           60.05          1.01761
+           60.15          1.01547
+           60.25          1.01347
+           60.35          1.01488
+           60.45          1.01278
+           60.55          1.01225
+           60.65          1.01074
+           60.75          1.01043
+           60.85          1.00879
+           60.95          1.00858
+           61.05          1.00789
+           61.15          1.00679
+           61.25          1.00485
+           61.35          1.00594
+           61.45          1.00393
+           61.55          1.00373
+           61.65           1.0021
+           61.75          1.00289
+           61.85         0.999818
+           61.95          1.00103
+           62.05         0.999675
+           62.15         0.998493
+           62.25         0.998595
+           62.35         0.998209
+           62.45         0.995953
+           62.55         0.995604
+           62.65         0.994398
+           62.75         0.993442
+           62.85         0.992737
+           62.95         0.992976
+           63.05         0.992097
+           63.15          0.98986
+           63.25          0.98885
+           63.35         0.989614
+           63.45         0.987478
+           63.55         0.986168
+           63.65         0.986557
+           63.75         0.984059
+           63.85         0.985366
+           63.95         0.981952
+           64.05         0.981144
+           64.15         0.980068
+           64.25         0.979584
+           64.35         0.979578
+           64.45         0.978529
+           64.55         0.978162
+           64.65         0.976505
+           64.75         0.977061
+           64.85         0.975169
+           64.95         0.976055
+           65.05          0.97372
+           65.15         0.973365
+           65.25         0.970851
+           65.35         0.971763
+           65.45          0.97203
+           65.55         0.970548
+           65.65         0.969461
+           65.75         0.967579
+           65.85         0.968184
+           65.95         0.967694
+           66.05         0.966443
+           66.15         0.965542
+           66.25         0.964477
+           66.35          0.96445
+           66.45         0.964036
+           66.55         0.962222
+           66.65         0.961125
+           66.75         0.961566
+           66.85          0.96085
+           66.95         0.959937
+&
+@TARGET S2
+@TYPE xy
+            0.05                0
+            0.15                0
+            0.25                0
+            0.35                0
+            0.45                0
+            0.55                0
+            0.65                0
+            0.75                0
+            0.85                0
+            0.95                0
+            1.05                0
+            1.15                0
+            1.25                0
+            1.35                0
+            1.45                0
+            1.55                0
+            1.65                0
+            1.75                0
+            1.85                0
+            1.95                0
+            2.05                0
+            2.15                0
+            2.25                0
+            2.35                0
+            2.45                0
+            2.55                0
+            2.65                0
+            2.75                0
+            2.85                0
+            2.95                0
+            3.05        0.0968323
+            3.15         0.171992
+            3.25         0.278472
+            3.35         0.444744
+            3.45         0.607126
+            3.55         0.797322
+            3.65          1.03689
+            3.75          1.25174
+            3.85          1.48243
+            3.95          1.67295
+            4.05          1.92218
+            4.15          2.11657
+            4.25          2.23171
+            4.35          2.36095
+            4.45           2.4773
+            4.55          2.60848
+            4.65           2.6052
+            4.75           2.7001
+            4.85          2.74921
+            4.95          2.75837
+            5.05          2.75252
+            5.15          2.76185
+            5.25           2.7613
+            5.35          2.76572
+            5.45          2.74438
+            5.55          2.77271
+            5.65          2.77459
+            5.75          2.76863
+            5.85          2.76679
+            5.95          2.82962
+            6.05          2.78784
+            6.15          2.54606
+            6.25          2.27953
+            6.35          2.09044
+            6.45          1.90316
+            6.55          1.77807
+            6.65          1.68038
+            6.75          1.59179
+            6.85          1.51676
+            6.95          1.49179
+            7.05          1.46684
+            7.15          1.43608
+            7.25           1.4499
+            7.35          1.45385
+            7.45          1.42649
+            7.55          1.44367
+            7.65          1.43777
+            7.75           1.4759
+            7.85          1.48894
+            7.95          1.51006
+            8.05          1.52829
+            8.15          1.58261
+            8.25          1.58438
+            8.35          1.61364
+            8.45          1.65008
+            8.55          1.65914
+            8.65          1.69021
+            8.75          1.72592
+            8.85          1.73576
+            8.95           1.7759
+            9.05          1.78799
+            9.15          1.81646
+            9.25          1.83773
+            9.35          1.84466
+            9.45          1.85424
+            9.55          1.85133
+            9.65          1.86209
+            9.75           1.8612
+            9.85          1.84619
+            9.95          1.83936
+           10.05          1.83156
+           10.15           1.8138
+           10.25          1.81217
+           10.35          1.78994
+           10.45          1.77644
+           10.55          1.75756
+           10.65          1.75009
+           10.75           1.7209
+           10.85          1.71193
+           10.95          1.69574
+           11.05          1.67951
+           11.15          1.66249
+           11.25          1.65174
+           11.35          1.63311
+           11.45          1.63467
+           11.55          1.61495
+           11.65          1.60488
+           11.75           1.5955
+           11.85          1.58918
+           11.95          1.58736
+           12.05          1.57501
+           12.15          1.57849
+           12.25          1.57799
+           12.35          1.57879
+           12.45          1.58279
+           12.55          1.58285
+           12.65          1.58114
+           12.75          1.58482
+           12.85          1.59589
+           12.95          1.59708
+           13.05          1.59514
+           13.15          1.59472
+           13.25          1.60718
+           13.35          1.61305
+           13.45          1.61248
+           13.55          1.61374
+           13.65          1.62076
+           13.75          1.61942
+           13.85          1.62766
+           13.95          1.62674
+           14.05          1.61837
+           14.15          1.62681
+           14.25          1.62801
+           14.35          1.62169
+           14.45          1.62109
+           14.55          1.61529
+           14.65          1.62027
+           14.75          1.61698
+           14.85          1.61035
+           14.95          1.60837
+           15.05          1.59964
+           15.15          1.59498
+           15.25          1.59217
+           15.35          1.58501
+           15.45          1.58994
+           15.55          1.56793
+           15.65          1.57532
+           15.75          1.56181
+           15.85          1.56629
+           15.95          1.56188
+           16.05          1.55758
+           16.15          1.55544
+           16.25          1.54415
+           16.35          1.54456
+           16.45          1.54196
+           16.55          1.54044
+           16.65          1.54135
+           16.75          1.53619
+           16.85           1.5403
+           16.95          1.53577
+           17.05          1.52726
+           17.15          1.53608
+           17.25           1.5318
+           17.35          1.53586
+           17.45          1.53282
+           17.55          1.52821
+           17.65          1.53041
+           17.75          1.53291
+           17.85          1.53236
+           17.95          1.53164
+           18.05          1.53028
+           18.15          1.52971
+           18.25          1.52677
+           18.35          1.52816
+           18.45          1.52794
+           18.55          1.53163
+           18.65          1.52469
+           18.75           1.5271
+           18.85          1.52509
+           18.95          1.52335
+           19.05          1.52425
+           19.15          1.52151
+           19.25          1.52127
+           19.35          1.51609
+           19.45          1.51133
+           19.55          1.51865
+           19.65          1.51502
+           19.75          1.51225
+           19.85          1.50444
+           19.95          1.50382
+           20.05          1.49897
+           20.15          1.49767
+           20.25          1.49901
+           20.35          1.49142
+           20.45           1.4877
+           20.55          1.48774
+           20.65           1.4911
+           20.75          1.49169
+           20.85          1.48152
+           20.95          1.47894
+           21.05          1.47522
+           21.15          1.47698
+           21.25          1.47133
+           21.35          1.47613
+           21.45          1.47286
+           21.55          1.47648
+           21.65          1.46849
+           21.75          1.47165
+           21.85          1.47164
+           21.95          1.46751
+           22.05          1.46487
+           22.15          1.46025
+           22.25          1.46228
+           22.35          1.45903
+           22.45          1.45908
+           22.55          1.45545
+           22.65          1.45284
+           22.75          1.45161
+           22.85          1.45837
+           22.95          1.45565
+           23.05           1.4536
+           23.15          1.45312
+           23.25          1.44706
+           23.35          1.45148
+           23.45          1.44638
+           23.55          1.44636
+           23.65          1.44053
+           23.75           1.4448
+           23.85          1.44323
+           23.95           1.4371
+           24.05          1.44135
+           24.15          1.44377
+           24.25          1.43883
+           24.35          1.43478
+           24.45          1.43305
+           24.55          1.43552
+           24.65          1.43383
+           24.75          1.42921
+           24.85          1.42842
+           24.95           1.4262
+           25.05          1.42472
+           25.15          1.42049
+           25.25          1.41949
+           25.35          1.41885
+           25.45          1.42038
+           25.55          1.41849
+           25.65          1.41811
+           25.75          1.40765
+           25.85           1.4066
+           25.95          1.41157
+           26.05          1.40852
+           26.15           1.4087
+           26.25          1.40612
+           26.35          1.40347
+           26.45          1.40416
+           26.55          1.39622
+           26.65          1.39804
+           26.75           1.3987
+           26.85          1.39793
+           26.95          1.39488
+           27.05          1.39572
+           27.15          1.38916
+           27.25          1.38883
+           27.35          1.38687
+           27.45          1.39146
+           27.55          1.38775
+           27.65          1.38449
+           27.75          1.38502
+           27.85          1.38128
+           27.95          1.37873
+           28.05          1.37813
+           28.15          1.38091
+           28.25          1.38041
+           28.35          1.37761
+           28.45          1.38033
+           28.55          1.37578
+           28.65          1.37258
+           28.75          1.37591
+           28.85          1.37138
+           28.95          1.36909
+           29.05          1.36899
+           29.15          1.36699
+           29.25          1.36555
+           29.35          1.36301
+           29.45          1.36113
+           29.55          1.36101
+           29.65          1.35616
+           29.75          1.35937
+           29.85           1.3539
+           29.95          1.35593
+           30.05          1.35442
+           30.15          1.35477
+           30.25          1.35103
+           30.35          1.34699
+           30.45          1.34886
+           30.55          1.34674
+           30.65          1.34144
+           30.75          1.34036
+           30.85          1.34449
+           30.95          1.33808
+           31.05          1.33849
+           31.15          1.33669
+           31.25          1.33663
+           31.35          1.34048
+           31.45          1.33691
+           31.55          1.33327
+           31.65          1.33007
+           31.75          1.32898
+           31.85          1.33095
+           31.95          1.32897
+           32.05           1.3245
+           32.15          1.32694
+           32.25          1.32168
+           32.35          1.32278
+           32.45           1.3177
+           32.55           1.3196
+           32.65          1.31623
+           32.75          1.31851
+           32.85          1.31726
+           32.95          1.31573
+           33.05          1.31275
+           33.15          1.31101
+           33.25           1.3097
+           33.35          1.30708
+           33.45          1.30485
+           33.55          1.30223
+           33.65          1.30188
+           33.75          1.30073
+           33.85          1.29873
+           33.95          1.29841
+           34.05          1.29487
+           34.15          1.29673
+           34.25          1.29148
+           34.35          1.29208
+           34.45          1.29279
+           34.55          1.29041
+           34.65          1.28732
+           34.75          1.28826
+           34.85          1.28881
+           34.95          1.28403
+           35.05          1.28593
+           35.15          1.28137
+           35.25          1.28329
+           35.35          1.28176
+           35.45          1.27949
+           35.55           1.2778
+           35.65          1.27752
+           35.75          1.27389
+           35.85           1.2715
+           35.95          1.27203
+           36.05          1.27263
+           36.15          1.26928
+           36.25          1.26761
+           36.35          1.26812
+           36.45           1.2642
+           36.55          1.26387
+           36.65          1.26167
+           36.75          1.26235
+           36.85          1.26061
+           36.95          1.26044
+           37.05          1.25591
+           37.15          1.25431
+           37.25          1.25566
+           37.35          1.25545
+           37.45           1.2506
+           37.55          1.25106
+           37.65           1.2507
+           37.75          1.24948
+           37.85          1.24575
+           37.95          1.24411
+           38.05          1.24282
+           38.15          1.24332
+           38.25          1.24075
+           38.35          1.24221
+           38.45           1.2394
+           38.55          1.23938
+           38.65          1.23629
+           38.75          1.23451
+           38.85           1.2364
+           38.95          1.23471
+           39.05          1.23138
+           39.15          1.23157
+           39.25          1.23192
+           39.35          1.23063
+           39.45          1.22445
+           39.55          1.22376
+           39.65          1.22361
+           39.75          1.22064
+           39.85          1.22179
+           39.95          1.21912
+           40.05          1.21553
+           40.15          1.21643
+           40.25          1.21569
+           40.35          1.21488
+           40.45          1.21193
+           40.55           1.2117
+           40.65          1.21473
+           40.75          1.21057
+           40.85          1.20911
+           40.95          1.21171
+           41.05          1.21059
+           41.15          1.20418
+           41.25          1.20396
+           41.35          1.20206
+           41.45          1.20133
+           41.55          1.20151
+           41.65          1.19913
+           41.75          1.19737
+           41.85          1.19681
+           41.95          1.19328
+           42.05          1.19231
+           42.15          1.19365
+           42.25          1.19359
+           42.35          1.19069
+           42.45          1.19074
+           42.55          1.18777
+           42.65          1.18807
+           42.75           1.1847
+           42.85          1.18482
+           42.95          1.18569
+           43.05          1.18415
+           43.15          1.17996
+           43.25          1.17971
+           43.35          1.17704
+           43.45          1.17903
+           43.55          1.17679
+           43.65          1.17589
+           43.75          1.17406
+           43.85          1.17528
+           43.95           1.1729
+           44.05          1.16735
+           44.15          1.16885
+           44.25          1.16722
+           44.35          1.16599
+           44.45          1.16642
+           44.55          1.16331
+           44.65          1.16532
+           44.75          1.16144
+           44.85          1.16021
+           44.95          1.15886
+           45.05          1.16113
+           45.15          1.15645
+           45.25           1.1564
+           45.35          1.15672
+           45.45          1.15526
+           45.55          1.15333
+           45.65          1.15267
+           45.75           1.1501
+           45.85          1.14933
+           45.95          1.14829
+           46.05          1.14741
+           46.15          1.14617
+           46.25          1.14371
+           46.35            1.144
+           46.45          1.14227
+           46.55          1.13845
+           46.65          1.13793
+           46.75          1.13682
+           46.85           1.1359
+           46.95          1.13409
+           47.05          1.13256
+           47.15          1.13079
+           47.25          1.13223
+           47.35          1.13237
+           47.45          1.12994
+           47.55          1.12908
+           47.65          1.12735
+           47.75            1.127
+           47.85          1.12585
+           47.95          1.12503
+           48.05          1.12293
+           48.15          1.12289
+           48.25            1.121
+           48.35          1.11904
+           48.45          1.11922
+           48.55          1.11809
+           48.65          1.11612
+           48.75          1.11538
+           48.85          1.11443
+           48.95          1.11315
+           49.05          1.11114
+           49.15          1.11147
+           49.25          1.10975
+           49.35          1.10776
+           49.45          1.10684
+           49.55          1.10572
+           49.65          1.10593
+           49.75          1.10476
+           49.85          1.10293
+           49.95          1.10246
+           50.05          1.09931
+           50.15          1.10021
+           50.25          1.09862
+           50.35          1.09926
+           50.45          1.09649
+           50.55          1.09628
+           50.65          1.09521
+           50.75          1.09364
+           50.85           1.0924
+           50.95          1.09175
+           51.05          1.09029
+           51.15          1.08868
+           51.25          1.09048
+           51.35          1.08753
+           51.45          1.08702
+           51.55          1.08648
+           51.65          1.08427
+           51.75          1.08396
+           51.85          1.08361
+           51.95          1.08232
+           52.05           1.0805
+           52.15          1.08099
+           52.25          1.07868
+           52.35          1.07791
+           52.45           1.0775
+           52.55          1.07648
+           52.65          1.07693
+           52.75          1.07582
+           52.85          1.07337
+           52.95          1.07299
+           53.05          1.07284
+           53.15          1.07189
+           53.25          1.06885
+           53.35          1.06937
+           53.45            1.067
+           53.55          1.06593
+           53.65            1.065
+           53.75          1.06539
+           53.85          1.06369
+           53.95          1.06337
+           54.05          1.06288
+           54.15          1.06259
+           54.25          1.06109
+           54.35          1.05888
+           54.45          1.05883
+           54.55          1.05653
+           54.65          1.05739
+           54.75          1.05566
+           54.85          1.05424
+           54.95          1.05386
+           55.05          1.05408
+           55.15           1.0538
+           55.25          1.05329
+           55.35          1.04976
+           55.45          1.05108
+           55.55          1.04932
+           55.65          1.04811
+           55.75           1.0472
+           55.85           1.0467
+           55.95          1.04666
+           56.05          1.04558
+           56.15          1.04459
+           56.25          1.04336
+           56.35          1.04251
+           56.45          1.04187
+           56.55          1.04007
+           56.65          1.03923
+           56.75          1.03762
+           56.85          1.03831
+           56.95          1.03539
+           57.05          1.03617
+           57.15          1.03402
+           57.25          1.03453
+           57.35          1.03348
+           57.45          1.03264
+           57.55          1.03177
+           57.65          1.03095
+           57.75           1.0312
+           57.85          1.03029
+           57.95          1.02994
+           58.05          1.02778
+           58.15          1.02857
+           58.25          1.02772
+           58.35          1.02482
+           58.45          1.02642
+           58.55          1.02399
+           58.65          1.02468
+           58.75           1.0215
+           58.85           1.0215
+           58.95          1.02043
+           59.05          1.01911
+           59.15          1.01891
+           59.25          1.01727
+           59.35          1.01788
+           59.45          1.01814
+           59.55          1.01469
+           59.65          1.01477
+           59.75          1.01545
+           59.85          1.01554
+           59.95          1.01507
+           60.05          1.01275
+           60.15          1.01193
+           60.25          1.01109
+           60.35          1.01238
+           60.45          1.00962
+           60.55          1.01052
+           60.65          1.00871
+           60.75          1.00839
+           60.85          1.00707
+           60.95          1.00632
+           61.05          1.00495
+           61.15          1.00201
+           61.25          1.00325
+           61.35          1.00315
+           61.45          1.00232
+           61.55          1.00078
+           61.65          1.00111
+           61.75          1.00068
+           61.85         0.998713
+           61.95         0.997832
+           62.05         0.998282
+           62.15         0.997666
+           62.25         0.996248
+           62.35         0.996063
+           62.45         0.994503
+           62.55         0.993093
+           62.65         0.993289
+           62.75         0.992198
+           62.85         0.993093
+           62.95         0.990989
+           63.05         0.992225
+           63.15         0.991357
+           63.25         0.989639
+           63.35          0.98866
+           63.45         0.987788
+           63.55         0.989621
+           63.65         0.987165
+           63.75         0.987799
+           63.85         0.987209
+           63.95         0.985098
+           64.05         0.985229
+           64.15         0.983376
+           64.25         0.983024
+           64.35         0.981402
+           64.45         0.982587
+           64.55          0.98236
+           64.65         0.982058
+           64.75         0.981003
+           64.85         0.980718
+           64.95         0.980772
+           65.05         0.979552
+           65.15         0.978557
+           65.25         0.978403
+           65.35         0.977418
+           65.45         0.977962
+           65.55         0.975989
+           65.65         0.976098
+           65.75           0.9752
+           65.85         0.974499
+           65.95         0.974868
+           66.05         0.974123
+           66.15         0.973105
+           66.25         0.972797
+           66.35         0.971527
+           66.45         0.973136
+           66.55         0.972376
+           66.65         0.971146
+           66.75         0.969666
+           66.85         0.970462
+           66.95         0.970475
+&
+@TARGET S3
+@TYPE xy
+            0.05                0
+            0.15                0
+            0.25                0
+            0.35                0
+            0.45                0
+            0.55                0
+            0.65                0
+            0.75                0
+            0.85                0
+            0.95                0
+            1.05                0
+            1.15                0
+            1.25                0
+            1.35                0
+            1.45                0
+            1.55                0
+            1.65                0
+            1.75                0
+            1.85                0
+            1.95                0
+            2.05                0
+            2.15                0
+            2.25                0
+            2.35                0
+            2.45                0
+            2.55                0
+            2.65                0
+            2.75                0
+            2.85                0
+            2.95                0
+            3.05        0.0879395
+            3.15          0.16242
+            3.25         0.262518
+            3.35         0.385363
+            3.45         0.538523
+            3.55         0.735933
+            3.65         0.941556
+            3.75          1.11698
+            3.85          1.33722
+            3.95          1.58193
+            4.05          1.74295
+            4.15          1.90797
+            4.25          2.06547
+            4.35          2.18485
+            4.45          2.30431
+            4.55          2.38899
+            4.65          2.46292
+            4.75          2.49476
+            4.85          2.54223
+            4.95          2.57286
+            5.05          2.56497
+            5.15          2.58203
+            5.25          2.58577
+            5.35          2.56066
+            5.45          2.57355
+            5.55          2.58784
+            5.65          2.59409
+            5.75          2.57791
+            5.85          2.60316
+            5.95          2.64441
+            6.05          2.59174
+            6.15          2.34588
+            6.25          2.11524
+            6.35          1.90844
+            6.45            1.737
+            6.55          1.61188
+            6.65          1.55116
+            6.75          1.46869
+            6.85          1.41289
+            6.95          1.37126
+            7.05          1.33766
+            7.15          1.32682
+            7.25          1.30807
+            7.35          1.32082
+            7.45          1.31133
+            7.55          1.31171
+            7.65          1.31458
+            7.75          1.33395
+            7.85          1.34272
+            7.95          1.36787
+            8.05          1.39282
+            8.15          1.40138
+            8.25          1.43569
+            8.35          1.43082
+            8.45          1.46157
+            8.55          1.49135
+            8.65          1.50908
+            8.75          1.53159
+            8.85          1.55533
+            8.95          1.57928
+            9.05          1.60203
+            9.15          1.62198
+            9.25          1.64191
+            9.35          1.64935
+            9.45          1.64945
+            9.55          1.65697
+            9.65          1.66881
+            9.75          1.65229
+            9.85          1.66442
+            9.95          1.66038
+           10.05          1.64619
+           10.15          1.62249
+           10.25          1.62219
+           10.35          1.61052
+           10.45          1.59455
+           10.55            1.593
+           10.65          1.57068
+           10.75          1.54528
+           10.85          1.54903
+           10.95          1.53369
+           11.05          1.51333
+           11.15          1.50093
+           11.25          1.49022
+           11.35          1.47195
+           11.45          1.45337
+           11.55          1.44724
+           11.65          1.45401
+           11.75          1.43996
+           11.85          1.44476
+           11.95          1.42919
+           12.05          1.43023
+           12.15          1.42982
+           12.25          1.43683
+           12.35          1.42946
+           12.45          1.42436
+           12.55          1.42579
+           12.65          1.43008
+           12.75          1.43153
+           12.85          1.44153
+           12.95          1.43426
+           13.05          1.44113
+           13.15          1.44401
+           13.25          1.45493
+           13.35          1.46282
+           13.45          1.46172
+           13.55          1.46368
+           13.65          1.46846
+           13.75          1.46267
+           13.85          1.46683
+           13.95          1.46204
+           14.05          1.46633
+           14.15          1.46998
+           14.25          1.47047
+           14.35          1.46143
+           14.45           1.4709
+           14.55           1.4615
+           14.65          1.46081
+           14.75          1.45477
+           14.85          1.45209
+           14.95          1.44974
+           15.05          1.44801
+           15.15          1.44683
+           15.25          1.43705
+           15.35          1.43775
+           15.45          1.43189
+           15.55            1.434
+           15.65          1.43111
+           15.75          1.42515
+           15.85          1.41913
+           15.95           1.4188
+           16.05          1.41205
+           16.15          1.41349
+           16.25          1.40829
+           16.35           1.4074
+           16.45          1.40597
+           16.55           1.4072
+           16.65          1.40466
+           16.75          1.40168
+           16.85          1.39587
+           16.95          1.40062
+           17.05          1.39809
+           17.15          1.39976
+           17.25           1.4044
+           17.35          1.40055
+           17.45          1.39649
+           17.55          1.39605
+           17.65          1.39806
+           17.75          1.40005
+           17.85          1.39913
+           17.95          1.40125
+           18.05          1.39596
+           18.15          1.39868
+           18.25           1.3971
+           18.35          1.39515
+           18.45          1.39534
+           18.55          1.39366
+           18.65          1.39876
+           18.75          1.39192
+           18.85          1.39044
+           18.95          1.39087
+           19.05          1.38824
+           19.15           1.3873
+           19.25          1.38352
+           19.35          1.38464
+           19.45          1.38174
+           19.55          1.38093
+           19.65          1.37846
+           19.75          1.37621
+           19.85          1.37363
+           19.95          1.36855
+           20.05          1.37332
+           20.15          1.36764
+           20.25          1.36507
+           20.35          1.36656
+           20.45          1.36649
+           20.55          1.35446
+           20.65          1.35932
+           20.75           1.3575
+           20.85           1.3612
+           20.95          1.35835
+           21.05          1.35053
+           21.15          1.35383
+           21.25          1.35281
+           21.35          1.35396
+           21.45          1.35402
+           21.55          1.35378
+           21.65          1.35076
+           21.75          1.34574
+           21.85          1.35008
+           21.95          1.34479
+           22.05          1.34244
+           22.15          1.34151
+           22.25          1.34302
+           22.35          1.33933
+           22.45          1.33916
+           22.55          1.34182
+           22.65          1.33953
+           22.75          1.33809
+           22.85          1.33875
+           22.95          1.33886
+           23.05          1.33503
+           23.15          1.33096
+           23.25           1.3339
+           23.35          1.33308
+           23.45          1.32929
+           23.55          1.32747
+           23.65          1.32713
+           23.75          1.32516
+           23.85          1.32602
+           23.95          1.32341
+           24.05          1.31764
+           24.15          1.31854
+           24.25          1.31622
+           24.35           1.3146
+           24.45          1.31796
+           24.55          1.31217
+           24.65          1.31194
+           24.75          1.31316
+           24.85          1.30784
+           24.95          1.31179
+           25.05           1.3037
+           25.15          1.30648
+           25.25          1.30627
+           25.35          1.30601
+           25.45          1.30502
+           25.55          1.30226
+           25.65          1.30438
+           25.75          1.30075
+           25.85          1.29594
+           25.95          1.29903
+           26.05          1.29994
+           26.15          1.29664
+           26.25          1.29413
+           26.35          1.29551
+           26.45          1.29468
+           26.55          1.29331
+           26.65          1.29179
+           26.75          1.29262
+           26.85          1.29413
+           26.95          1.29135
+           27.05          1.28751
+           27.15          1.29042
+           27.25           1.2858
+           27.35           1.2879
+           27.45          1.28641
+           27.55          1.28261
+           27.65          1.28282
+           27.75          1.28141
+           27.85          1.28097
+           27.95          1.27893
+           28.05           1.2749
+           28.15          1.27654
+           28.25          1.27525
+           28.35          1.27266
+           28.45          1.27102
+           28.55          1.27336
+           28.65          1.26928
+           28.75          1.27122
+           28.85          1.26841
+           28.95          1.26987
+           29.05          1.26806
+           29.15          1.26491
+           29.25          1.26459
+           29.35          1.26203
+           29.45          1.26442
+           29.55          1.26329
+           29.65          1.26103
+           29.75          1.26157
+           29.85          1.25968
+           29.95          1.25592
+           30.05          1.25433
+           30.15          1.25612
+           30.25          1.25335
+           30.35          1.25427
+           30.45          1.25256
+           30.55          1.25329
+           30.65          1.24949
+           30.75           1.2463
+           30.85          1.24924
+           30.95          1.24836
+           31.05          1.24568
+           31.15          1.24436
+           31.25          1.24737
+           31.35           1.2464
+           31.45          1.24499
+           31.55          1.24293
+           31.65          1.23991
+           31.75          1.24141
+           31.85          1.23942
+           31.95          1.23608
+           32.05            1.239
+           32.15          1.23578
+           32.25          1.23248
+           32.35           1.2347
+           32.45          1.23454
+           32.55          1.23502
+           32.65          1.23153
+           32.75          1.22776
+           32.85          1.22881
+           32.95          1.22569
+           33.05          1.22728
+           33.15           1.2281
+           33.25          1.22564
+           33.35          1.22373
+           33.45          1.22345
+           33.55          1.21982
+           33.65          1.22341
+           33.75          1.22122
+           33.85          1.21989
+           33.95          1.21866
+           34.05          1.21882
+           34.15          1.21759
+           34.25          1.21555
+           34.35           1.2147
+           34.45          1.21206
+           34.55          1.21145
+           34.65          1.21262
+           34.75          1.21088
+           34.85          1.21116
+           34.95          1.20929
+           35.05          1.20515
+           35.15          1.20637
+           35.25          1.20281
+           35.35          1.20548
+           35.45          1.20059
+           35.55          1.20064
+           35.65          1.19856
+           35.75          1.19679
+           35.85          1.20001
+           35.95          1.19859
+           36.05          1.19911
+           36.15           1.1985
+           36.25          1.19678
+           36.35          1.19241
+           36.45           1.1932
+           36.55          1.19072
+           36.65          1.18871
+           36.75          1.18875
+           36.85          1.18916
+           36.95          1.18795
+           37.05          1.18833
+           37.15          1.18995
+           37.25          1.18488
+           37.35          1.18341
+           37.45          1.18363
+           37.55          1.18118
+           37.65          1.17979
+           37.75          1.18036
+           37.85          1.18096
+           37.95          1.17923
+           38.05          1.17645
+           38.15          1.17474
+           38.25          1.17421
+           38.35           1.1738
+           38.45          1.17585
+           38.55          1.17396
+           38.65          1.17121
+           38.75          1.17032
+           38.85           1.1716
+           38.95          1.16974
+           39.05          1.16746
+           39.15          1.16523
+           39.25           1.1653
+           39.35          1.16234
+           39.45          1.16188
+           39.55          1.16209
+           39.65           1.1611
+           39.75          1.16251
+           39.85          1.15803
+           39.95            1.156
+           40.05          1.15615
+           40.15           1.1561
+           40.25          1.15385
+           40.35           1.1522
+           40.45          1.15033
+           40.55            1.152
+           40.65          1.14869
+           40.75          1.14861
+           40.85          1.14829
+           40.95          1.14676
+           41.05          1.14374
+           41.15          1.14442
+           41.25          1.14392
+           41.35          1.14166
+           41.45          1.13946
+           41.55          1.13875
+           41.65          1.14089
+           41.75          1.13945
+           41.85          1.13751
+           41.95          1.13991
+           42.05          1.13647
+           42.15          1.13662
+           42.25          1.13442
+           42.35          1.13347
+           42.45          1.13444
+           42.55          1.13238
+           42.65          1.13166
+           42.75           1.1318
+           42.85          1.13215
+           42.95          1.12953
+           43.05          1.12899
+           43.15           1.1274
+           43.25           1.1275
+           43.35          1.12543
+           43.45          1.12594
+           43.55          1.12425
+           43.65          1.12308
+           43.75          1.12347
+           43.85          1.12124
+           43.95          1.12055
+           44.05           1.1181
+           44.15          1.11837
+           44.25          1.11703
+           44.35          1.11539
+           44.45          1.11654
+           44.55          1.11513
+           44.65          1.11459
+           44.75          1.11246
+           44.85          1.11114
+           44.95          1.11261
+           45.05          1.10995
+           45.15          1.10824
+           45.25          1.10781
+           45.35          1.11045
+           45.45          1.10535
+           45.55          1.10381
+           45.65          1.10399
+           45.75          1.10389
+           45.85          1.10176
+           45.95          1.10233
+           46.05          1.10022
+           46.15          1.09922
+           46.25          1.10122
+           46.35          1.09931
+           46.45          1.09855
+           46.55          1.09738
+           46.65          1.09705
+           46.75          1.09542
+           46.85          1.09718
+           46.95          1.09533
+           47.05          1.09583
+           47.15          1.09396
+           47.25          1.09386
+           47.35          1.09138
+           47.45          1.09293
+           47.55          1.09217
+           47.65          1.09006
+           47.75          1.08915
+           47.85          1.08855
+           47.95          1.08855
+           48.05          1.08594
+           48.15          1.08664
+           48.25          1.08631
+           48.35          1.08393
+           48.45          1.08273
+           48.55          1.08486
+           48.65          1.08194
+           48.75          1.08099
+           48.85          1.08052
+           48.95          1.07939
+           49.05          1.07988
+           49.15          1.07865
+           49.25          1.07647
+           49.35          1.07491
+           49.45          1.07547
+           49.55           1.0757
+           49.65          1.07383
+           49.75          1.07106
+           49.85          1.07363
+           49.95          1.07302
+           50.05          1.07142
+           50.15          1.06991
+           50.25          1.06952
+           50.35          1.06991
+           50.45          1.06904
+           50.55          1.06779
+           50.65          1.06726
+           50.75           1.0667
+           50.85          1.06507
+           50.95          1.06425
+           51.05           1.0633
+           51.15          1.06403
+           51.25          1.06081
+           51.35          1.06147
+           51.45          1.06165
+           51.55           1.0577
+           51.65          1.05809
+           51.75          1.05633
+           51.85          1.05784
+           51.95          1.05682
+           52.05          1.05524
+           52.15          1.05573
+           52.25          1.05425
+           52.35          1.05226
+           52.45          1.05432
+           52.55          1.05215
+           52.65          1.05149
+           52.75           1.0512
+           52.85           1.0509
+           52.95          1.04869
+           53.05          1.04954
+           53.15          1.04812
+           53.25          1.04909
+           53.35          1.04695
+           53.45          1.04724
+           53.55           1.0449
+           53.65          1.04398
+           53.75          1.04581
+           53.85          1.04293
+           53.95          1.04418
+           54.05          1.04112
+           54.15          1.04269
+           54.25          1.04153
+           54.35          1.04093
+           54.45          1.03969
+           54.55          1.03775
+           54.65          1.03708
+           54.75           1.0379
+           54.85          1.03568
+           54.95          1.03448
+           55.05          1.03437
+           55.15          1.03375
+           55.25          1.03332
+           55.35          1.03132
+           55.45          1.03246
+           55.55          1.03077
+           55.65          1.03181
+           55.75          1.02964
+           55.85          1.03034
+           55.95          1.02919
+           56.05          1.02827
+           56.15          1.02875
+           56.25          1.02905
+           56.35          1.02727
+           56.45          1.02626
+           56.55          1.02576
+           56.65          1.02461
+           56.75          1.02368
+           56.85          1.02316
+           56.95          1.02356
+           57.05          1.02172
+           57.15          1.02076
+           57.25           1.0198
+           57.35           1.0208
+           57.45          1.02014
+           57.55          1.01853
+           57.65          1.01783
+           57.75          1.01689
+           57.85          1.01717
+           57.95          1.01688
+           58.05          1.01582
+           58.15           1.0154
+           58.25          1.01517
+           58.35           1.0137
+           58.45          1.01382
+           58.55          1.01299
+           58.65          1.01268
+           58.75           1.0123
+           58.85          1.00968
+           58.95          1.01264
+           59.05          1.01096
+           59.15          1.00997
+           59.25          1.00858
+           59.35           1.0088
+           59.45          1.00689
+           59.55          1.00802
+           59.65          1.00889
+           59.75          1.00747
+           59.85          1.00625
+           59.95          1.00763
+           60.05          1.00579
+           60.15          1.00555
+           60.25          1.00538
+           60.35          1.00391
+           60.45          1.00351
+           60.55          1.00306
+           60.65          1.00334
+           60.75           1.0029
+           60.85          1.00207
+           60.95          1.00181
+           61.05          1.00108
+           61.15          1.00037
+           61.25          1.00058
+           61.35         0.998595
+           61.45         0.998302
+           61.55         0.996791
+           61.65         0.997249
+           61.75         0.996337
+           61.85         0.996233
+           61.95         0.996052
+           62.05         0.995492
+           62.15         0.994767
+           62.25         0.994436
+           62.35         0.995162
+           62.45         0.993347
+           62.55          0.99308
+           62.65         0.991602
+           62.75         0.992889
+           62.85         0.991892
+           62.95         0.991527
+           63.05         0.991537
+           63.15         0.991436
+           63.25         0.992002
+           63.35         0.989966
+           63.45         0.989253
+           63.55         0.988034
+           63.65         0.987447
+           63.75         0.988353
+           63.85         0.987289
+           63.95         0.987418
+           64.05         0.986822
+           64.15         0.985456
+           64.25          0.98676
+           64.35         0.985666
+           64.45         0.985574
+           64.55         0.983371
+           64.65         0.982755
+           64.75         0.983443
+           64.85         0.984054
+           64.95         0.983614
+           65.05         0.983267
+           65.15         0.982948
+           65.25         0.981902
+           65.35         0.982819
+           65.45         0.982497
+           65.55          0.98087
+           65.65         0.982192
+           65.75         0.981119
+           65.85         0.979857
+           65.95         0.980074
+           66.05         0.979464
+           66.15         0.978708
+           66.25         0.978844
+           66.35         0.977372
+           66.45         0.977819
+           66.55         0.977533
+           66.65         0.977256
+           66.75         0.977609
+           66.85         0.976957
+           66.95         0.976764
+&
+@TARGET S4
+@TYPE xy
+            0.05                0
+            0.15                0
+            0.25                0
+            0.35                0
+            0.45                0
+            0.55                0
+            0.65                0
+            0.75                0
+            0.85                0
+            0.95                0
+            1.05                0
+            1.15                0
+            1.25                0
+            1.35                0
+            1.45                0
+            1.55                0
+            1.65                0
+            1.75                0
+            1.85                0
+            1.95                0
+            2.05                0
+            2.15                0
+            2.25                0
+            2.35                0
+            2.45                0
+            2.55                0
+            2.65                0
+            2.75                0
+            2.85                0
+            2.95                0
+            3.05        0.0829991
+            3.15         0.132159
+            3.25         0.230465
+            3.35         0.370347
+            3.45         0.505702
+            3.55         0.685121
+            3.65         0.868191
+            3.75          1.06523
+            3.85          1.24999
+            3.95          1.46636
+            4.05          1.61816
+            4.15          1.77436
+            4.25          1.91593
+            4.35          2.04252
+            4.45          2.13271
+            4.55          2.23389
+            4.65          2.29599
+            4.75          2.34796
+            4.85          2.37875
+            4.95          2.41523
+            5.05          2.44362
+            5.15          2.43976
+            5.25          2.43091
+            5.35          2.43365
+            5.45           2.4298
+            5.55          2.47459
+            5.65          2.45069
+            5.75          2.46832
+            5.85          2.52518
+            5.95          2.53661
+            6.05          2.45696
+            6.15          2.25065
+            6.25          2.02193
+            6.35          1.80913
+            6.45          1.64888
+            6.55          1.55521
+            6.65          1.43985
+            6.75          1.37928
+            6.85          1.31569
+            6.95          1.28635
+            7.05           1.2634
+            7.15          1.22675
+            7.25          1.22538
+            7.35          1.20883
+            7.45          1.20583
+            7.55          1.20052
+            7.65          1.22824
+            7.75          1.22442
+            7.85           1.2379
+            7.95          1.25937
+            8.05          1.26329
+            8.15          1.28463
+            8.25          1.31011
+            8.35          1.32137
+            8.45          1.34544
+            8.55          1.36902
+            8.65          1.38039
+            8.75          1.39706
+            8.85          1.42126
+            8.95          1.43424
+            9.05          1.46484
+            9.15          1.46987
+            9.25          1.49139
+            9.35          1.49384
+            9.45          1.50397
+            9.55          1.51012
+            9.65          1.51454
+            9.75          1.51638
+            9.85          1.50959
+            9.95          1.51573
+           10.05          1.50594
+           10.15          1.49343
+           10.25          1.48911
+           10.35           1.4668
+           10.45          1.46343
+           10.55          1.44854
+           10.65          1.43602
+           10.75          1.41815
+           10.85          1.40435
+           10.95          1.39855
+           11.05          1.38294
+           11.15          1.37156
+           11.25          1.36804
+           11.35          1.35331
+           11.45          1.34561
+           11.55           1.3418
+           11.65          1.32621
+           11.75          1.32126
+           11.85          1.30886
+           11.95          1.31161
+           12.05          1.30756
+           12.15          1.30246
+           12.25          1.29528
+           12.35          1.30016
+           12.45          1.29581
+           12.55          1.28622
+           12.65          1.29808
+           12.75          1.30012
+           12.85           1.2966
+           12.95          1.30529
+           13.05           1.3016
+           13.15          1.31046
+           13.25          1.30962
+           13.35           1.3104
+           13.45           1.3213
+           13.55          1.31286
+           13.65          1.32157
+           13.75          1.32405
+           13.85          1.32138
+           13.95          1.31589
+           14.05           1.3238
+           14.15          1.32994
+           14.25          1.33496
+           14.35          1.32128
+           14.45          1.32543
+           14.55          1.32054
+           14.65          1.31652
+           14.75          1.31224
+           14.85          1.31281
+           14.95          1.31716
+           15.05          1.31375
+           15.15            1.314
+           15.25          1.30722
+           15.35          1.30179
+           15.45          1.30406
+           15.55          1.29151
+           15.65          1.29225
+           15.75           1.2947
+           15.85          1.28458
+           15.95          1.28735
+           16.05          1.28427
+           16.15          1.27611
+           16.25          1.28032
+           16.35          1.27188
+           16.45          1.27244
+           16.55          1.27218
+           16.65          1.26376
+           16.75          1.26947
+           16.85          1.26583
+           16.95          1.26891
+           17.05          1.26365
+           17.15          1.27071
+           17.25          1.26684
+           17.35          1.26261
+           17.45          1.26414
+           17.55          1.26276
+           17.65          1.26433
+           17.75          1.26302
+           17.85          1.25975
+           17.95          1.26531
+           18.05          1.26138
+           18.15          1.26245
+           18.25          1.25514
+           18.35          1.26341
+           18.45          1.26294
+           18.55          1.26459
+           18.65          1.26101
+           18.75          1.25945
+           18.85          1.26317
+           18.95          1.25752
+           19.05          1.25799
+           19.15          1.25942
+           19.25          1.25308
+           19.35          1.25532
+           19.45          1.25201
+           19.55          1.25184
+           19.65          1.25245
+           19.75          1.25418
+           19.85           1.2506
+           19.95          1.25096
+           20.05          1.25124
+           20.15          1.24499
+           20.25          1.23927
+           20.35          1.23921
+           20.45          1.23927
+           20.55          1.23837
+           20.65          1.23396
+           20.75          1.23317
+           20.85          1.24015
+           20.95          1.23757
+           21.05          1.23933
+           21.15          1.23509
+           21.25          1.23266
+           21.35            1.235
+           21.45          1.23657
+           21.55          1.22924
+           21.65          1.23095
+           21.75          1.23134
+           21.85          1.23112
+           21.95          1.22737
+           22.05          1.23221
+           22.15           1.2272
+           22.25          1.22773
+           22.35          1.22554
+           22.45          1.22833
+           22.55          1.22792
+           22.65          1.22516
+           22.75          1.22597
+           22.85          1.22294
+           22.95          1.21976
+           23.05          1.22438
+           23.15          1.22188
+           23.25          1.22169
+           23.35          1.21679
+           23.45          1.21957
+           23.55          1.22249
+           23.65          1.21513
+           23.75          1.21184
+           23.85          1.21506
+           23.95          1.21644
+           24.05          1.21566
+           24.15          1.21528
+           24.25          1.21394
+           24.35          1.21355
+           24.45          1.21518
+           24.55          1.20965
+           24.65          1.21187
+           24.75           1.2087
+           24.85          1.20636
+           24.95          1.20709
+           25.05          1.20676
+           25.15          1.20445
+           25.25          1.20622
+           25.35          1.20442
+           25.45          1.20527
+           25.55          1.20299
+           25.65          1.20115
+           25.75          1.20122
+           25.85           1.1986
+           25.95          1.20159
+           26.05          1.19654
+           26.15          1.19774
+           26.25           1.1984
+           26.35          1.19562
+           26.45          1.19645
+           26.55          1.19723
+           26.65          1.19068
+           26.75          1.19333
+           26.85          1.19025
+           26.95           1.1896
+           27.05          1.18718
+           27.15          1.18989
+           27.25          1.18919
+           27.35          1.18424
+           27.45           1.1867
+           27.55          1.18811
+           27.65          1.18354
+           27.75          1.18808
+           27.85          1.18565
+           27.95          1.18395
+           28.05           1.1834
+           28.15          1.18187
+           28.25           1.1839
+           28.35          1.18376
+           28.45          1.18185
+           28.55           1.1793
+           28.65          1.18142
+           28.75          1.17782
+           28.85          1.17857
+           28.95          1.17804
+           29.05           1.1744
+           29.15          1.17466
+           29.25          1.17625
+           29.35          1.17525
+           29.45          1.17558
+           29.55          1.17352
+           29.65          1.17267
+           29.75          1.17064
+           29.85          1.17369
+           29.95          1.17103
+           30.05           1.1702
+           30.15          1.17037
+           30.25          1.17057
+           30.35           1.1706
+           30.45          1.16424
+           30.55          1.16517
+           30.65          1.16619
+           30.75           1.1639
+           30.85          1.16324
+           30.95          1.16417
+           31.05          1.16121
+           31.15          1.15938
+           31.25          1.15882
+           31.35          1.15816
+           31.45          1.15608
+           31.55          1.15931
+           31.65          1.15572
+           31.75           1.1562
+           31.85          1.15612
+           31.95          1.15246
+           32.05          1.15487
+           32.15          1.15407
+           32.25          1.14925
+           32.35          1.15315
+           32.45           1.1497
+           32.55          1.15192
+           32.65          1.15058
+           32.75          1.15138
+           32.85          1.14807
+           32.95          1.15065
+           33.05          1.14744
+           33.15          1.14643
+           33.25           1.1456
+           33.35          1.14677
+           33.45          1.14413
+           33.55          1.14438
+           33.65          1.13973
+           33.75          1.13887
+           33.85          1.14188
+           33.95          1.14023
+           34.05          1.14076
+           34.15          1.13883
+           34.25          1.13856
+           34.35          1.13736
+           34.45          1.13654
+           34.55          1.13406
+           34.65          1.13271
+           34.75          1.13375
+           34.85           1.1323
+           34.95          1.13424
+           35.05          1.13143
+           35.15          1.13043
+           35.25          1.12882
+           35.35          1.12951
+           35.45          1.12925
+           35.55          1.12589
+           35.65          1.12633
+           35.75          1.12773
+           35.85          1.12675
+           35.95          1.12745
+           36.05           1.1259
+           36.15          1.12248
+           36.25          1.12548
+           36.35          1.12403
+           36.45          1.12119
+           36.55          1.11938
+           36.65          1.11948
+           36.75          1.11929
+           36.85          1.11739
+           36.95          1.11733
+           37.05          1.11825
+           37.15          1.11795
+           37.25          1.11376
+           37.35          1.11334
+           37.45          1.11648
+           37.55          1.11634
+           37.65          1.11378
+           37.75          1.11515
+           37.85          1.11493
+           37.95          1.11277
+           38.05          1.11157
+           38.15          1.11292
+           38.25          1.11087
+           38.35          1.11135
+           38.45          1.11062
+           38.55          1.10887
+           38.65          1.10855
+           38.75          1.10811
+           38.85          1.10595
+           38.95          1.10663
+           39.05          1.10759
+           39.15          1.10754
+           39.25          1.10201
+           39.35          1.10446
+           39.45          1.10424
+           39.55          1.10371
+           39.65          1.10273
+           39.75          1.10018
+           39.85          1.10333
+           39.95          1.09954
+           40.05          1.10137
+           40.15          1.09722
+           40.25          1.09924
+           40.35          1.09873
+           40.45          1.10036
+           40.55          1.10001
+           40.65          1.09898
+           40.75          1.09729
+           40.85          1.09703
+           40.95          1.09463
+           41.05          1.09369
+           41.15          1.09411
+           41.25          1.09337
+           41.35          1.08964
+           41.45          1.09089
+           41.55          1.08936
+           41.65          1.09011
+           41.75          1.08753
+           41.85          1.09035
+           41.95          1.08854
+           42.05          1.08725
+           42.15           1.0879
+           42.25          1.08675
+           42.35          1.08369
+           42.45          1.08404
+           42.55          1.08327
+           42.65          1.08439
+           42.75          1.08451
+           42.85          1.08434
+           42.95          1.08316
+           43.05          1.08224
+           43.15          1.08046
+           43.25          1.08042
+           43.35          1.08157
+           43.45          1.08153
+           43.55          1.08041
+           43.65          1.07959
+           43.75          1.07996
+           43.85          1.07907
+           43.95          1.07924
+           44.05          1.07651
+           44.15          1.07561
+           44.25          1.07698
+           44.35          1.07404
+           44.45          1.07547
+           44.55          1.07687
+           44.65           1.0758
+           44.75          1.07384
+           44.85          1.07349
+           44.95          1.07217
+           45.05          1.07028
+           45.15          1.07047
+           45.25          1.07058
+           45.35          1.06939
+           45.45           1.0701
+           45.55          1.06764
+           45.65          1.06743
+           45.75          1.06747
+           45.85           1.0658
+           45.95          1.06603
+           46.05          1.06564
+           46.15          1.06481
+           46.25          1.06444
+           46.35          1.06184
+           46.45          1.06239
+           46.55          1.06357
+           46.65          1.06027
+           46.75          1.06052
+           46.85          1.05946
+           46.95          1.05997
+           47.05           1.0588
+           47.15          1.05983
+           47.25          1.05882
+           47.35          1.05712
+           47.45            1.058
+           47.55          1.05657
+           47.65          1.05612
+           47.75           1.0556
+           47.85          1.05496
+           47.95          1.05515
+           48.05          1.05465
+           48.15          1.05543
+           48.25          1.05409
+           48.35          1.05346
+           48.45          1.05201
+           48.55          1.05118
+           48.65          1.05188
+           48.75           1.0497
+           48.85          1.05054
+           48.95          1.04866
+           49.05          1.04912
+           49.15          1.04905
+           49.25          1.04686
+           49.35          1.04864
+           49.45          1.04706
+           49.55          1.04665
+           49.65          1.04389
+           49.75          1.04575
+           49.85          1.04318
+           49.95          1.04233
+           50.05          1.04391
+           50.15          1.04404
+           50.25          1.04242
+           50.35          1.04221
+           50.45          1.04006
+           50.55           1.0404
+           50.65          1.04028
+           50.75          1.04035
+           50.85          1.03903
+           50.95          1.03843
+           51.05          1.03716
+           51.15          1.03939
+           51.25          1.03819
+           51.35          1.03702
+           51.45          1.03812
+           51.55          1.03914
+           51.65          1.03668
+           51.75          1.03747
+           51.85          1.03504
+           51.95          1.03439
+           52.05          1.03464
+           52.15          1.03547
+           52.25          1.03462
+           52.35          1.03383
+           52.45          1.03445
+           52.55           1.0331
+           52.65          1.03177
+           52.75          1.03058
+           52.85           1.0304
+           52.95           1.0321
+           53.05          1.02979
+           53.15          1.03077
+           53.25          1.02777
+           53.35          1.02921
+           53.45          1.02894
+           53.55          1.02838
+           53.65          1.02663
+           53.75          1.02603
+           53.85          1.02718
+           53.95          1.02535
+           54.05          1.02515
+           54.15          1.02371
+           54.25           1.0253
+           54.35          1.02305
+           54.45          1.02297
+           54.55          1.02239
+           54.65          1.02096
+           54.75           1.0203
+           54.85          1.02087
+           54.95          1.02153
+           55.05          1.01915
+           55.15          1.02135
+           55.25          1.02032
+           55.35          1.02063
+           55.45          1.01864
+           55.55          1.01872
+           55.65          1.01763
+           55.75          1.01776
+           55.85          1.01764
+           55.95          1.01806
+           56.05          1.01585
+           56.15          1.01852
+           56.25          1.01597
+           56.35          1.01528
+           56.45          1.01511
+           56.55          1.01435
+           56.65          1.01452
+           56.75           1.0154
+           56.85          1.01262
+           56.95          1.01349
+           57.05          1.01229
+           57.15          1.01197
+           57.25           1.0101
+           57.35          1.01075
+           57.45          1.00938
+           57.55          1.01106
+           57.65          1.01002
+           57.75          1.00962
+           57.85          1.00892
+           57.95          1.00833
+           58.05          1.00731
+           58.15          1.00852
+           58.25          1.00696
+           58.35          1.00554
+           58.45          1.00566
+           58.55          1.00461
+           58.65          1.00467
+           58.75          1.00537
+           58.85          1.00454
+           58.95          1.00357
+           59.05          1.00341
+           59.15          1.00402
+           59.25          1.00303
+           59.35          1.00325
+           59.45          1.00266
+           59.55          1.00326
+           59.65          1.00364
+           59.75          1.00157
+           59.85          1.00052
+           59.95          1.00026
+           60.05          1.00055
+           60.15          1.00075
+           60.25          1.00093
+           60.35          0.99968
+           60.45         0.999965
+           60.55         0.998765
+           60.65          1.00096
+           60.75         0.998617
+           60.85         0.999519
+           60.95         0.997637
+           61.05         0.996497
+           61.15         0.996596
+           61.25         0.996686
+           61.35         0.996184
+           61.45          0.99714
+           61.55         0.996425
+           61.65         0.996215
+           61.75         0.994139
+           61.85         0.994935
+           61.95         0.993408
+           62.05         0.992079
+           62.15         0.992618
+           62.25         0.991503
+           62.35         0.992183
+           62.45          0.99043
+           62.55         0.990359
+           62.65         0.990939
+           62.75         0.989521
+           62.85         0.991105
+           62.95         0.989303
+           63.05         0.990537
+           63.15          0.98961
+           63.25         0.990278
+           63.35          0.98968
+           63.45         0.988085
+           63.55         0.988238
+           63.65         0.988944
+           63.75          0.98897
+           63.85         0.987984
+           63.95         0.989222
+           64.05         0.986157
+           64.15         0.986403
+           64.25         0.987019
+           64.35         0.986787
+           64.45         0.986562
+           64.55         0.985474
+           64.65         0.985985
+           64.75         0.986184
+           64.85         0.985404
+           64.95         0.985423
+           65.05         0.985299
+           65.15         0.984238
+           65.25         0.984436
+           65.35         0.986014
+           65.45         0.983382
+           65.55         0.983143
+           65.65         0.983087
+           65.75         0.984117
+           65.85         0.983253
+           65.95         0.982328
+           66.05         0.982314
+           66.15         0.983951
+           66.25         0.982191
+           66.35         0.983056
+           66.45         0.981716
+           66.55         0.981855
+           66.65         0.981866
+           66.75         0.981116
+           66.85         0.980758
+           66.95         0.981275
+&
+@TARGET S5
+@TYPE xy
+            0.05                0
+            0.15                0
+            0.25                0
+            0.35                0
+            0.45                0
+            0.55                0
+            0.65                0
+            0.75                0
+            0.85                0
+            0.95                0
+            1.05                0
+            1.15                0
+            1.25                0
+            1.35                0
+            1.45                0
+            1.55                0
+            1.65                0
+            1.75                0
+            1.85                0
+            1.95                0
+            2.05                0
+            2.15                0
+            2.25                0
+            2.35                0
+            2.45                0
+            2.55                0
+            2.65                0
+            2.75                0
+            2.85                0
+            2.95                0
+            3.05        0.0652918
+            3.15         0.120842
+            3.25         0.202432
+            3.35         0.307769
+            3.45         0.436691
+            3.55         0.588531
+            3.65         0.747907
+            3.75         0.918131
+            3.85          1.09062
+            3.95          1.26405
+            4.05          1.41652
+            4.15          1.56635
+            4.25          1.69648
+            4.35          1.81574
+            4.45           1.9102
+            4.55          1.98539
+            4.65          2.05159
+            4.75          2.09506
+            4.85          2.12603
+            4.95          2.14424
+            5.05          2.15849
+            5.15          2.16542
+            5.25           2.1662
+            5.35           2.1665
+            5.45            2.175
+            5.55          2.17644
+            5.65          2.18578
+            5.75          2.19982
+            5.85          2.21629
+            5.95          2.23898
+            6.05          2.19105
+            6.15           1.9853
+            6.25           1.7675
+            6.35          1.58412
+            6.45          1.44253
+            6.55           1.3319
+            6.65          1.24807
+            6.75           1.1813
+            6.85           1.1311
+            6.95          1.09458
+            7.05          1.06663
+            7.15          1.04597
+            7.25          1.03176
+            7.35          1.02201
+            7.45          1.01879
+            7.55          1.01722
+            7.65          1.01939
+            7.75          1.02421
+            7.85          1.02919
+            7.95          1.04084
+            8.05          1.05154
+            8.15          1.06193
+            8.25          1.07572
+            8.35          1.09014
+            8.45          1.10341
+            8.55          1.11816
+            8.65          1.13368
+            8.75          1.14915
+            8.85          1.16473
+            8.95          1.17986
+            9.05          1.19179
+            9.15          1.20483
+            9.25          1.21621
+            9.35          1.22434
+            9.45          1.23196
+            9.55          1.23699
+            9.65          1.23969
+            9.75          1.23984
+            9.85          1.23716
+            9.95          1.23491
+           10.05          1.22938
+           10.15          1.22374
+           10.25          1.21545
+           10.35          1.20711
+           10.45          1.19732
+           10.55          1.18613
+           10.65           1.1763
+           10.75          1.16512
+           10.85           1.1547
+           10.95          1.14457
+           11.05          1.13513
+           11.15          1.12366
+           11.25          1.11438
+           11.35          1.10647
+           11.45          1.09861
+           11.55           1.0912
+           11.65          1.08354
+           11.75          1.07692
+           11.85          1.07079
+           11.95           1.0677
+           12.05          1.06235
+           12.15          1.05825
+           12.25          1.05577
+           12.35          1.05507
+           12.45          1.05402
+           12.55           1.0531
+           12.65          1.05273
+           12.75          1.05324
+           12.85          1.05414
+           12.95          1.05447
+           13.05          1.05449
+           13.15          1.05638
+           13.25          1.05835
+           13.35          1.06069
+           13.45          1.06153
+           13.55          1.06281
+           13.65          1.06311
+           13.75           1.0636
+           13.85          1.06454
+           13.95          1.06528
+           14.05          1.06712
+           14.15          1.06683
+           14.25          1.06747
+           14.35          1.06564
+           14.45          1.06619
+           14.55          1.06548
+           14.65          1.06542
+           14.75          1.06383
+           14.85          1.06221
+           14.95          1.06126
+           15.05          1.05928
+           15.15          1.05761
+           15.25          1.05597
+           15.35          1.05361
+           15.45          1.05213
+           15.55          1.04992
+           15.65          1.04827
+           15.75          1.04597
+           15.85          1.04496
+           15.95          1.04315
+           16.05          1.04022
+           16.15          1.03863
+           16.25          1.03759
+           16.35          1.03607
+           16.45          1.03428
+           16.55          1.03483
+           16.65          1.03198
+           16.75          1.03156
+           16.85          1.03085
+           16.95          1.02972
+           17.05          1.02862
+           17.15          1.02864
+           17.25          1.02771
+           17.35          1.02816
+           17.45          1.02721
+           17.55          1.02639
+           17.65          1.02628
+           17.75          1.02613
+           17.85          1.02596
+           17.95          1.02578
+           18.05          1.02587
+           18.15           1.0251
+           18.25          1.02536
+           18.35          1.02564
+           18.45          1.02546
+           18.55          1.02445
+           18.65          1.02512
+           18.75          1.02508
+           18.85          1.02496
+           18.95          1.02414
+           19.05          1.02409
+           19.15          1.02347
+           19.25          1.02322
+           19.35          1.02308
+           19.45          1.02255
+           19.55          1.02251
+           19.65          1.02167
+           19.75          1.02153
+           19.85          1.02148
+           19.95          1.02093
+           20.05          1.02034
+           20.15           1.0199
+           20.25          1.01922
+           20.35          1.01908
+           20.45          1.01814
+           20.55          1.01835
+           20.65          1.01696
+           20.75          1.01656
+           20.85          1.01602
+           20.95          1.01616
+           21.05          1.01516
+           21.15          1.01487
+           21.25          1.01483
+           21.35           1.0139
+           21.45          1.01337
+           21.55           1.0137
+           21.65          1.01336
+           21.75          1.01272
+           21.85          1.01267
+           21.95            1.013
+           22.05          1.01209
+           22.15          1.01137
+           22.25          1.01198
+           22.35          1.01097
+           22.45          1.01116
+           22.55          1.01069
+           22.65          1.01055
+           22.75          1.01039
+           22.85          1.00967
+           22.95           1.0104
+           23.05          1.01007
+           23.15          1.00995
+           23.25          1.00977
+           23.35          1.00961
+           23.45          1.00965
+           23.55          1.00966
+           23.65          1.00928
+           23.75           1.0091
+           23.85           1.0089
+           23.95          1.00952
+           24.05          1.00886
+           24.15          1.00886
+           24.25          1.00816
+           24.35          1.00805
+           24.45          1.00773
+           24.55          1.00787
+           24.65           1.0072
+           24.75          1.00702
+           24.85          1.00714
+           24.95          1.00709
+           25.05          1.00652
+           25.15          1.00647
+           25.25          1.00645
+           25.35          1.00581
+           25.45          1.00537
+           25.55          1.00554
+           25.65          1.00536
+           25.75          1.00528
+           25.85           1.0054
+           25.95          1.00511
+           26.05          1.00529
+           26.15          1.00487
+           26.25          1.00457
+           26.35          1.00489
+           26.45          1.00438
+           26.55          1.00432
+           26.65          1.00391
+           26.75          1.00377
+           26.85          1.00398
+           26.95          1.00347
+           27.05          1.00405
+           27.15          1.00385
+           27.25          1.00379
+           27.35          1.00338
+           27.45          1.00351
+           27.55          1.00322
+           27.65          1.00326
+           27.75          1.00324
+           27.85          1.00271
+           27.95          1.00296
+           28.05          1.00313
+           28.15          1.00286
+           28.25          1.00283
+           28.35          1.00275
+           28.45          1.00261
+           28.55          1.00205
+           28.65          1.00201
+           28.75          1.00234
+           28.85          1.00206
+           28.95          1.00185
+           29.05          1.00135
+           29.15          1.00167
+           29.25          1.00118
+           29.35          1.00131
+           29.45          1.00149
+           29.55          1.00112
+           29.65          1.00149
+           29.75          1.00086
+           29.85          1.00099
+           29.95          1.00111
+           30.05          1.00105
+           30.15          1.00064
+           30.25          1.00046
+           30.35          1.00036
+           30.45           1.0005
+           30.55          1.00035
+           30.65         0.999958
+           30.75          1.00004
+           30.85         0.999986
+           30.95         0.999781
+           31.05         0.999542
+           31.15         0.999483
+           31.25         0.999309
+           31.35         0.999869
+           31.45         0.999436
+           31.55         0.999978
+           31.65         0.999664
+           31.75          0.99969
+           31.85         0.999431
+           31.95          0.99963
+           32.05         0.999423
+           32.15         0.999096
+           32.25         0.999209
+           32.35         0.999396
+           32.45          0.99913
+           32.55         0.999219
+           32.65          0.99835
+           32.75         0.998807
+           32.85         0.998554
+           32.95         0.998495
+           33.05         0.998272
+           33.15         0.998019
+           33.25         0.998153
+           33.35         0.998513
+           33.45         0.998115
+           33.55         0.998478
+           33.65         0.998427
+           33.75         0.998147
+           33.85         0.998427
+           33.95         0.998016
+           34.05         0.997473
+           34.15         0.998007
+           34.25         0.997991
+           34.35         0.997564
+           34.45         0.997923
+           34.55         0.997917
+           34.65         0.997957
+           34.75         0.997551
+           34.85         0.997481
+           34.95         0.997607
+           35.05         0.997753
+           35.15         0.997632
+           35.25         0.997458
+           35.35         0.997537
+           35.45         0.997225
+           35.55         0.997575
+           35.65         0.997602
+           35.75         0.997387
+           35.85         0.997799
+           35.95         0.997273
+           36.05         0.997354
+           36.15         0.997109
+           36.25         0.997514
+           36.35         0.997132
+           36.45         0.997232
+           36.55         0.996998
+           36.65         0.996757
+           36.75         0.997043
+           36.85         0.997362
+           36.95         0.997091
+           37.05         0.996784
+           37.15         0.997268
+           37.25         0.997414
+           37.35         0.997374
+           37.45         0.996933
+           37.55          0.99719
+           37.65         0.996892
+           37.75         0.997258
+           37.85         0.997012
+           37.95         0.997018
+           38.05         0.997302
+           38.15         0.997325
+           38.25         0.996967
+           38.35         0.997224
+           38.45          0.99711
+           38.55         0.996959
+           38.65         0.996514
+           38.75         0.996814
+           38.85         0.996876
+           38.95         0.996963
+           39.05         0.996859
+           39.15         0.996835
+           39.25         0.997057
+           39.35         0.996739
+           39.45         0.996849
+           39.55         0.996715
+           39.65          0.99654
+           39.75         0.996722
+           39.85         0.996638
+           39.95         0.997119
+           40.05         0.996804
+           40.15         0.996894
+           40.25         0.997362
+           40.35         0.997019
+           40.45         0.997021
+           40.55         0.997203
+           40.65         0.996891
+           40.75         0.997035
+           40.85         0.997233
+           40.95         0.997118
+           41.05         0.997407
+           41.15         0.997171
+           41.25         0.997136
+           41.35         0.997282
+           41.45         0.997143
+           41.55         0.997161
+           41.65         0.997369
+           41.75         0.997558
+           41.85         0.997404
+           41.95         0.997486
+           42.05         0.997585
+           42.15         0.997576
+           42.25         0.997875
+           42.35         0.997431
+           42.45         0.997515
+           42.55         0.997629
+           42.65         0.997553
+           42.75         0.997713
+           42.85         0.997987
+           42.95         0.997696
+           43.05         0.997816
+           43.15          0.99769
+           43.25         0.997763
+           43.35         0.997771
+           43.45          0.99785
+           43.55         0.997791
+           43.65         0.997442
+           43.75         0.997842
+           43.85         0.998021
+           43.95         0.997915
+           44.05          0.99772
+           44.15         0.998043
+           44.25         0.997649
+           44.35          0.99785
+           44.45         0.997757
+           44.55         0.997943
+           44.65         0.998008
+           44.75         0.998125
+           44.85         0.997897
+           44.95          0.99824
+           45.05         0.997969
+           45.15         0.998245
+           45.25         0.998543
+           45.35         0.998187
+           45.45         0.998099
+           45.55         0.998304
+           45.65          0.99841
+           45.75         0.998416
+           45.85         0.998348
+           45.95         0.998334
+           46.05         0.998555
+           46.15         0.998654
+           46.25         0.998372
+           46.35         0.998955
+           46.45         0.998532
+           46.55         0.998837
+           46.65         0.998488
+           46.75         0.999038
+           46.85          0.99869
+           46.95         0.998704
+           47.05          0.99866
+           47.15         0.998795
+           47.25          0.99862
+           47.35         0.998542
+           47.45         0.998895
+           47.55         0.998645
+           47.65         0.998689
+           47.75         0.998707
+           47.85         0.998818
+           47.95         0.999009
+           48.05         0.998799
+           48.15         0.998586
+           48.25         0.998737
+           48.35         0.998954
+           48.45         0.999171
+           48.55         0.998837
+           48.65         0.998892
+           48.75         0.998793
+           48.85         0.998816
+           48.95         0.998762
+           49.05         0.998908
+           49.15         0.998737
+           49.25         0.998833
+           49.35         0.999015
+           49.45         0.998687
+           49.55         0.998653
+           49.65         0.998829
+           49.75         0.998802
+           49.85         0.999043
+           49.95         0.999124
+           50.05         0.998983
+           50.15         0.998965
+           50.25         0.998672
+           50.35         0.998916
+           50.45         0.998926
+           50.55          0.99903
+           50.65         0.998816
+           50.75          0.99869
+           50.85         0.998774
+           50.95         0.999112
+           51.05         0.999121
+           51.15          0.99903
+           51.25          0.99908
+           51.35         0.998817
+           51.45         0.998842
+           51.55         0.999226
+           51.65         0.998942
+           51.75         0.998636
+           51.85         0.998661
+           51.95          0.99894
+           52.05         0.998931
+           52.15         0.999015
+           52.25         0.998942
+           52.35         0.999037
+           52.45         0.998892
+           52.55         0.999042
+           52.65         0.999015
+           52.75         0.999098
+           52.85         0.998741
+           52.95         0.998911
+           53.05         0.999165
+           53.15         0.999031
+           53.25         0.998908
+           53.35         0.998911
+           53.45         0.999086
+           53.55         0.999007
+           53.65         0.999106
+           53.75          0.99899
+           53.85         0.999029
+           53.95         0.999044
+           54.05         0.998677
+           54.15         0.998776
+           54.25         0.999042
+           54.35         0.998854
+           54.45         0.998947
+           54.55         0.998983
+           54.65         0.998817
+           54.75         0.998966
+           54.85          0.99889
+           54.95         0.999047
+           55.05         0.998881
+           55.15         0.998905
+           55.25         0.998718
+           55.35           0.9988
+           55.45          0.99876
+           55.55         0.998847
+           55.65         0.998694
+           55.75         0.998586
+           55.85         0.998786
+           55.95         0.998975
+           56.05         0.998732
+           56.15         0.998811
+           56.25         0.998679
+           56.35           0.9987
+           56.45         0.998625
+           56.55         0.998756
+           56.65         0.998821
+           56.75         0.998589
+           56.85         0.998748
+           56.95         0.998546
+           57.05         0.998475
+           57.15         0.998571
+           57.25         0.998699
+           57.35         0.998583
+           57.45         0.998592
+           57.55         0.998493
+           57.65         0.998556
+           57.75         0.998502
+           57.85         0.998457
+           57.95         0.998624
+           58.05         0.998391
+           58.15         0.998622
+           58.25         0.998571
+           58.35         0.998645
+           58.45         0.998841
+           58.55         0.998332
+           58.65         0.998628
+           58.75         0.998546
+           58.85         0.998555
+           58.95         0.998474
+           59.05         0.998445
+           59.15         0.998449
+           59.25         0.998541
+           59.35         0.998482
+           59.45         0.998352
+           59.55          0.99831
+           59.65         0.998568
+           59.75         0.998667
+           59.85         0.998477
+           59.95         0.998135
+           60.05         0.998499
+           60.15          0.99837
+           60.25         0.998449
+           60.35         0.998342
+           60.45         0.998526
+           60.55         0.998143
+           60.65          0.99839
+           60.75         0.998188
+           60.85         0.998377
+           60.95         0.998358
+           61.05         0.998358
+           61.15         0.998372
+           61.25         0.998428
+           61.35         0.998266
+           61.45         0.998428
+           61.55         0.998446
+           61.65         0.998522
+           61.75         0.998449
+           61.85         0.998449
+           61.95         0.998362
+           62.05         0.998408
+           62.15         0.998437
+           62.25         0.998567
+           62.35         0.998559
+           62.45         0.998539
+           62.55         0.998815
+           62.65         0.998437
+           62.75         0.998457
+           62.85         0.998424
+           62.95         0.998452
+           63.05         0.998649
+           63.15         0.998381
+           63.25         0.998367
+           63.35         0.998465
+           63.45          0.99842
+           63.55         0.998311
+           63.65         0.998357
+           63.75         0.998459
+           63.85          0.99842
+           63.95         0.998392
+           64.05         0.998239
+           64.15          0.99841
+           64.25         0.998527
+           64.35          0.99852
+           64.45          0.99839
+           64.55         0.998436
+           64.65         0.998399
+           64.75          0.99843
+           64.85         0.998329
+           64.95         0.998317
+           65.05         0.998263
+           65.15         0.998259
+           65.25         0.998255
+           65.35         0.998335
+           65.45          0.99822
+           65.55          0.99818
+           65.65         0.998104
+           65.75         0.998153
+           65.85         0.998322
+           65.95         0.998317
+           66.05         0.998218
+           66.15         0.998254
+           66.25         0.998366
+           66.35         0.998412
+           66.45         0.998467
+           66.55         0.998313
+           66.65         0.998274
+           66.75         0.998373
+           66.85         0.998404
+           66.95          0.99838
+&

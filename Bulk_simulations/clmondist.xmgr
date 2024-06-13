@@ -1,0 +1,1010 @@
+# ACE/gr parameter file
+#
+@version 40102
+@page layout free
+@ps linewidth begin 1
+@ps linewidth increment 2
+@hardcopy device 1
+@page 5
+@page inout 5
+@link page off
+@default linestyle 1
+@default linewidth 1
+@default color 1
+@default char size 1.000000
+@default font 4
+@default font source 0
+@default symbol size 1.000000
+@timestamp off
+@timestamp 0.03, 0.03
+@timestamp linewidth 1
+@timestamp color 1
+@timestamp rot 0
+@timestamp font 4
+@timestamp char size 1.000000
+@timestamp def "Mon Feb 19 11:38:19 2024"
+@with g0
+@g0 on
+@g0 label off
+@g0 hidden false
+@g0 type xy
+@g0 autoscale type AUTO
+@g0 fixedpoint off
+@g0 fixedpoint type 0
+@g0 fixedpoint xy 0.000000, 0.000000
+@g0 fixedpoint format general general
+@g0 fixedpoint prec 6, 6
+@    world xmin -0
+@    world xmax 100
+@    world ymin 0
+@    world ymax 0.025
+@    stack world 0, 0, 0, 0 tick 0, 0, 0, 0
+@    view xmin 0.150000
+@    view xmax 0.850000
+@    view ymin 0.150000
+@    view ymax 0.850000
+@    title ""
+@    title font 4
+@    title size 2.000000
+@    title color 1
+@    title linewidth 1
+@    subtitle ""
+@    subtitle font 4
+@    subtitle size 1.450000
+@    subtitle color 1
+@    subtitle linewidth 1
+@    s0 symbol 0
+@    s0 symbol size 1.000000
+@    s0 symbol fill 0
+@    s0 symbol color 1
+@    s0 symbol linewidth 1
+@    s0 symbol linestyle 1
+@    s0 symbol center false
+@    s0 symbol char 0
+@    s0 skip 0
+@    s0 linestyle 1
+@    s0 linewidth 5
+@    s0 color 1
+@    s0 fill 0
+@    s0 fill with color
+@    s0 fill color 1
+@    s0 fill pattern 0
+@    s0 errorbar type BOTH
+@    s0 errorbar length 1.000000
+@    s0 errorbar linewidth 1
+@    s0 errorbar linestyle 1
+@    s0 errorbar riser on
+@    s0 errorbar riser linewidth 1
+@    s0 errorbar riser linestyle 1
+@    s0 xyz 0.000000, 0.000000
+@    s0 comment "30-pt. avg. on set 2 "
+@    s1 symbol 0
+@    s1 symbol size 1.000000
+@    s1 symbol fill 0
+@    s1 symbol color 2
+@    s1 symbol linewidth 1
+@    s1 symbol linestyle 1
+@    s1 symbol center false
+@    s1 symbol char 0
+@    s1 skip 0
+@    s1 linestyle 1
+@    s1 linewidth 5
+@    s1 color 2
+@    s1 fill 0
+@    s1 fill with color
+@    s1 fill color 1
+@    s1 fill pattern 0
+@    s1 errorbar type BOTH
+@    s1 errorbar length 1.000000
+@    s1 errorbar linewidth 1
+@    s1 errorbar linestyle 1
+@    s1 errorbar riser on
+@    s1 errorbar riser linewidth 1
+@    s1 errorbar riser linestyle 1
+@    s1 xyz 0.000000, 0.000000
+@    s1 comment "y = a0*exp(-x/10.574)/x"
+@    s2 symbol 0
+@    s2 symbol size 1.000000
+@    s2 symbol fill 0
+@    s2 symbol color 15
+@    s2 symbol linewidth 1
+@    s2 symbol linestyle 1
+@    s2 symbol center false
+@    s2 symbol char 0
+@    s2 skip 0
+@    s2 linestyle 1
+@    s2 linewidth 5
+@    s2 color 15
+@    s2 fill 0
+@    s2 fill with color
+@    s2 fill color 1
+@    s2 fill pattern 0
+@    s2 errorbar type BOTH
+@    s2 errorbar length 1.000000
+@    s2 errorbar linewidth 1
+@    s2 errorbar linestyle 1
+@    s2 errorbar riser on
+@    s2 errorbar riser linewidth 1
+@    s2 errorbar riser linestyle 1
+@    s2 xyz 0.000000, 0.000000
+@    s2 comment "/Users/janforsman/hongdo/RPM/tests_HDstruct/primitivemodel_nonrestricted/MI/muex_bch/reversewid/clm/varying_epsr/rwid/D3/cielc23_L134/L200/N5000/sumrdf"
+@    xaxis  tick on
+@    xaxis  tick major 20
+@    xaxis  tick minor 10
+@    xaxis  tick offsetx 0.000000
+@    xaxis  tick offsety 0.000000
+@    xaxis  label "\1cluster size, N\sc"
+@    xaxis  label layout para
+@    xaxis  label place auto
+@    xaxis  label char size 2.010000
+@    xaxis  label font 4
+@    xaxis  label color 1
+@    xaxis  label linewidth 1
+@    xaxis  ticklabel on
+@    xaxis  ticklabel type auto
+@    xaxis  ticklabel prec 5
+@    xaxis  ticklabel format general
+@    xaxis  ticklabel append ""
+@    xaxis  ticklabel prepend ""
+@    xaxis  ticklabel layout horizontal
+@    xaxis  ticklabel place on ticks
+@    xaxis  ticklabel skip 0
+@    xaxis  ticklabel stagger 0
+@    xaxis  ticklabel op bottom
+@    xaxis  ticklabel sign normal
+@    xaxis  ticklabel start type auto
+@    xaxis  ticklabel start 0.000000
+@    xaxis  ticklabel stop type auto
+@    xaxis  ticklabel stop 0.000000
+@    xaxis  ticklabel char size 1.450000
+@    xaxis  ticklabel font 1
+@    xaxis  ticklabel color 1
+@    xaxis  ticklabel linewidth 1
+@    xaxis  tick major on
+@    xaxis  tick minor on
+@    xaxis  tick default 6
+@    xaxis  tick in
+@    xaxis  tick major color 1
+@    xaxis  tick major linewidth 5
+@    xaxis  tick major linestyle 1
+@    xaxis  tick minor color 1
+@    xaxis  tick minor linewidth 4
+@    xaxis  tick minor linestyle 1
+@    xaxis  tick log off
+@    xaxis  tick size 1.000000
+@    xaxis  tick minor size 0.500000
+@    xaxis  bar off
+@    xaxis  bar color 1
+@    xaxis  bar linestyle 1
+@    xaxis  bar linewidth 1
+@    xaxis  tick major grid off
+@    xaxis  tick minor grid off
+@    xaxis  tick op bottom
+@    xaxis  tick type auto
+@    xaxis  tick spec 0
+@    yaxis  tick on
+@    yaxis  tick major 0.01
+@    yaxis  tick minor 0.005
+@    yaxis  tick offsetx 0.000000
+@    yaxis  tick offsety 0.000000
+@    yaxis  label "\1fraction of monomers in cluster of size N\sc"
+@    yaxis  label layout para
+@    yaxis  label place auto
+@    yaxis  label char size 1.430000
+@    yaxis  label font 4
+@    yaxis  label color 1
+@    yaxis  label linewidth 1
+@    yaxis  ticklabel on
+@    yaxis  ticklabel type auto
+@    yaxis  ticklabel prec 5
+@    yaxis  ticklabel format general
+@    yaxis  ticklabel append ""
+@    yaxis  ticklabel prepend ""
+@    yaxis  ticklabel layout horizontal
+@    yaxis  ticklabel place on ticks
+@    yaxis  ticklabel skip 0
+@    yaxis  ticklabel stagger 0
+@    yaxis  ticklabel op left
+@    yaxis  ticklabel sign normal
+@    yaxis  ticklabel start type auto
+@    yaxis  ticklabel start 0.000000
+@    yaxis  ticklabel stop type auto
+@    yaxis  ticklabel stop 0.000000
+@    yaxis  ticklabel char size 1.450000
+@    yaxis  ticklabel font 1
+@    yaxis  ticklabel color 1
+@    yaxis  ticklabel linewidth 1
+@    yaxis  tick major on
+@    yaxis  tick minor on
+@    yaxis  tick default 6
+@    yaxis  tick in
+@    yaxis  tick major color 1
+@    yaxis  tick major linewidth 5
+@    yaxis  tick major linestyle 1
+@    yaxis  tick minor color 1
+@    yaxis  tick minor linewidth 4
+@    yaxis  tick minor linestyle 1
+@    yaxis  tick log off
+@    yaxis  tick size 1.000000
+@    yaxis  tick minor size 0.500000
+@    yaxis  bar off
+@    yaxis  bar color 1
+@    yaxis  bar linestyle 1
+@    yaxis  bar linewidth 1
+@    yaxis  tick major grid off
+@    yaxis  tick minor grid off
+@    yaxis  tick op left
+@    yaxis  tick type auto
+@    yaxis  tick spec 0
+@    zeroxaxis  tick on
+@    zeroxaxis  tick major 20
+@    zeroxaxis  tick minor 10
+@    zeroxaxis  tick offsetx 0.000000
+@    zeroxaxis  tick offsety 0.000000
+@    zeroxaxis  label ""
+@    zeroxaxis  label layout para
+@    zeroxaxis  label place auto
+@    zeroxaxis  label char size 1.000000
+@    zeroxaxis  label font 4
+@    zeroxaxis  label color 1
+@    zeroxaxis  label linewidth 1
+@    zeroxaxis  ticklabel off
+@    zeroxaxis  ticklabel type auto
+@    zeroxaxis  ticklabel prec 5
+@    zeroxaxis  ticklabel format general
+@    zeroxaxis  ticklabel append ""
+@    zeroxaxis  ticklabel prepend ""
+@    zeroxaxis  ticklabel layout horizontal
+@    zeroxaxis  ticklabel place on ticks
+@    zeroxaxis  ticklabel skip 0
+@    zeroxaxis  ticklabel stagger 0
+@    zeroxaxis  ticklabel op bottom
+@    zeroxaxis  ticklabel sign normal
+@    zeroxaxis  ticklabel start type auto
+@    zeroxaxis  ticklabel start 0.000000
+@    zeroxaxis  ticklabel stop type auto
+@    zeroxaxis  ticklabel stop 0.000000
+@    zeroxaxis  ticklabel char size 1.450000
+@    zeroxaxis  ticklabel font 1
+@    zeroxaxis  ticklabel color 1
+@    zeroxaxis  ticklabel linewidth 1
+@    zeroxaxis  tick major off
+@    zeroxaxis  tick minor on
+@    zeroxaxis  tick default 6
+@    zeroxaxis  tick in
+@    zeroxaxis  tick major color 1
+@    zeroxaxis  tick major linewidth 5
+@    zeroxaxis  tick major linestyle 1
+@    zeroxaxis  tick minor color 1
+@    zeroxaxis  tick minor linewidth 4
+@    zeroxaxis  tick minor linestyle 1
+@    zeroxaxis  tick log off
+@    zeroxaxis  tick size 1.000000
+@    zeroxaxis  tick minor size 0.500000
+@    zeroxaxis  bar off
+@    zeroxaxis  bar color 1
+@    zeroxaxis  bar linestyle 1
+@    zeroxaxis  bar linewidth 1
+@    zeroxaxis  tick major grid off
+@    zeroxaxis  tick minor grid off
+@    zeroxaxis  tick op bottom
+@    zeroxaxis  tick type auto
+@    zeroxaxis  tick spec 0
+@    zeroyaxis  tick on
+@    zeroyaxis  tick major 0.01
+@    zeroyaxis  tick minor 0.005
+@    zeroyaxis  tick offsetx 0.000000
+@    zeroyaxis  tick offsety 0.000000
+@    zeroyaxis  label ""
+@    zeroyaxis  label layout para
+@    zeroyaxis  label place auto
+@    zeroyaxis  label char size 1.000000
+@    zeroyaxis  label font 4
+@    zeroyaxis  label color 1
+@    zeroyaxis  label linewidth 1
+@    zeroyaxis  ticklabel off
+@    zeroyaxis  ticklabel type auto
+@    zeroyaxis  ticklabel prec 5
+@    zeroyaxis  ticklabel format general
+@    zeroyaxis  ticklabel append ""
+@    zeroyaxis  ticklabel prepend ""
+@    zeroyaxis  ticklabel layout horizontal
+@    zeroyaxis  ticklabel place on ticks
+@    zeroyaxis  ticklabel skip 0
+@    zeroyaxis  ticklabel stagger 0
+@    zeroyaxis  ticklabel op left
+@    zeroyaxis  ticklabel sign normal
+@    zeroyaxis  ticklabel start type auto
+@    zeroyaxis  ticklabel start 0.000000
+@    zeroyaxis  ticklabel stop type auto
+@    zeroyaxis  ticklabel stop 0.000000
+@    zeroyaxis  ticklabel char size 1.450000
+@    zeroyaxis  ticklabel font 1
+@    zeroyaxis  ticklabel color 1
+@    zeroyaxis  ticklabel linewidth 1
+@    zeroyaxis  tick major off
+@    zeroyaxis  tick minor on
+@    zeroyaxis  tick default 6
+@    zeroyaxis  tick in
+@    zeroyaxis  tick major color 1
+@    zeroyaxis  tick major linewidth 5
+@    zeroyaxis  tick major linestyle 1
+@    zeroyaxis  tick minor color 1
+@    zeroyaxis  tick minor linewidth 4
+@    zeroyaxis  tick minor linestyle 1
+@    zeroyaxis  tick log off
+@    zeroyaxis  tick size 1.000000
+@    zeroyaxis  tick minor size 0.500000
+@    zeroyaxis  bar off
+@    zeroyaxis  bar color 1
+@    zeroyaxis  bar linestyle 1
+@    zeroyaxis  bar linewidth 1
+@    zeroyaxis  tick major grid off
+@    zeroyaxis  tick minor grid off
+@    zeroyaxis  tick op left
+@    zeroyaxis  tick type auto
+@    zeroyaxis  tick spec 0
+@    legend on
+@    legend loctype view
+@    legend layout 0
+@    legend vgap 3
+@    legend hgap 1
+@    legend length 3
+@    legend box off
+@    legend box fill off
+@    legend box fill with color
+@    legend box fill color 0
+@    legend box fill pattern 1
+@    legend box color 1
+@    legend box linewidth 1
+@    legend box linestyle 1
+@    legend x1 0.43
+@    legend y1 0.7
+@    legend font 4
+@    legend char size 2.000000
+@    legend linestyle 1
+@    legend linewidth 1
+@    legend color 1
+@    legend string 0 "\10.25M"
+@    legend string 1 "\11M"
+@    legend string 2 "\13M"
+@    frame on
+@    frame type 1
+@    frame linestyle 1
+@    frame linewidth 5
+@    frame color 1
+@    frame fill off
+@    frame background color 0
+@WITH G0
+@G0 ON
+@TARGET S0
+@TYPE xy
+               1         0.322827
+               2         0.356182
+               3         0.132055
+               4        0.0914909
+               5        0.0383182
+               6        0.0257455
+               7        0.0131091
+               8        0.0100364
+               9       0.00319091
+              10       0.00327273
+              11           0.0012
+              12       0.00109091
+              13      0.000354545
+              14      0.000509091
+              15      0.000136364
+              16                0
+              17      0.000309091
+              18                0
+              19      0.000172727
+&
+@TARGET S1
+@TYPE xy
+               1         0.149333
+               2         0.199889
+               3         0.116333
+               4         0.102356
+               5        0.0704444
+               6        0.0602667
+               7        0.0454611
+               8        0.0400444
+               9           0.0297
+              10        0.0267778
+              11        0.0201667
+              12        0.0179333
+              13        0.0155278
+              14        0.0135333
+              15        0.0129167
+              16       0.00968889
+              17       0.00878333
+              18           0.0085
+              19          0.00665
+              20       0.00566667
+              21       0.00548333
+              22       0.00354444
+              23       0.00268333
+              24       0.00306667
+              25       0.00263889
+              26       0.00187778
+              27           0.0021
+              28       0.00217778
+              29       0.00177222
+              30           0.0015
+              31       0.00120556
+              32       0.00106667
+              33          0.00055
+              34      0.000377778
+              35      0.000583333
+              36           0.0022
+              37       0.00123333
+              38      0.000633333
+              39      0.000433333
+              40      0.000222222
+              41      0.000683333
+              42      0.000233333
+              43      0.000238889
+              44      0.000488889
+              45           0.0005
+              46      0.000255556
+              47      0.000522222
+              48      0.000266667
+              49      0.000272222
+              50                0
+              51      0.000283333
+              52                0
+              53      0.000294444
+              54           0.0003
+              55                0
+              56                0
+              57                0
+              58                0
+              59                0
+              60                0
+              61      0.000338889
+&
+@TARGET S2
+@TYPE xy
+               1        0.0694633
+               2        0.0841133
+               3          0.05645
+               4        0.0507067
+               5        0.0389833
+               6          0.03508
+               7        0.0276033
+               8        0.0265067
+               9          0.02397
+              10        0.0200333
+              11        0.0187733
+              12          0.01592
+              13        0.0168567
+              14        0.0141867
+              15          0.01505
+              16            0.012
+              17          0.01292
+              18          0.01158
+              19       0.00975333
+              20        0.0106667
+              21           0.0098
+              22          0.00924
+              23       0.00820333
+              24          0.00944
+              25       0.00716667
+              26       0.00745333
+              27          0.00873
+              28       0.00634667
+              29       0.00676667
+              30           0.0062
+              31       0.00702667
+              32       0.00533333
+              33          0.00605
+              34       0.00668667
+              35          0.00595
+              36          0.00672
+              37          0.00518
+              38       0.00557333
+              39          0.00442
+              40       0.00333333
+              41       0.00560333
+              42          0.00378
+              43       0.00444333
+              44          0.00396
+              45          0.00465
+              46       0.00398667
+              47          0.00423
+              48            0.004
+              49       0.00277667
+              50            0.003
+              51           0.0034
+              52          0.00416
+              53       0.00300333
+              54          0.00378
+              55           0.0044
+              56          0.00336
+              57          0.00247
+              58       0.00386667
+              59       0.00275333
+              60           0.0034
+              61       0.00325333
+              62           0.0031
+              63          0.00336
+              64       0.00298667
+              65       0.00238333
+              66           0.0011
+              67          0.00268
+              68       0.00317333
+              69          0.00138
+              70           0.0028
+              71          0.00213
+              72           0.0012
+              73       0.00243333
+              74       0.00246667
+              75            0.002
+              76           0.0038
+              77       0.00282333
+              78          0.00234
+              79          0.00158
+              80       0.00266667
+              81          0.00351
+              82       0.00109333
+              83       0.00221333
+              84           0.0028
+              85       0.00198333
+              86          0.00258
+              87          0.00116
+              88          0.00176
+              89       0.00118667
+              90           0.0027
+              91          0.00273
+              92       0.00214667
+              93          0.00217
+              94       0.00219333
+              95          0.00095
+              96          0.00224
+              97      0.000646667
+              98          0.00196
+              99          0.00231
+             100            0.002
+             101          0.00101
+             102          0.00272
+             103          0.00206
+             104          0.00104
+             105           0.0014
+             106      0.000706667
+             107      0.000356667
+             108          0.00144
+             109       0.00181667
+             110      0.000366667
+             111          0.00111
+             112      0.000373333
+             113      0.000753333
+             114          0.00304
+             115                0
+             116          0.00116
+             117          0.00195
+             118      0.000393333
+             119      0.000396667
+             120           0.0016
+             121      0.000806667
+             122      0.000406667
+             123          0.00123
+             124       0.00165333
+             125       0.00208333
+             126          0.00126
+             127      0.000846667
+             128                0
+             129          0.00086
+             130           0.0013
+             131      0.000873333
+             132          0.00088
+             133      0.000886667
+             134      0.000446667
+             135          0.00045
+             136      0.000906667
+             137                0
+             138          0.00046
+             139      0.000926667
+             140                0
+             141          0.00094
+             142      0.000946667
+             143      0.000953333
+             144          0.00096
+             145      0.000483333
+             146                0
+             147                0
+             148      0.000986667
+             149      0.000496667
+             150            0.001
+             151      0.000503333
+             152      0.000506667
+             153                0
+             154      0.000513333
+             155       0.00206667
+             156          0.00104
+             157      0.000523333
+             158       0.00105333
+             159          0.00265
+             160           0.0016
+             161       0.00107333
+             162          0.00054
+             163      0.000543333
+             164      0.000546667
+             165                0
+             166                0
+             167      0.000556667
+             168          0.00056
+             169                0
+             170                0
+             171          0.00114
+             172      0.000573333
+             173                0
+             174                0
+             175      0.000583333
+             176                0
+             177          0.00118
+             178          0.00178
+             179                0
+             180                0
+             181                0
+             182          0.00182
+             183                0
+             184                0
+             185      0.000616667
+             186          0.00062
+             187          0.00187
+             188                0
+             189                0
+             190                0
+             191                0
+             192                0
+             193                0
+             194                0
+             195           0.0013
+             196          0.00392
+             197                0
+             198          0.00066
+             199                0
+             200       0.00133333
+             201                0
+             202       0.00269333
+             203                0
+             204          0.00068
+             205       0.00136667
+             206      0.000686667
+             207                0
+             208      0.000693333
+             209                0
+             210           0.0007
+             211                0
+             212      0.000706667
+             213          0.00071
+             214          0.00214
+             215       0.00143333
+             216                0
+             217       0.00144667
+             218      0.000726667
+             219          0.00073
+             220                0
+             221                0
+             222                0
+             223                0
+             224                0
+             225          0.00075
+             226                0
+             227                0
+             228          0.00228
+             229                0
+             230                0
+             231          0.00077
+             232                0
+             233      0.000776667
+             234                0
+             235      0.000783333
+             236                0
+             237                0
+             238                0
+             239                0
+             240                0
+             241      0.000803333
+             242                0
+             243                0
+             244                0
+             245                0
+             246                0
+             247                0
+             248                0
+             249          0.00083
+             250                0
+             251                0
+             252          0.00168
+             253       0.00168667
+             254      0.000846667
+             255          0.00085
+             256                0
+             257      0.000856667
+             258                0
+             259                0
+             260                0
+             261                0
+             262                0
+             263                0
+             264                0
+             265                0
+             266                0
+             267                0
+             268                0
+             269                0
+             270                0
+             271                0
+             272      0.000906667
+             273                0
+             274                0
+             275                0
+             276                0
+             277                0
+             278                0
+             279                0
+             280                0
+             281                0
+             282                0
+             283                0
+             284                0
+             285                0
+             286      0.000953333
+             287                0
+             288                0
+             289                0
+             290                0
+             291                0
+             292                0
+             293                0
+             294                0
+             295                0
+             296                0
+             297                0
+             298                0
+             299                0
+             300                0
+             301                0
+             302                0
+             303                0
+             304                0
+             305                0
+             306          0.00102
+             307       0.00102333
+             308                0
+             309                0
+             310                0
+             311                0
+             312                0
+             313                0
+             314                0
+             315                0
+             316                0
+             317                0
+             318                0
+             319                0
+             320                0
+             321                0
+             322                0
+             323                0
+             324                0
+             325       0.00108333
+             326                0
+             327                0
+             328       0.00109333
+             329                0
+             330                0
+             331                0
+             332                0
+             333                0
+             334                0
+             335                0
+             336                0
+             337                0
+             338       0.00112667
+             339                0
+             340                0
+             341                0
+             342                0
+             343                0
+             344                0
+             345                0
+             346                0
+             347                0
+             348                0
+             349                0
+             350                0
+             351                0
+             352                0
+             353                0
+             354                0
+             355                0
+             356                0
+             357                0
+             358                0
+             359                0
+             360                0
+             361                0
+             362                0
+             363                0
+             364                0
+             365       0.00121667
+             366                0
+             367                0
+             368                0
+             369                0
+             370       0.00123333
+             371                0
+             372                0
+             373                0
+             374       0.00124667
+             375                0
+             376                0
+             377                0
+             378                0
+             379                0
+             380       0.00126667
+             381                0
+             382                0
+             383                0
+             384                0
+             385                0
+             386                0
+             387                0
+             388                0
+             389                0
+             390                0
+             391                0
+             392                0
+             393                0
+             394                0
+             395                0
+             396                0
+             397                0
+             398                0
+             399                0
+             400       0.00133333
+             401       0.00133667
+             402                0
+             403                0
+             404                0
+             405                0
+             406                0
+             407                0
+             408                0
+             409                0
+             410                0
+             411                0
+             412                0
+             413                0
+             414                0
+             415       0.00138333
+             416                0
+             417                0
+             418                0
+             419                0
+             420                0
+             421       0.00140333
+             422                0
+             423                0
+             424                0
+             425                0
+             426                0
+             427                0
+             428                0
+             429                0
+             430                0
+             431                0
+             432                0
+             433                0
+             434                0
+             435                0
+             436                0
+             437                0
+             438                0
+             439                0
+             440                0
+             441                0
+             442                0
+             443                0
+             444                0
+             445                0
+             446                0
+             447                0
+             448                0
+             449                0
+             450                0
+             451                0
+             452                0
+             453                0
+             454                0
+             455                0
+             456                0
+             457                0
+             458                0
+             459                0
+             460                0
+             461                0
+             462                0
+             463                0
+             464                0
+             465                0
+             466                0
+             467                0
+             468                0
+             469                0
+             470                0
+             471                0
+             472                0
+             473                0
+             474                0
+             475                0
+             476       0.00158667
+             477                0
+             478                0
+             479                0
+             480                0
+             481                0
+             482                0
+             483                0
+             484                0
+             485                0
+             486                0
+             487                0
+             488                0
+             489                0
+             490                0
+             491                0
+             492                0
+             493                0
+             494                0
+             495                0
+             496                0
+             497                0
+             498                0
+             499                0
+             500                0
+             501                0
+             502                0
+             503                0
+             504                0
+             505                0
+             506                0
+             507                0
+             508       0.00169333
+             509                0
+             510                0
+             511                0
+             512                0
+             513                0
+             514                0
+             515                0
+             516                0
+             517                0
+             518                0
+             519                0
+             520                0
+             521                0
+             522                0
+             523                0
+             524                0
+             525                0
+             526                0
+             527                0
+             528                0
+             529                0
+             530                0
+             531                0
+             532                0
+             533                0
+             534                0
+             535                0
+             536                0
+             537                0
+             538                0
+             539                0
+             540                0
+             541                0
+             542       0.00180667
+&

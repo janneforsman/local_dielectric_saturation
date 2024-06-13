@@ -1,0 +1,2537 @@
+# ACE/gr parameter file
+#
+@version 40102
+@page layout free
+@ps linewidth begin 1
+@ps linewidth increment 2
+@hardcopy device 1
+@page 5
+@page inout 5
+@link page off
+@default linestyle 1
+@default linewidth 1
+@default color 1
+@default char size 1.000000
+@default font 4
+@default font source 0
+@default symbol size 1.000000
+@timestamp off
+@timestamp 0.03, 0.03
+@timestamp linewidth 1
+@timestamp color 1
+@timestamp rot 0
+@timestamp font 4
+@timestamp char size 1.000000
+@timestamp def "Thu Apr 18 08:59:11 2024"
+@with g0
+@g0 on
+@g0 label off
+@g0 hidden false
+@g0 type xy
+@g0 autoscale type AUTO
+@g0 fixedpoint off
+@g0 fixedpoint type 0
+@g0 fixedpoint xy 0.000000, 0.000000
+@g0 fixedpoint format general general
+@g0 fixedpoint prec 6, 6
+@    world xmin 10
+@    world xmax 40
+@    world ymin -0.025
+@    world ymax 0.175
+@    stack world 0, 0, 0, 0 tick 0, 0, 0, 0
+@    view xmin 0.150000
+@    view xmax 0.850000
+@    view ymin 0.150000
+@    view ymax 0.850000
+@    title "\1slit with negatively charged walls, separated 50\cE\C"
+@    title font 0
+@    title size 2.000000
+@    title color 1
+@    title linewidth 1
+@    subtitle ""
+@    subtitle font 0
+@    subtitle size 1.450000
+@    subtitle color 1
+@    subtitle linewidth 1
+@    s0 symbol 0
+@    s0 symbol size 1.000000
+@    s0 symbol fill 0
+@    s0 symbol color 1
+@    s0 symbol linewidth 1
+@    s0 symbol linestyle 1
+@    s0 symbol center false
+@    s0 symbol char 0
+@    s0 skip 0
+@    s0 linestyle 1
+@    s0 linewidth 5
+@    s0 color 1
+@    s0 fill 0
+@    s0 fill with color
+@    s0 fill color 1
+@    s0 fill pattern 0
+@    s0 errorbar type BOTH
+@    s0 errorbar length 1.000000
+@    s0 errorbar linewidth 1
+@    s0 errorbar linestyle 1
+@    s0 errorbar riser on
+@    s0 errorbar riser linewidth 1
+@    s0 errorbar riser linestyle 1
+@    s0 xyz 0.000000, 0.000000
+@    s0 comment "1M/large_N800/fk0.5_cdielc20/sumrdf"
+@    s1 symbol 0
+@    s1 symbol size 1.000000
+@    s1 symbol fill 0
+@    s1 symbol color 2
+@    s1 symbol linewidth 1
+@    s1 symbol linestyle 1
+@    s1 symbol center false
+@    s1 symbol char 0
+@    s1 skip 0
+@    s1 linestyle 1
+@    s1 linewidth 5
+@    s1 color 2
+@    s1 fill 0
+@    s1 fill with color
+@    s1 fill color 1
+@    s1 fill pattern 0
+@    s1 errorbar type BOTH
+@    s1 errorbar length 1.000000
+@    s1 errorbar linewidth 1
+@    s1 errorbar linestyle 1
+@    s1 errorbar riser on
+@    s1 errorbar riser linewidth 1
+@    s1 errorbar riser linestyle 1
+@    s1 xyz 0.000000, 0.000000
+@    s1 comment "/Users/janforsman/hongdo/RPM/tests_HDstruct/primitivemodel_nonrestricted/MI/muex_bch/reversewid/modsture/MI/bothpolable/varying_epsr/fullclm/onlyanion_polable/chargedwalls/negwalls/ccdielc20/smallersys/higherconc/sumnzm"
+@    s2 symbol 0
+@    s2 symbol size 1.000000
+@    s2 symbol fill 0
+@    s2 symbol color 4
+@    s2 symbol linewidth 1
+@    s2 symbol linestyle 1
+@    s2 symbol center false
+@    s2 symbol char 0
+@    s2 skip 0
+@    s2 linestyle 1
+@    s2 linewidth 5
+@    s2 color 4
+@    s2 fill 0
+@    s2 fill with color
+@    s2 fill color 1
+@    s2 fill pattern 0
+@    s2 errorbar type BOTH
+@    s2 errorbar length 1.000000
+@    s2 errorbar linewidth 1
+@    s2 errorbar linestyle 1
+@    s2 errorbar riser on
+@    s2 errorbar riser linewidth 1
+@    s2 errorbar riser linestyle 1
+@    s2 xyz 0.000000, 0.000000
+@    s2 comment "/Users/janforsman/hongdo/RPM/tests_HDstruct/primitivemodel_nonrestricted/MI/muex_bch/reversewid/modsture/MI/bothpolable/varying_epsr/fullclm/onlyanion_polable/chargedwalls/negwalls/ccdielc20/smallersys/veryhighconc/sumnzm"
+@    s3 symbol 0
+@    s3 symbol size 1.000000
+@    s3 symbol fill 0
+@    s3 symbol color 2
+@    s3 symbol linewidth 1
+@    s3 symbol linestyle 1
+@    s3 symbol center false
+@    s3 symbol char 0
+@    s3 skip 0
+@    s3 linestyle 4
+@    s3 linewidth 7
+@    s3 color 2
+@    s3 fill 0
+@    s3 fill with color
+@    s3 fill color 1
+@    s3 fill pattern 0
+@    s3 errorbar type BOTH
+@    s3 errorbar length 1.000000
+@    s3 errorbar linewidth 1
+@    s3 errorbar linestyle 1
+@    s3 errorbar riser on
+@    s3 errorbar riser linewidth 1
+@    s3 errorbar riser linestyle 1
+@    s3 xyz 0.000000, 0.000000
+@    s3 comment "/Users/janforsman/manus/Text.localdielc/RPM_ecvar/graphs/deltanz_uniformec23"
+@    xaxis  tick on
+@    xaxis  tick major 10
+@    xaxis  tick minor 1
+@    xaxis  tick offsetx 0.000000
+@    xaxis  tick offsety 0.000000
+@    xaxis  label "\1z/\cE\c"
+@    xaxis  label layout para
+@    xaxis  label place auto
+@    xaxis  label char size 2.010000
+@    xaxis  label font 0
+@    xaxis  label color 1
+@    xaxis  label linewidth 1
+@    xaxis  ticklabel on
+@    xaxis  ticklabel type auto
+@    xaxis  ticklabel prec 5
+@    xaxis  ticklabel format general
+@    xaxis  ticklabel append ""
+@    xaxis  ticklabel prepend ""
+@    xaxis  ticklabel layout horizontal
+@    xaxis  ticklabel place on ticks
+@    xaxis  ticklabel skip 0
+@    xaxis  ticklabel stagger 0
+@    xaxis  ticklabel op bottom
+@    xaxis  ticklabel sign normal
+@    xaxis  ticklabel start type auto
+@    xaxis  ticklabel start 0.000000
+@    xaxis  ticklabel stop type auto
+@    xaxis  ticklabel stop 0.000000
+@    xaxis  ticklabel char size 1.450000
+@    xaxis  ticklabel font 0
+@    xaxis  ticklabel color 1
+@    xaxis  ticklabel linewidth 2
+@    xaxis  tick major on
+@    xaxis  tick minor on
+@    xaxis  tick default 6
+@    xaxis  tick in
+@    xaxis  tick major color 1
+@    xaxis  tick major linewidth 5
+@    xaxis  tick major linestyle 1
+@    xaxis  tick minor color 1
+@    xaxis  tick minor linewidth 4
+@    xaxis  tick minor linestyle 1
+@    xaxis  tick log off
+@    xaxis  tick size 1.000000
+@    xaxis  tick minor size 0.500000
+@    xaxis  bar off
+@    xaxis  bar color 1
+@    xaxis  bar linestyle 1
+@    xaxis  bar linewidth 1
+@    xaxis  tick major grid off
+@    xaxis  tick minor grid off
+@    xaxis  tick op bottom
+@    xaxis  tick type auto
+@    xaxis  tick spec 0
+@    yaxis  tick on
+@    yaxis  tick major 0.05
+@    yaxis  tick minor 0.025
+@    yaxis  tick offsetx 0.000000
+@    yaxis  tick offsety 0.000000
+@    yaxis  label "\8D\1n(z)/M"
+@    yaxis  label layout para
+@    yaxis  label place auto
+@    yaxis  label char size 2.010000
+@    yaxis  label font 0
+@    yaxis  label color 1
+@    yaxis  label linewidth 1
+@    yaxis  ticklabel on
+@    yaxis  ticklabel type auto
+@    yaxis  ticklabel prec 5
+@    yaxis  ticklabel format general
+@    yaxis  ticklabel append ""
+@    yaxis  ticklabel prepend ""
+@    yaxis  ticklabel layout horizontal
+@    yaxis  ticklabel place on ticks
+@    yaxis  ticklabel skip 0
+@    yaxis  ticklabel stagger 0
+@    yaxis  ticklabel op left
+@    yaxis  ticklabel sign normal
+@    yaxis  ticklabel start type auto
+@    yaxis  ticklabel start 0.000000
+@    yaxis  ticklabel stop type auto
+@    yaxis  ticklabel stop 0.000000
+@    yaxis  ticklabel char size 1.450000
+@    yaxis  ticklabel font 0
+@    yaxis  ticklabel color 1
+@    yaxis  ticklabel linewidth 2
+@    yaxis  tick major on
+@    yaxis  tick minor on
+@    yaxis  tick default 6
+@    yaxis  tick in
+@    yaxis  tick major color 1
+@    yaxis  tick major linewidth 5
+@    yaxis  tick major linestyle 1
+@    yaxis  tick minor color 1
+@    yaxis  tick minor linewidth 4
+@    yaxis  tick minor linestyle 1
+@    yaxis  tick log off
+@    yaxis  tick size 1.000000
+@    yaxis  tick minor size 0.500000
+@    yaxis  bar off
+@    yaxis  bar color 1
+@    yaxis  bar linestyle 1
+@    yaxis  bar linewidth 1
+@    yaxis  tick major grid off
+@    yaxis  tick minor grid off
+@    yaxis  tick op left
+@    yaxis  tick type auto
+@    yaxis  tick spec 0
+@    zeroxaxis  tick on
+@    zeroxaxis  tick major 20
+@    zeroxaxis  tick minor 10
+@    zeroxaxis  tick offsetx 0.000000
+@    zeroxaxis  tick offsety 0.000000
+@    zeroxaxis  label ""
+@    zeroxaxis  label layout para
+@    zeroxaxis  label place auto
+@    zeroxaxis  label char size 1.000000
+@    zeroxaxis  label font 4
+@    zeroxaxis  label color 1
+@    zeroxaxis  label linewidth 1
+@    zeroxaxis  ticklabel off
+@    zeroxaxis  ticklabel type auto
+@    zeroxaxis  ticklabel prec 5
+@    zeroxaxis  ticklabel format general
+@    zeroxaxis  ticklabel append ""
+@    zeroxaxis  ticklabel prepend ""
+@    zeroxaxis  ticklabel layout horizontal
+@    zeroxaxis  ticklabel place on ticks
+@    zeroxaxis  ticklabel skip 0
+@    zeroxaxis  ticklabel stagger 0
+@    zeroxaxis  ticklabel op bottom
+@    zeroxaxis  ticklabel sign normal
+@    zeroxaxis  ticklabel start type auto
+@    zeroxaxis  ticklabel start 0.000000
+@    zeroxaxis  ticklabel stop type auto
+@    zeroxaxis  ticklabel stop 0.000000
+@    zeroxaxis  ticklabel char size 1.450000
+@    zeroxaxis  ticklabel font 0
+@    zeroxaxis  ticklabel color 1
+@    zeroxaxis  ticklabel linewidth 2
+@    zeroxaxis  tick major off
+@    zeroxaxis  tick minor on
+@    zeroxaxis  tick default 6
+@    zeroxaxis  tick in
+@    zeroxaxis  tick major color 1
+@    zeroxaxis  tick major linewidth 5
+@    zeroxaxis  tick major linestyle 1
+@    zeroxaxis  tick minor color 1
+@    zeroxaxis  tick minor linewidth 4
+@    zeroxaxis  tick minor linestyle 1
+@    zeroxaxis  tick log off
+@    zeroxaxis  tick size 1.000000
+@    zeroxaxis  tick minor size 0.500000
+@    zeroxaxis  bar off
+@    zeroxaxis  bar color 1
+@    zeroxaxis  bar linestyle 1
+@    zeroxaxis  bar linewidth 1
+@    zeroxaxis  tick major grid off
+@    zeroxaxis  tick minor grid off
+@    zeroxaxis  tick op bottom
+@    zeroxaxis  tick type auto
+@    zeroxaxis  tick spec 0
+@    zeroyaxis  tick on
+@    zeroyaxis  tick major 5
+@    zeroyaxis  tick minor 2.5
+@    zeroyaxis  tick offsetx 0.000000
+@    zeroyaxis  tick offsety 0.000000
+@    zeroyaxis  label ""
+@    zeroyaxis  label layout para
+@    zeroyaxis  label place auto
+@    zeroyaxis  label char size 1.000000
+@    zeroyaxis  label font 4
+@    zeroyaxis  label color 1
+@    zeroyaxis  label linewidth 1
+@    zeroyaxis  ticklabel off
+@    zeroyaxis  ticklabel type auto
+@    zeroyaxis  ticklabel prec 5
+@    zeroyaxis  ticklabel format general
+@    zeroyaxis  ticklabel append ""
+@    zeroyaxis  ticklabel prepend ""
+@    zeroyaxis  ticklabel layout horizontal
+@    zeroyaxis  ticklabel place on ticks
+@    zeroyaxis  ticklabel skip 0
+@    zeroyaxis  ticklabel stagger 0
+@    zeroyaxis  ticklabel op left
+@    zeroyaxis  ticklabel sign normal
+@    zeroyaxis  ticklabel start type auto
+@    zeroyaxis  ticklabel start 0.000000
+@    zeroyaxis  ticklabel stop type auto
+@    zeroyaxis  ticklabel stop 0.000000
+@    zeroyaxis  ticklabel char size 1.450000
+@    zeroyaxis  ticklabel font 0
+@    zeroyaxis  ticklabel color 1
+@    zeroyaxis  ticklabel linewidth 2
+@    zeroyaxis  tick major off
+@    zeroyaxis  tick minor on
+@    zeroyaxis  tick default 6
+@    zeroyaxis  tick in
+@    zeroyaxis  tick major color 1
+@    zeroyaxis  tick major linewidth 5
+@    zeroyaxis  tick major linestyle 1
+@    zeroyaxis  tick minor color 1
+@    zeroyaxis  tick minor linewidth 4
+@    zeroyaxis  tick minor linestyle 1
+@    zeroyaxis  tick log off
+@    zeroyaxis  tick size 1.000000
+@    zeroyaxis  tick minor size 0.500000
+@    zeroyaxis  bar off
+@    zeroyaxis  bar color 1
+@    zeroyaxis  bar linestyle 1
+@    zeroyaxis  bar linewidth 1
+@    zeroyaxis  tick major grid off
+@    zeroyaxis  tick minor grid off
+@    zeroyaxis  tick op left
+@    zeroyaxis  tick type auto
+@    zeroyaxis  tick spec 0
+@    legend on
+@    legend loctype view
+@    legend layout 0
+@    legend vgap 2
+@    legend hgap 1
+@    legend length 2
+@    legend box off
+@    legend box fill off
+@    legend box fill with color
+@    legend box fill color 0
+@    legend box fill pattern 1
+@    legend box color 1
+@    legend box linewidth 1
+@    legend box linestyle 1
+@    legend x1 0.658
+@    legend y1 0.52
+@    legend font 0
+@    legend char size 2.000000
+@    legend linestyle 1
+@    legend linewidth 1
+@    legend color 1
+@    legend string 0 "\11.1M"
+@    legend string 1 "\11.4M"
+@    legend string 2 "\12.6M"
+@    legend string 3 "\8e\1\sr\N=23, uniformly"
+@    frame on
+@    frame type 1
+@    frame linestyle 1
+@    frame linewidth 5
+@    frame color 1
+@    frame fill off
+@    frame background color 0
+@WITH G0
+@G0 ON
+@TARGET S0
+@TYPE xy
+           -1.45                0
+           -1.35                0
+           -1.25                0
+           -1.15                0
+           -1.05                0
+           -0.95                0
+           -0.85                0
+           -0.75                0
+           -0.65                0
+           -0.55                0
+           -0.45                0
+           -0.35                0
+           -0.25                0
+           -0.15                0
+           -0.05                0
+            0.05                0
+            0.15                0
+            0.25                0
+            0.35                0
+            0.45                0
+            0.55                0
+            0.65                0
+            0.75                0
+            0.85                0
+            0.95                0
+            1.05                0
+            1.15                0
+            1.25                0
+            1.35                0
+            1.45                0
+            1.55          14.8749
+            1.65          13.6679
+            1.75          12.5658
+            1.85          11.5669
+            1.95          10.6516
+            2.05          9.81228
+            2.15          9.03756
+            2.25          8.32395
+            2.35          7.66306
+            2.45          7.05007
+            2.55          6.47592
+            2.65          5.93555
+            2.75          5.42937
+            2.85          4.95394
+            2.95          4.50343
+            3.05          4.07578
+            3.15          3.67238
+            3.25          3.28892
+            3.35          2.92491
+            3.45          2.58331
+            3.55          2.26015
+            3.65          1.95746
+            3.75          1.67736
+            3.85          1.41605
+            3.95          1.18104
+            4.05          0.96518
+            4.15          0.77679
+            4.25          0.60595
+            4.35          0.46181
+            4.45          0.33418
+            4.55          0.24543
+            4.65          0.23867
+            4.75           0.2922
+            4.85          0.37088
+            4.95           0.4657
+            5.05          0.56969
+            5.15          0.67927
+            5.25          0.78795
+            5.35          0.89562
+            5.45          1.00021
+            5.55          1.10144
+            5.65          1.19693
+            5.75          1.28338
+            5.85          1.36393
+            5.95           1.4331
+            6.05          1.49518
+            6.15          1.54624
+            6.25          1.58696
+            6.35          1.61489
+            6.45          1.63261
+            6.55          1.64244
+            6.65          1.63701
+            6.75          1.62734
+            6.85          1.60401
+            6.95          1.57533
+            7.05          1.53649
+            7.15          1.49066
+            7.25          1.43672
+            7.35          1.37637
+            7.45          1.31257
+            7.55          1.24448
+            7.65          1.17165
+            7.75          1.09788
+            7.85          1.02405
+            7.95           0.9523
+            8.05          0.88311
+            8.15          0.81646
+            8.25          0.75663
+            8.35          0.69907
+            8.45          0.64826
+            8.55          0.59981
+            8.65          0.55945
+            8.75          0.52282
+            8.85           0.4898
+            8.95          0.46379
+            9.05          0.44028
+            9.15          0.42289
+            9.25           0.4065
+            9.35          0.39514
+            9.45          0.38888
+            9.55          0.38375
+            9.65          0.37976
+            9.75          0.38071
+            9.85          0.38057
+            9.95          0.38402
+           10.05          0.38884
+           10.15          0.39178
+           10.25          0.39911
+           10.35          0.40312
+           10.45          0.40733
+           10.55          0.41346
+           10.65          0.41855
+           10.75          0.42103
+           10.85           0.4255
+           10.95          0.42643
+           11.05          0.42618
+           11.15          0.42602
+           11.25          0.42511
+           11.35          0.42034
+           11.45          0.41688
+           11.55          0.41154
+           11.65          0.40473
+           11.75          0.39923
+           11.85          0.38902
+           11.95          0.38105
+           12.05          0.37227
+           12.15          0.36089
+           12.25          0.34994
+           12.35          0.33984
+           12.45          0.33008
+           12.55          0.31912
+           12.65           0.3083
+           12.75          0.29808
+           12.85          0.28757
+           12.95          0.27633
+           13.05          0.26852
+           13.15          0.25935
+           13.25          0.25146
+           13.35          0.24331
+           13.45          0.23579
+           13.55           0.2283
+           13.65          0.22151
+           13.75          0.21706
+           13.85          0.21073
+           13.95          0.20644
+           14.05          0.20125
+           14.15          0.19806
+           14.25          0.19359
+           14.35          0.19131
+           14.45          0.18827
+           14.55          0.18546
+           14.65          0.18421
+           14.75          0.18305
+           14.85          0.17949
+           14.95          0.17902
+           15.05          0.17615
+           15.15          0.17633
+           15.25          0.17357
+           15.35          0.17338
+           15.45          0.17087
+           15.55           0.1699
+           15.65          0.16861
+           15.75          0.16785
+           15.85          0.16582
+           15.95          0.16312
+           16.05          0.16177
+           16.15          0.15982
+           16.25          0.15917
+           16.35          0.15526
+           16.45          0.15434
+           16.55           0.1516
+           16.65          0.15032
+           16.75          0.14769
+           16.85          0.14593
+           16.95          0.14356
+           17.05          0.14145
+           17.15          0.13837
+           17.25          0.13658
+           17.35          0.13361
+           17.45          0.13218
+           17.55          0.13005
+           17.65          0.12694
+           17.75          0.12607
+           17.85          0.12273
+           17.95          0.12147
+           18.05          0.11991
+           18.15          0.11869
+           18.25           0.1154
+           18.35          0.11469
+           18.45          0.11257
+           18.55          0.11109
+           18.65          0.10987
+           18.75          0.10833
+           18.85           0.1076
+           18.95          0.10519
+           19.05          0.10448
+           19.15          0.10368
+           19.25          0.10266
+           19.35          0.10036
+           19.45           0.0997
+           19.55          0.09969
+           19.65          0.09873
+           19.75           0.0968
+           19.85          0.09709
+           19.95          0.09563
+           20.05          0.09337
+           20.15          0.09368
+           20.25          0.09369
+           20.35          0.09153
+           20.45          0.09177
+           20.55          0.09131
+           20.65          0.08983
+           20.75          0.08899
+           20.85          0.08915
+           20.95          0.08813
+           21.05          0.08688
+           21.15          0.08588
+           21.25          0.08537
+           21.35          0.08598
+           21.45           0.0842
+           21.55          0.08256
+           21.65          0.08246
+           21.75          0.08289
+           21.85          0.08247
+           21.95          0.08148
+           22.05          0.08099
+           22.15          0.08084
+           22.25          0.08018
+           22.35          0.07963
+           22.45          0.07957
+           22.55          0.07827
+           22.65          0.07943
+           22.75          0.07765
+           22.85          0.07682
+           22.95          0.07736
+           23.05          0.07604
+           23.15            0.077
+           23.25          0.07703
+           23.35           0.0748
+           23.45          0.07589
+           23.55          0.07505
+           23.65          0.07506
+           23.75          0.07486
+           23.85          0.07448
+           23.95          0.07391
+           24.05          0.07433
+           24.15          0.07457
+           24.25          0.07362
+           24.35          0.07333
+           24.45          0.07257
+           24.55          0.07428
+           24.65          0.07399
+           24.75          0.07254
+           24.85          0.07367
+           24.95          0.07226
+           25.05          0.07405
+           25.15          0.07334
+           25.25          0.07305
+           25.35          0.07286
+           25.45           0.0738
+           25.55           0.0738
+           25.65          0.07357
+           25.75          0.07291
+           25.85           0.0739
+           25.95          0.07426
+           26.05          0.07491
+           26.15          0.07464
+           26.25          0.07603
+           26.35          0.07516
+           26.45          0.07592
+           26.55          0.07605
+           26.65          0.07733
+           26.75          0.07637
+           26.85          0.07678
+           26.95           0.0772
+           27.05          0.07751
+           27.15           0.0783
+           27.25          0.07907
+           27.35          0.07841
+           27.45           0.0785
+           27.55          0.07955
+           27.65          0.07964
+           27.75          0.08052
+           27.85          0.08091
+           27.95          0.08112
+           28.05          0.08155
+           28.15           0.0825
+           28.25          0.08167
+           28.35          0.08362
+           28.45          0.08335
+           28.55          0.08529
+           28.65          0.08415
+           28.75          0.08641
+           28.85          0.08634
+           28.95          0.08757
+           29.05          0.08687
+           29.15          0.08748
+           29.25           0.0882
+           29.35          0.09012
+           29.45          0.09066
+           29.55          0.09002
+           29.65          0.09188
+           29.75          0.09257
+           29.85          0.09398
+           29.95          0.09395
+           30.05          0.09497
+           30.15          0.09503
+           30.25          0.09664
+           30.35          0.09674
+           30.45          0.09833
+           30.55          0.09968
+           30.65          0.10077
+           30.75          0.10043
+           30.85           0.1028
+           30.95          0.10466
+           31.05          0.10528
+           31.15          0.10682
+           31.25          0.10845
+           31.35           0.1104
+           31.45          0.11285
+           31.55          0.11361
+           31.65          0.11417
+           31.75          0.11668
+           31.85          0.11891
+           31.95          0.12016
+           32.05          0.12152
+           32.15          0.12297
+           32.25          0.12552
+           32.35          0.12836
+           32.45          0.13047
+           32.55          0.13243
+           32.65          0.13511
+           32.75          0.13643
+           32.85          0.13878
+           32.95          0.14116
+           33.05          0.14346
+           33.15          0.14571
+           33.25          0.14861
+           33.35          0.15092
+           33.45          0.15372
+           33.55          0.15465
+           33.65          0.15556
+           33.75          0.15904
+           33.85          0.16036
+           33.95          0.16201
+           34.05           0.1626
+           34.15           0.1646
+           34.25          0.16659
+           34.35          0.16685
+           34.45          0.16879
+           34.55          0.17125
+           34.65          0.17333
+           34.75          0.17391
+           34.85          0.17453
+           34.95           0.1768
+           35.05          0.17932
+           35.15          0.18147
+           35.25          0.18193
+           35.35          0.18446
+           35.45           0.1855
+           35.55          0.18924
+           35.65          0.19132
+           35.75          0.19563
+           35.85           0.1978
+           35.95          0.20185
+           36.05          0.20615
+           36.15          0.21147
+           36.25          0.21677
+           36.35          0.22326
+           36.45          0.22907
+           36.55          0.23525
+           36.65          0.24333
+           36.75          0.25171
+           36.85          0.25974
+           36.95          0.26886
+           37.05          0.27841
+           37.15            0.288
+           37.25          0.29754
+           37.35          0.30883
+           37.45          0.31757
+           37.55          0.32962
+           37.65          0.33943
+           37.75          0.35071
+           37.85          0.36001
+           37.95          0.37157
+           38.05          0.38008
+           38.15          0.38748
+           38.25          0.39794
+           38.35          0.40531
+           38.45          0.40986
+           38.55          0.41543
+           38.65           0.4215
+           38.75          0.42461
+           38.85           0.4263
+           38.95          0.42664
+           39.05          0.42681
+           39.15          0.42535
+           39.25          0.42184
+           39.35          0.41923
+           39.45          0.41413
+           39.55          0.40824
+           39.65          0.40353
+           39.75          0.39936
+           39.85           0.3937
+           39.95          0.38895
+           40.05          0.38449
+           40.15          0.38206
+           40.25          0.38047
+           40.35          0.37909
+           40.45          0.38254
+           40.55          0.38935
+           40.65          0.39735
+           40.75          0.40644
+           40.85          0.42238
+           40.95          0.44039
+           41.05          0.46301
+           41.15          0.49187
+           41.25          0.52237
+           41.35          0.56058
+           41.45           0.6017
+           41.55          0.64857
+           41.65          0.69971
+           41.75           0.7557
+           41.85          0.81729
+           41.95          0.88038
+           42.05           0.9507
+           42.15           1.0224
+           42.25          1.09499
+           42.35          1.16859
+           42.45          1.24121
+           42.55          1.31154
+           42.65          1.37475
+           42.75          1.43573
+           42.85          1.48981
+           42.95          1.53541
+           43.05          1.57329
+           43.15          1.60635
+           43.25          1.62712
+           43.35          1.64144
+           43.45          1.64343
+           43.55          1.63502
+           43.65          1.61658
+           43.75           1.5843
+           43.85          1.54583
+           43.95          1.49526
+           44.05          1.43371
+           44.15           1.3631
+           44.25           1.2825
+           44.35          1.19519
+           44.45          1.10133
+           44.55          0.99948
+           44.65          0.89406
+           44.75          0.78773
+           44.85          0.67954
+           44.95          0.57089
+           45.05          0.46696
+           45.15          0.37151
+           45.25          0.29431
+           45.35          0.24335
+           45.45          0.24646
+           45.55          0.33501
+           45.65          0.46133
+           45.75          0.60658
+           45.85          0.77632
+           45.95          0.96784
+           46.05          1.18156
+           46.15          1.41679
+           46.25          1.67532
+           46.35          1.95931
+           46.45          2.26005
+           46.55          2.58395
+           46.65          2.92425
+           46.75           3.2878
+           46.85          3.67098
+           46.95          4.07566
+           47.05          4.50224
+           47.15          4.95212
+           47.25          5.43295
+           47.35           5.9349
+           47.45          6.47369
+           47.55          7.04863
+           47.65          7.66304
+           47.75          8.32238
+           47.85           9.0379
+           47.95           9.8135
+           48.05          10.6518
+           48.15          11.5655
+           48.25          12.5688
+           48.35           13.669
+           48.45          14.8729
+           48.55                0
+           48.65                0
+           48.75                0
+           48.85                0
+           48.95                0
+           49.05                0
+           49.15                0
+           49.25                0
+           49.35                0
+           49.45                0
+           49.55                0
+           49.65                0
+           49.75                0
+           49.85                0
+           49.95                0
+           50.05                0
+           50.15                0
+           50.25                0
+           50.35                0
+           50.45                0
+           50.55                0
+           50.65                0
+           50.75                0
+           50.85                0
+           50.95                0
+           51.05                0
+           51.15                0
+           51.25                0
+           51.35                0
+           51.45                0
+&
+@TARGET S1
+@TYPE xy
+           -1.45                0
+           -1.35                0
+           -1.25                0
+           -1.15                0
+           -1.05                0
+           -0.95                0
+           -0.85                0
+           -0.75                0
+           -0.65                0
+           -0.55                0
+           -0.45                0
+           -0.35                0
+           -0.25                0
+           -0.15                0
+           -0.05                0
+            0.05                0
+            0.15                0
+            0.25                0
+            0.35                0
+            0.45                0
+            0.55                0
+            0.65                0
+            0.75                0
+            0.85                0
+            0.95                0
+            1.05                0
+            1.15                0
+            1.25                0
+            1.35                0
+            1.45                0
+            1.55          14.9034
+            1.65          13.7197
+            1.75          12.6323
+            1.85          11.6403
+            1.95          10.7307
+            2.05          9.89923
+            2.15          9.12534
+            2.25          8.41309
+            2.35          7.74916
+            2.45          7.12836
+            2.55          6.55242
+            2.65          6.00399
+            2.75          5.48918
+            2.85           5.0008
+            2.95          4.53782
+            3.05          4.09666
+            3.15          3.68011
+            3.25           3.2839
+            3.35          2.90317
+            3.45          2.54461
+            3.55          2.20661
+            3.65          1.88795
+            3.75          1.59051
+            3.85          1.31474
+            3.95          1.06439
+            4.05          0.83607
+            4.15          0.63377
+            4.25          0.45489
+            4.35          0.29864
+            4.45          0.16406
+            4.55          0.07126
+            4.65          0.07566
+            4.75          0.13746
+            4.85          0.23329
+            4.95          0.34723
+            5.05          0.46975
+            5.15          0.59795
+            5.25          0.72815
+            5.35          0.85614
+            5.45          0.98223
+            5.55          1.10221
+            5.65          1.21439
+            5.75          1.32097
+            5.85           1.4154
+            5.95          1.49957
+            6.05          1.57189
+            6.15          1.63221
+            6.25          1.68407
+            6.35          1.72563
+            6.45          1.74647
+            6.55          1.75828
+            6.65          1.75781
+            6.75          1.74657
+            6.85          1.72233
+            6.95          1.68849
+            7.05          1.64643
+            7.15          1.59433
+            7.25           1.5321
+            7.35          1.46429
+            7.45          1.39333
+            7.55          1.31051
+            7.65           1.2286
+            7.75          1.14549
+            7.85          1.05943
+            7.95           0.9777
+            8.05          0.89655
+            8.15          0.82335
+            8.25          0.75292
+            8.35          0.68568
+            8.45          0.62744
+            8.55           0.5751
+            8.65          0.52878
+            8.75          0.48856
+            8.85          0.45355
+            8.95          0.42463
+            9.05           0.4011
+            9.15          0.38218
+            9.25          0.36798
+            9.35          0.35977
+            9.45          0.35489
+            9.55          0.35218
+            9.65          0.35148
+            9.75          0.35736
+            9.85           0.3626
+            9.95          0.36916
+           10.05          0.37897
+           10.15          0.38875
+           10.25          0.39736
+           10.35          0.40792
+           10.45          0.41959
+           10.55          0.42518
+           10.65          0.43818
+           10.75          0.44247
+           10.85          0.44713
+           10.95          0.45317
+           11.05          0.45451
+           11.15          0.45527
+           11.25          0.45251
+           11.35          0.45184
+           11.45          0.44758
+           11.55          0.44156
+           11.65          0.43367
+           11.75          0.42485
+           11.85          0.41541
+           11.95            0.404
+           12.05          0.39293
+           12.15           0.3813
+           12.25          0.36798
+           12.35          0.35488
+           12.45          0.34117
+           12.55          0.32789
+           12.65          0.31541
+           12.75          0.30326
+           12.85          0.28913
+           12.95          0.27736
+           13.05          0.26721
+           13.15          0.25544
+           13.25          0.24466
+           13.35           0.2357
+           13.45          0.22587
+           13.55          0.21996
+           13.65          0.21299
+           13.75          0.20638
+           13.85          0.20315
+           13.95          0.19455
+           14.05          0.19073
+           14.15          0.18658
+           14.25          0.18416
+           14.35          0.18154
+           14.45          0.18016
+           14.55          0.17864
+           14.65           0.1765
+           14.75          0.17744
+           14.85          0.17489
+           14.95          0.17195
+           15.05           0.1727
+           15.15          0.17199
+           15.25          0.17098
+           15.35          0.17091
+           15.45          0.16813
+           15.55          0.16885
+           15.65          0.16671
+           15.75          0.16719
+           15.85           0.1659
+           15.95          0.16346
+           16.05          0.16042
+           16.15          0.16055
+           16.25          0.15879
+           16.35           0.1558
+           16.45          0.15403
+           16.55          0.15269
+           16.65          0.14963
+           16.75          0.14693
+           16.85          0.14513
+           16.95          0.14312
+           17.05          0.13875
+           17.15          0.13706
+           17.25          0.13303
+           17.35          0.13156
+           17.45          0.12843
+           17.55          0.12525
+           17.65          0.12208
+           17.75          0.11987
+           17.85           0.1176
+           17.95          0.11412
+           18.05          0.11571
+           18.15          0.11069
+           18.25          0.10866
+           18.35          0.10777
+           18.45          0.10526
+           18.55          0.10342
+           18.65          0.10262
+           18.75          0.10061
+           18.85          0.09793
+           18.95          0.09665
+           19.05          0.09581
+           19.15          0.09347
+           19.25          0.09342
+           19.35          0.09396
+           19.45          0.09278
+           19.55          0.09074
+           19.65          0.09106
+           19.75          0.09101
+           19.85          0.08932
+           19.95           0.0894
+           20.05           0.0872
+           20.15          0.08633
+           20.25          0.08549
+           20.35           0.0867
+           20.45          0.08531
+           20.55          0.08404
+           20.65          0.08366
+           20.75          0.08337
+           20.85          0.08243
+           20.95          0.08309
+           21.05          0.07876
+           21.15          0.08206
+           21.25          0.08094
+           21.35           0.0784
+           21.45          0.07924
+           21.55           0.0786
+           21.65          0.07694
+           21.75          0.07587
+           21.85          0.07675
+           21.95          0.07566
+           22.05          0.07637
+           22.15          0.07271
+           22.25          0.07356
+           22.35          0.07378
+           22.45           0.0723
+           22.55          0.07126
+           22.65          0.07145
+           22.75          0.07121
+           22.85          0.07032
+           22.95          0.07027
+           23.05          0.06991
+           23.15          0.06908
+           23.25          0.06916
+           23.35          0.06789
+           23.45          0.06784
+           23.55           0.0675
+           23.65          0.06839
+           23.75          0.06589
+           23.85          0.06717
+           23.95           0.0677
+           24.05          0.06628
+           24.15          0.06698
+           24.25          0.06498
+           24.35          0.06579
+           24.45          0.06489
+           24.55          0.06556
+           24.65          0.06537
+           24.75          0.06559
+           24.85          0.06541
+           24.95           0.0669
+           25.05          0.06569
+           25.15          0.06574
+           25.25          0.06604
+           25.35          0.06656
+           25.45          0.06685
+           25.55          0.06619
+           25.65          0.06633
+           25.75          0.06642
+           25.85          0.06605
+           25.95          0.06785
+           26.05          0.06747
+           26.15          0.06779
+           26.25          0.06853
+           26.35          0.06744
+           26.45           0.0694
+           26.55          0.07039
+           26.65          0.06977
+           26.75          0.06898
+           26.85          0.06954
+           26.95           0.0703
+           27.05          0.06969
+           27.15          0.07204
+           27.25          0.07157
+           27.35          0.07229
+           27.45          0.07209
+           27.55          0.07177
+           27.65          0.07385
+           27.75          0.07469
+           27.85          0.07348
+           27.95          0.07467
+           28.05          0.07477
+           28.15          0.07524
+           28.25          0.07494
+           28.35           0.0779
+           28.45          0.07794
+           28.55          0.07743
+           28.65          0.07988
+           28.75          0.07904
+           28.85          0.08007
+           28.95          0.08024
+           29.05          0.08203
+           29.15           0.0815
+           29.25          0.08258
+           29.35          0.08345
+           29.45          0.08451
+           29.55          0.08562
+           29.65          0.08604
+           29.75          0.08565
+           29.85          0.08575
+           29.95          0.08843
+           30.05            0.088
+           30.15          0.08927
+           30.25          0.08992
+           30.35          0.09021
+           30.45          0.09235
+           30.55            0.093
+           30.65            0.094
+           30.75          0.09425
+           30.85          0.09567
+           30.95          0.09541
+           31.05          0.09871
+           31.15          0.09896
+           31.25          0.10127
+           31.35           0.1011
+           31.45          0.10406
+           31.55          0.10532
+           31.65          0.10757
+           31.75           0.1096
+           31.85          0.11232
+           31.95          0.11326
+           32.05          0.11484
+           32.15          0.11871
+           32.25          0.12038
+           32.35          0.12385
+           32.45          0.12542
+           32.55           0.1295
+           32.65          0.13177
+           32.75          0.13299
+           32.85          0.13801
+           32.95          0.13979
+           33.05          0.14159
+           33.15          0.14361
+           33.25           0.1491
+           33.35          0.14995
+           33.45          0.15229
+           33.55          0.15547
+           33.65            0.157
+           33.75          0.15897
+           33.85          0.16094
+           33.95           0.1611
+           34.05          0.16438
+           34.15          0.16602
+           34.25          0.16702
+           34.35           0.1658
+           34.45          0.16791
+           34.55           0.1694
+           34.65          0.17004
+           34.75          0.17064
+           34.85          0.17208
+           34.95          0.17318
+           35.05          0.17358
+           35.15          0.17424
+           35.25          0.17707
+           35.35           0.1758
+           35.45          0.17628
+           35.55          0.17901
+           35.65          0.18037
+           35.75          0.18391
+           35.85          0.18734
+           35.95          0.19289
+           36.05          0.19597
+           36.15          0.20023
+           36.25           0.2057
+           36.35          0.21263
+           36.45          0.21923
+           36.55          0.22615
+           36.65          0.23746
+           36.75          0.24569
+           36.85          0.25555
+           36.95          0.26669
+           37.05          0.27971
+           37.15          0.29061
+           37.25          0.30339
+           37.35          0.31552
+           37.45          0.33086
+           37.55          0.34229
+           37.65          0.35568
+           37.75          0.36775
+           37.85          0.37948
+           37.95          0.39037
+           38.05          0.40361
+           38.15          0.41501
+           38.25          0.42422
+           38.35          0.43352
+           38.45          0.44013
+           38.55          0.44635
+           38.65          0.45064
+           38.75          0.45199
+           38.85          0.45624
+           38.95          0.45434
+           39.05          0.45097
+           39.15          0.44662
+           39.25          0.44074
+           39.35          0.43443
+           39.45          0.42739
+           39.55          0.41902
+           39.65           0.4094
+           39.75          0.39637
+           39.85          0.38751
+           39.95           0.3787
+           40.05          0.36998
+           40.15          0.36262
+           40.25          0.35688
+           40.35          0.35325
+           40.45          0.35266
+           40.55          0.35305
+           40.65          0.35849
+           40.75          0.36855
+           40.85          0.38494
+           40.95          0.40206
+           41.05           0.4252
+           41.15          0.45385
+           41.25          0.49069
+           41.35          0.53003
+           41.45          0.57644
+           41.55          0.62894
+           41.65          0.68744
+           41.75          0.75229
+           41.85           0.8224
+           41.95           0.8977
+           42.05          0.97872
+           42.15          1.06071
+           42.25          1.14455
+           42.35          1.22714
+           42.45          1.31355
+           42.55          1.39231
+           42.65          1.46459
+           42.75          1.53326
+           42.85          1.59128
+           42.95          1.64834
+           43.05          1.69104
+           43.15          1.72321
+           43.25          1.74469
+           43.35          1.75576
+           43.45          1.75634
+           43.55          1.74314
+           43.65          1.72193
+           43.75          1.68426
+           43.85          1.63522
+           43.95           1.5707
+           44.05          1.49797
+           44.15          1.41468
+           44.25          1.32001
+           44.35          1.21251
+           44.45          1.10153
+           44.55          0.97781
+           44.65          0.85801
+           44.75          0.72644
+           44.85            0.595
+           44.95          0.47001
+           45.05          0.34594
+           45.15          0.23243
+           45.25          0.13767
+           45.35          0.07288
+           45.45          0.07312
+           45.55          0.16598
+           45.65          0.29958
+           45.75          0.45516
+           45.85          0.63452
+           45.95          0.83763
+           46.05          1.06594
+           46.15          1.31711
+           46.25          1.59181
+           46.35          1.88926
+           46.45          2.20629
+           46.55          2.54578
+           46.65          2.90623
+           46.75          3.28434
+           46.85          3.68155
+           46.95          4.10139
+           47.05          4.53941
+           47.15          4.99985
+           47.25          5.48899
+           47.35           6.0041
+           47.45          6.54868
+           47.55          7.12835
+           47.65          7.74879
+           47.75           8.4132
+           47.85          9.12822
+           47.95          9.89778
+           48.05          10.7309
+           48.15          11.6395
+           48.25          12.6306
+           48.35          13.7125
+           48.45          14.9043
+           48.55                0
+           48.65                0
+           48.75                0
+           48.85                0
+           48.95                0
+           49.05                0
+           49.15                0
+           49.25                0
+           49.35                0
+           49.45                0
+           49.55                0
+           49.65                0
+           49.75                0
+           49.85                0
+           49.95                0
+           50.05                0
+           50.15                0
+           50.25                0
+           50.35                0
+           50.45                0
+           50.55                0
+           50.65                0
+           50.75                0
+           50.85                0
+           50.95                0
+           51.05                0
+           51.15                0
+           51.25                0
+           51.35                0
+           51.45                0
+&
+@TARGET S2
+@TYPE xy
+           -1.45                0
+           -1.35                0
+           -1.25                0
+           -1.15                0
+           -1.05                0
+           -0.95                0
+           -0.85                0
+           -0.75                0
+           -0.65                0
+           -0.55                0
+           -0.45                0
+           -0.35                0
+           -0.25                0
+           -0.15                0
+           -0.05                0
+            0.05                0
+            0.15                0
+            0.25                0
+            0.35                0
+            0.45                0
+            0.55                0
+            0.65                0
+            0.75                0
+            0.85                0
+            0.95                0
+            1.05                0
+            1.15                0
+            1.25                0
+            1.35                0
+            1.45                0
+            1.55          14.9983
+            1.65          13.8513
+            1.75             12.8
+            1.85          11.8346
+            1.95          10.9463
+            2.05          10.1232
+            2.15          9.35681
+            2.25          8.64427
+            2.35          7.97014
+            2.45          7.34325
+            2.55          6.74911
+            2.65          6.18273
+            2.75          5.64341
+            2.85           5.1301
+            2.95          4.64068
+            3.05          4.17049
+            3.15          3.71477
+            3.25          3.27892
+            3.35          2.86216
+            3.45          2.46594
+            3.55          2.08499
+            3.65          1.72748
+            3.75          1.39228
+            3.85          1.07972
+            3.95          0.78934
+            4.05          0.52896
+            4.15          0.29506
+            4.25          0.08585
+            4.35          -0.0974
+            4.45         -0.25879
+            4.55         -0.36124
+            4.65         -0.34495
+            4.75         -0.25248
+            4.85          -0.1172
+            4.95          0.03938
+            5.05          0.21228
+            5.15          0.39216
+            5.25          0.57347
+            5.35          0.75532
+            5.45          0.92933
+            5.55          1.10066
+            5.65          1.26306
+            5.75           1.4056
+            5.85          1.54276
+            5.95          1.66427
+            6.05          1.77289
+            6.15          1.86672
+            6.25          1.94233
+            6.35          1.99851
+            6.45          2.03841
+            6.55          2.05787
+            6.65          2.06231
+            6.75          2.05405
+            6.85          2.02463
+            6.95          1.98648
+            7.05          1.92904
+            7.15          1.86564
+            7.25          1.78569
+            7.35            1.693
+            7.45          1.59619
+            7.55          1.48621
+            7.65          1.37217
+            7.75          1.25267
+            7.85          1.13846
+            7.95          1.02639
+            8.05          0.91276
+            8.15          0.81196
+            8.25          0.71636
+            8.35           0.6302
+            8.45          0.55028
+            8.55          0.47548
+            8.65          0.41357
+            8.75          0.36305
+            8.85          0.32109
+            8.95          0.28568
+            9.05          0.26065
+            9.15          0.24404
+            9.25           0.2373
+            9.35          0.23303
+            9.45          0.23746
+            9.55          0.24665
+            9.65          0.25735
+            9.75          0.27751
+            9.85          0.29399
+            9.95          0.31982
+           10.05           0.3451
+           10.15          0.36646
+           10.25          0.39491
+           10.35          0.41879
+           10.45          0.44326
+           10.55          0.46795
+           10.65          0.49023
+           10.75          0.51134
+           10.85          0.52667
+           10.95           0.5363
+           11.05          0.54757
+           11.15          0.55181
+           11.25          0.55006
+           11.35          0.54553
+           11.45           0.5425
+           11.55          0.53757
+           11.65          0.52739
+           11.75          0.51459
+           11.85          0.49598
+           11.95          0.47642
+           12.05          0.45944
+           12.15          0.43617
+           12.25           0.4156
+           12.35          0.39684
+           12.45          0.37286
+           12.55          0.34721
+           12.65          0.32574
+           12.75          0.30521
+           12.85           0.2857
+           12.95          0.26623
+           13.05           0.2492
+           13.15          0.23171
+           13.25          0.21553
+           13.35          0.20169
+           13.45          0.19251
+           13.55          0.17947
+           13.65          0.16691
+           13.75          0.16058
+           13.85          0.15654
+           13.95          0.15482
+           14.05          0.14795
+           14.15          0.14682
+           14.25          0.14857
+           14.35           0.1495
+           14.45          0.14916
+           14.55          0.14828
+           14.65          0.15068
+           14.75          0.15557
+           14.85          0.15666
+           14.95          0.16284
+           15.05          0.16461
+           15.15          0.16606
+           15.25          0.16937
+           15.35          0.17217
+           15.45          0.17295
+           15.55          0.17755
+           15.65          0.17856
+           15.75           0.1798
+           15.85          0.17021
+           15.95          0.17274
+           16.05          0.17302
+           16.15          0.16979
+           16.25          0.16877
+           16.35          0.16718
+           16.45          0.16053
+           16.55          0.15736
+           16.65          0.15303
+           16.75           0.1478
+           16.85          0.14426
+           16.95          0.13764
+           17.05          0.13395
+           17.15           0.1324
+           17.25          0.12714
+           17.35           0.1263
+           17.45          0.12179
+           17.55          0.11551
+           17.65          0.11071
+           17.75          0.10607
+           17.85          0.10448
+           17.95          0.10172
+           18.05           0.0983
+           18.15          0.09169
+           18.25          0.09172
+           18.35          0.08642
+           18.45          0.08458
+           18.55          0.08316
+           18.65          0.08201
+           18.75          0.07957
+           18.85           0.0786
+           18.95          0.07749
+           19.05          0.07763
+           19.15          0.07522
+           19.25          0.07519
+           19.35          0.07447
+           19.45          0.07432
+           19.55          0.07616
+           19.65          0.07486
+           19.75          0.06849
+           19.85          0.07012
+           19.95           0.0716
+           20.05           0.0662
+           20.15          0.06984
+           20.25          0.06862
+           20.35          0.07013
+           20.45          0.06779
+           20.55          0.06787
+           20.65          0.06911
+           20.75          0.06973
+           20.85          0.06826
+           20.95          0.06789
+           21.05          0.06673
+           21.15          0.07119
+           21.25          0.06944
+           21.35           0.0669
+           21.45          0.06406
+           21.55          0.06635
+           21.65          0.06786
+           21.75          0.06584
+           21.85          0.06238
+           21.95          0.06191
+           22.05          0.06275
+           22.15          0.05901
+           22.25          0.05739
+           22.35          0.05796
+           22.45          0.05692
+           22.55          0.05523
+           22.65          0.05367
+           22.75          0.05368
+           22.85          0.05468
+           22.95          0.05323
+           23.05          0.05217
+           23.15          0.04995
+           23.25          0.04974
+           23.35          0.04995
+           23.45          0.05074
+           23.55          0.04865
+           23.65          0.04643
+           23.75          0.05103
+           23.85          0.04803
+           23.95          0.04846
+           24.05          0.04774
+           24.15          0.04759
+           24.25          0.05024
+           24.35          0.05082
+           24.45          0.05245
+           24.55          0.05038
+           24.65          0.05157
+           24.75          0.05273
+           24.85          0.04877
+           24.95          0.04869
+           25.05          0.04918
+           25.15          0.04842
+           25.25          0.05065
+           25.35          0.05244
+           25.45          0.04944
+           25.55           0.0531
+           25.65          0.04871
+           25.75          0.05133
+           25.85          0.05204
+           25.95          0.05336
+           26.05          0.05063
+           26.15          0.05177
+           26.25          0.05228
+           26.35          0.05707
+           26.45          0.05414
+           26.55          0.05499
+           26.65          0.05281
+           26.75          0.05429
+           26.85          0.05355
+           26.95          0.05081
+           27.05          0.05065
+           27.15          0.05142
+           27.25           0.0524
+           27.35           0.0514
+           27.45          0.05335
+           27.55           0.0588
+           27.65          0.05355
+           27.75          0.05503
+           27.85          0.05497
+           27.95          0.05672
+           28.05          0.05665
+           28.15          0.06121
+           28.25          0.06351
+           28.35          0.06371
+           28.45          0.06171
+           28.55          0.06547
+           28.65           0.0654
+           28.75          0.06983
+           28.85          0.07269
+           28.95          0.07142
+           29.05          0.06986
+           29.15          0.07052
+           29.25          0.07417
+           29.35          0.07453
+           29.45          0.06966
+           29.55          0.07265
+           29.65          0.07555
+           29.75          0.07446
+           29.85          0.07061
+           29.95          0.06791
+           30.05          0.07258
+           30.15          0.07184
+           30.25          0.07357
+           30.35          0.07462
+           30.45          0.07663
+           30.55          0.07413
+           30.65           0.0774
+           30.75          0.07399
+           30.85          0.07752
+           30.95          0.07545
+           31.05          0.07269
+           31.15          0.07698
+           31.25          0.07336
+           31.35          0.08087
+           31.45          0.08037
+           31.55          0.08647
+           31.65          0.08529
+           31.75          0.08815
+           31.85          0.09064
+           31.95           0.0932
+           32.05          0.09788
+           32.15           0.1026
+           32.25          0.10782
+           32.35          0.10921
+           32.45          0.11177
+           32.55          0.11671
+           32.65          0.12343
+           32.75           0.1261
+           32.85          0.13087
+           32.95          0.13988
+           33.05          0.14411
+           33.15          0.14923
+           33.25          0.15184
+           33.35          0.15697
+           33.45          0.15786
+           33.55          0.16299
+           33.65           0.1661
+           33.75          0.16638
+           33.85          0.17141
+           33.95          0.17383
+           34.05          0.17363
+           34.15          0.17279
+           34.25          0.17543
+           34.35          0.17439
+           34.45          0.17496
+           34.55          0.17026
+           34.65           0.1703
+           34.75          0.16967
+           34.85           0.1639
+           34.95           0.1653
+           35.05          0.16501
+           35.15          0.15687
+           35.25          0.15395
+           35.35          0.14979
+           35.45          0.14894
+           35.55          0.14979
+           35.65          0.14776
+           35.75          0.14468
+           35.85          0.14548
+           35.95          0.14614
+           36.05          0.15324
+           36.15          0.15835
+           36.25          0.16206
+           36.35          0.16774
+           36.45          0.17909
+           36.55          0.19395
+           36.65          0.20672
+           36.75          0.21677
+           36.85          0.23461
+           36.95          0.25222
+           37.05          0.27214
+           37.15          0.28961
+           37.25          0.30958
+           37.35          0.32576
+           37.45          0.35032
+           37.55          0.37676
+           37.65          0.39851
+           37.75          0.42212
+           37.85          0.44338
+           37.95          0.46257
+           38.05          0.47589
+           38.15           0.4982
+           38.25          0.51078
+           38.35          0.52466
+           38.45          0.53188
+           38.55          0.53836
+           38.65          0.54794
+           38.75          0.55609
+           38.85           0.5493
+           38.95          0.54193
+           39.05           0.5373
+           39.15          0.52397
+           39.25          0.50622
+           39.35           0.4866
+           39.45          0.46671
+           39.55          0.44551
+           39.65           0.4211
+           39.75          0.39509
+           39.85          0.37064
+           39.95          0.34666
+           40.05          0.32697
+           40.15          0.30381
+           40.25          0.28218
+           40.35          0.26421
+           40.45          0.24984
+           40.55          0.23995
+           40.65          0.23389
+           40.75          0.23728
+           40.85          0.24986
+           40.95          0.26485
+           41.05          0.29236
+           41.15          0.32237
+           41.25          0.36508
+           41.35           0.4147
+           41.45          0.47484
+           41.55          0.54416
+           41.65          0.62685
+           41.75          0.71143
+           41.85          0.80902
+           41.95          0.91467
+           42.05          1.02209
+           42.15          1.13627
+           42.25          1.25009
+           42.35          1.36642
+           42.45          1.48327
+           42.55          1.59008
+           42.65          1.68801
+           42.75          1.77478
+           42.85          1.85253
+           42.95          1.92033
+           43.05          1.97626
+           43.15          2.02034
+           43.25          2.04678
+           43.35          2.05789
+           43.45          2.05876
+           43.55          2.03872
+           43.65          1.99705
+           43.75          1.93669
+           43.85          1.86261
+           43.95          1.77383
+           44.05          1.66891
+           44.15          1.54659
+           44.25          1.40513
+           44.35          1.25629
+           44.45          1.09781
+           44.55          0.92747
+           44.65          0.75406
+           44.75          0.57687
+           44.85          0.39726
+           44.95          0.21809
+           45.05          0.04244
+           45.15         -0.10665
+           45.25         -0.24453
+           45.35         -0.33802
+           45.45         -0.35324
+           45.55         -0.24502
+           45.65         -0.08746
+           45.75          0.09016
+           45.85          0.29912
+           45.95          0.53345
+           46.05          0.79472
+           46.15           1.0789
+           46.25          1.39577
+           46.35          1.73341
+           46.45          2.08464
+           46.55          2.46557
+           46.65          2.86434
+           46.75          3.27884
+           46.85          3.71124
+           46.95          4.16563
+           47.05          4.63652
+           47.15          5.12542
+           47.25           5.6418
+           47.35           6.1757
+           47.45          6.73998
+           47.55          7.33335
+           47.65          7.96694
+           47.75          8.63808
+           47.85          9.34855
+           47.95          10.1178
+           48.05          10.9389
+           48.15            11.83
+           48.25          12.8012
+           48.35          13.8506
+           48.45          14.9989
+           48.55                0
+           48.65                0
+           48.75                0
+           48.85                0
+           48.95                0
+           49.05                0
+           49.15                0
+           49.25                0
+           49.35                0
+           49.45                0
+           49.55                0
+           49.65                0
+           49.75                0
+           49.85                0
+           49.95                0
+           50.05                0
+           50.15                0
+           50.25                0
+           50.35                0
+           50.45                0
+           50.55                0
+           50.65                0
+           50.75                0
+           50.85                0
+           50.95                0
+           51.05                0
+           51.15                0
+           51.25                0
+           51.35                0
+           51.45                0
+&
+@TARGET S3
+@TYPE xy
+           -1.45                0
+           -1.35                0
+           -1.25                0
+           -1.15                0
+           -1.05                0
+           -0.95                0
+           -0.85                0
+           -0.75                0
+           -0.65                0
+           -0.55                0
+           -0.45                0
+           -0.35                0
+           -0.25                0
+           -0.15                0
+           -0.05                0
+            0.05                0
+            0.15                0
+            0.25                0
+            0.35                0
+            0.45                0
+            0.55                0
+            0.65                0
+            0.75                0
+            0.85                0
+            0.95                0
+            1.05                0
+            1.15                0
+            1.25                0
+            1.35                0
+            1.45                0
+            1.55        0.0292675
+            1.65        0.0237134
+            1.75        0.0193723
+            1.85        0.0158838
+            1.95        0.0131073
+            2.05        0.0108977
+            2.15       0.00908541
+            2.25       0.00761873
+            2.35       0.00641854
+            2.45         0.005428
+            2.55       0.00459626
+            2.65       0.00391123
+            2.75       0.00331552
+            2.85       0.00281951
+            2.95       0.00238369
+            3.05       0.00199161
+            3.15       0.00165094
+            3.25       0.00134781
+            3.35       0.00106862
+            3.45      0.000812323
+            3.55        0.0005739
+            3.65      0.000349849
+            3.75      0.000131037
+            3.85     -6.97495e-05
+            3.95     -0.000253449
+            4.05     -0.000438551
+            4.15     -0.000616339
+            4.25     -0.000773168
+            4.35     -0.000920239
+            4.45      -0.00106079
+            4.55      -0.00118541
+            4.65      -0.00126498
+            4.75      -0.00129645
+            4.85      -0.00129699
+            4.95      -0.00127511
+            5.05      -0.00123123
+            5.15      -0.00118031
+            5.25      -0.00112777
+            5.35       -0.0010656
+            5.45     -0.000997242
+            5.55     -0.000935918
+            5.65     -0.000868399
+            5.75     -0.000804633
+            5.85      -0.00073554
+            5.95     -0.000679148
+            6.05     -0.000620537
+            6.15     -0.000552768
+            6.25     -0.000505705
+            6.35     -0.000444257
+            6.45     -0.000388046
+            6.55     -0.000337716
+            6.65     -0.000290894
+            6.75     -0.000249437
+            6.85     -0.000201936
+            6.95     -0.000167158
+            7.05     -0.000127296
+            7.15     -9.38621e-05
+            7.25     -6.07721e-05
+            7.35     -3.31944e-05
+            7.45     -9.38326e-06
+            7.55      1.03211e-05
+            7.65      2.78454e-05
+            7.75       5.3758e-05
+            7.85      5.71128e-05
+            7.95       7.5479e-05
+            8.05      8.70987e-05
+            8.15      8.63665e-05
+            8.25      9.85746e-05
+            8.35      9.74986e-05
+            8.45      9.29609e-05
+            8.55      9.68987e-05
+            8.65      0.000101913
+            8.75      0.000101025
+            8.85      9.13975e-05
+            8.95      9.01522e-05
+            9.05      8.62903e-05
+            9.15      8.51156e-05
+            9.25      7.91465e-05
+            9.35      7.33861e-05
+            9.45      6.21495e-05
+            9.55      6.54197e-05
+            9.65      5.27749e-05
+            9.75      5.23298e-05
+            9.85      4.69691e-05
+            9.95      4.08846e-05
+           10.05      3.16676e-05
+           10.15       2.8707e-05
+           10.25      2.33295e-05
+           10.35      2.05241e-05
+           10.45      1.37662e-05
+           10.55      9.45637e-06
+           10.65        4.893e-06
+           10.75      9.54374e-06
+           10.85      2.09289e-06
+           10.95     -7.98028e-06
+           11.05     -3.31847e-06
+           11.15     -1.49096e-07
+           11.25     -5.74761e-07
+           11.35     -1.12732e-05
+           11.45     -1.06284e-05
+           11.55     -8.09863e-06
+           11.65     -7.48735e-06
+           11.75     -4.72691e-06
+           11.85     -1.01211e-05
+           11.95     -1.17802e-05
+           12.05     -4.78599e-06
+           12.15     -1.01353e-05
+           12.25     -8.89286e-06
+           12.35     -9.49001e-06
+           12.45     -1.16031e-05
+           12.55      -1.0648e-05
+           12.65     -5.80324e-07
+           12.75     -6.47893e-06
+           12.85     -1.06451e-05
+           12.95     -9.79461e-06
+           13.05     -6.33227e-06
+           13.15     -4.29575e-06
+           13.25     -5.44779e-06
+           13.35     -7.41128e-06
+           13.45      1.30133e-06
+           13.55     -3.96603e-06
+           13.65     -3.30707e-06
+           13.75     -2.20831e-06
+           13.85      1.07885e-06
+           13.95     -4.54656e-06
+           14.05     -3.12696e-07
+           14.15     -1.58877e-06
+           14.25     -2.84237e-06
+           14.35     -2.27043e-06
+           14.45     -3.98857e-06
+           14.55     -5.59148e-06
+           14.65     -8.10443e-06
+           14.75     -1.29876e-06
+           14.85      -4.3775e-06
+           14.95     -2.90137e-06
+           15.05      2.52676e-06
+           15.15     -5.57732e-06
+           15.25     -1.37994e-07
+           15.35     -3.90147e-06
+           15.45      1.78585e-06
+           15.55     -3.45916e-06
+           15.65     -4.38311e-06
+           15.75     -5.17472e-06
+           15.85      5.14081e-06
+           15.95     -5.16892e-06
+           16.05     -4.40566e-06
+           16.15     -5.57959e-07
+           16.25      1.19163e-06
+           16.35      2.78602e-06
+           16.45     -3.11264e-06
+           16.55      3.32661e-06
+           16.65      1.38007e-06
+           16.75      3.30983e-06
+           16.85      8.19697e-07
+           16.95     -4.17044e-07
+           17.05      2.45636e-06
+           17.15     -4.05361e-06
+           17.25      3.68744e-06
+           17.35      5.20846e-06
+           17.45       9.8565e-07
+           17.55      4.74931e-06
+           17.65      7.51943e-07
+           17.75     -1.00002e-06
+           17.85      2.60276e-06
+           17.95     -4.39553e-07
+           18.05     -1.34669e-06
+           18.15     -6.25346e-06
+           18.25     -2.53582e-07
+           18.35      2.27933e-07
+           18.45     -2.78026e-06
+           18.55     -4.74091e-06
+           18.65      -4.4564e-06
+           18.75      3.46463e-06
+           18.85     -2.76338e-06
+           18.95     -2.94923e-06
+           19.05      4.40836e-06
+           19.15     -1.92945e-06
+           19.25     -2.14922e-06
+           19.35     -4.36351e-06
+           19.45      3.43101e-06
+           19.55     -5.01122e-06
+           19.65      1.75234e-06
+           19.75     -1.93516e-06
+           19.85     -2.21127e-06
+           19.95     -8.67671e-07
+           20.05      -4.9281e-07
+           20.15      2.04786e-06
+           20.25      -2.2246e-07
+           20.35      6.99162e-06
+           20.45      3.01706e-06
+           20.55      2.61967e-06
+           20.65      2.14353e-06
+           20.75      6.95921e-07
+           20.85      2.49573e-06
+           20.95      2.82529e-06
+           21.05      2.61119e-06
+           21.15      3.37189e-06
+           21.25      1.92132e-06
+           21.35      3.36053e-06
+           21.45      6.28259e-07
+           21.55      4.19697e-07
+           21.65      4.39151e-06
+           21.75      3.81402e-06
+           21.85      5.32209e-07
+           21.95     -6.81686e-07
+           22.05      3.37755e-06
+           22.15      3.77736e-06
+           22.25     -7.29793e-07
+           22.35     -2.27322e-06
+           22.45       5.0311e-06
+           22.55      3.90128e-06
+           22.65     -1.39999e-06
+           22.75      1.48437e-06
+           22.85      4.71812e-06
+           22.95      5.38876e-06
+           23.05      5.04782e-06
+           23.15      2.47591e-06
+           23.25     -3.99169e-06
+           23.35      4.65918e-06
+           23.45     -3.10706e-06
+           23.55     -2.60294e-06
+           23.65      -3.8818e-06
+           23.75      3.42521e-06
+           23.85      9.71834e-07
+           23.95      1.94078e-06
+           24.05      -1.1266e-06
+           24.15     -1.18362e-07
+           24.25      3.74083e-06
+           24.35     -1.47354e-06
+           24.45     -5.70159e-06
+           24.55     -3.96335e-06
+           24.65      2.85358e-06
+           24.75     -2.93806e-06
+           24.85      -1.1015e-06
+           24.95      3.00837e-06
+           25.05     -2.21693e-06
+           25.15     -1.40994e-07
+           25.25      4.98617e-06
+           25.35      1.01687e-06
+           25.45     -9.38012e-07
+           25.55      3.35475e-06
+           25.65     -6.37736e-06
+           25.75     -1.89287e-06
+           25.85      2.55205e-06
+           25.95     -1.97175e-08
+           26.05      4.75189e-06
+           26.15     -1.00553e-06
+           26.25       -1.203e-06
+           26.35      4.33628e-07
+           26.45     -3.83658e-06
+           26.55     -2.86209e-06
+           26.65     -3.64792e-06
+           26.75      3.06475e-06
+           26.85     -1.47074e-06
+           26.95      1.80259e-06
+           27.05      9.29587e-07
+           27.15     -3.10135e-06
+           27.25      6.46535e-08
+           27.35      -2.3578e-06
+           27.45      9.04212e-07
+           27.55     -4.72969e-06
+           27.65     -6.34643e-06
+           27.75      3.27037e-06
+           27.85     -4.46758e-06
+           27.95     -1.57181e-06
+           28.05     -2.19433e-06
+           28.15     -4.67307e-06
+           28.25     -1.03182e-05
+           28.35     -4.32686e-06
+           28.45     -6.16863e-07
+           28.55     -2.53526e-06
+           28.65     -9.39445e-06
+           28.75     -4.70704e-06
+           28.85     -1.09303e-06
+           28.95     -2.33801e-06
+           29.05      -3.2364e-06
+           29.15     -7.85957e-07
+           29.25     -2.59431e-06
+           29.35     -5.63348e-07
+           29.45     -1.22526e-06
+           29.55     -3.00853e-06
+           29.65      2.27043e-06
+           29.75      4.91827e-06
+           29.85     -3.74075e-06
+           29.95       3.2788e-06
+           30.05     -4.63097e-06
+           30.15      4.23384e-06
+           30.25      9.35173e-07
+           30.35     -1.26788e-07
+           30.45      1.58851e-06
+           30.55     -1.62544e-06
+           30.65      4.85622e-06
+           30.75      -1.2508e-06
+           30.85     -2.38318e-06
+           30.95     -2.42255e-07
+           31.05     -9.00241e-08
+           31.15     -1.09012e-06
+           31.25      2.18575e-06
+           31.35     -1.53244e-06
+           31.45     -5.66189e-07
+           31.55      4.78891e-06
+           31.65     -5.82929e-07
+           31.75      5.34357e-06
+           31.85     -1.57458e-06
+           31.95     -1.94179e-07
+           32.05      1.20853e-06
+           32.15      1.80258e-07
+           32.25       6.8817e-06
+           32.35      2.09848e-06
+           32.45      5.63669e-06
+           32.55      -8.9015e-07
+           32.65       6.0832e-07
+           32.75      4.74373e-06
+           32.85      2.05914e-06
+           32.95        1.721e-06
+           33.05       1.7887e-06
+           33.15     -9.40761e-07
+           33.25      4.34368e-06
+           33.35      4.58583e-06
+           33.45        2.321e-06
+           33.55      1.76071e-06
+           33.65      4.05707e-07
+           33.75      4.23668e-06
+           33.85      3.17174e-06
+           33.95      3.28162e-06
+           34.05      3.38034e-06
+           34.15      4.19715e-06
+           34.25     -5.99977e-07
+           34.35       5.7099e-06
+           34.45      2.11268e-06
+           34.55      1.78598e-06
+           34.65      3.76339e-06
+           34.75      7.45649e-06
+           34.85      2.86485e-06
+           34.95     -7.35129e-07
+           35.05     -2.82243e-06
+           35.15       6.8535e-06
+           35.25     -6.76023e-07
+           35.35     -4.41987e-06
+           35.45      1.20275e-06
+           35.55     -3.40947e-07
+           35.65     -1.36327e-06
+           35.75     -4.85915e-06
+           35.85     -8.99445e-06
+           35.95      -9.0619e-06
+           36.05     -7.78577e-06
+           36.15     -3.29578e-06
+           36.25     -9.04791e-06
+           36.35     -1.27663e-05
+           36.45     -6.77749e-06
+           36.55     -1.02506e-05
+           36.65     -1.50619e-05
+           36.75     -1.04507e-05
+           36.85     -1.12453e-05
+           36.95     -1.03888e-05
+           37.05     -1.21015e-05
+           37.15     -9.71004e-06
+           37.25     -5.88747e-06
+           37.35     -1.17101e-05
+           37.45     -9.49859e-06
+           37.55     -1.01466e-05
+           37.65     -8.99728e-06
+           37.75     -9.93266e-06
+           37.85     -5.01692e-06
+           37.95     -1.10029e-05
+           38.05     -9.08183e-06
+           38.15     -7.58323e-06
+           38.25     -7.45923e-06
+           38.35     -2.82546e-06
+           38.45     -6.05922e-06
+           38.55     -2.59449e-06
+           38.65     -4.24241e-06
+           38.75      4.13903e-07
+           38.85     -1.20589e-06
+           38.95      6.12403e-06
+           39.05       8.8534e-06
+           39.15      5.39164e-06
+           39.25      1.06056e-05
+           39.35      9.90153e-06
+           39.45      1.58027e-05
+           39.55      1.80762e-05
+           39.65      2.16082e-05
+           39.75      2.32958e-05
+           39.85       3.5124e-05
+           39.95      3.99072e-05
+           40.05      3.86112e-05
+           40.15      4.77888e-05
+           40.25      5.08565e-05
+           40.35      5.62592e-05
+           40.45       5.9248e-05
+           40.55      6.64902e-05
+           40.65       6.6958e-05
+           40.75      8.04028e-05
+           40.85      8.63466e-05
+           40.95      9.06255e-05
+           41.05      8.82425e-05
+           41.15      8.91635e-05
+           41.25      8.83948e-05
+           41.35      9.01271e-05
+           41.45      9.34399e-05
+           41.55      9.74396e-05
+           41.65      8.94369e-05
+           41.75       9.6668e-05
+           41.85      8.92987e-05
+           41.95      7.79552e-05
+           42.05      6.96819e-05
+           42.15       6.3789e-05
+           42.25      4.15863e-05
+           42.35      3.00902e-05
+           42.45      1.20705e-05
+           42.55     -1.35353e-05
+           42.65     -3.78396e-05
+           42.75     -6.48535e-05
+           42.85     -9.35184e-05
+           42.95     -0.000130724
+           43.05      -0.00016964
+           43.15     -0.000210161
+           43.25     -0.000251054
+           43.35     -0.000301758
+           43.45     -0.000341607
+           43.55     -0.000392263
+           43.65     -0.000452956
+           43.75     -0.000499117
+           43.85     -0.000561466
+           43.95     -0.000617982
+           44.05     -0.000685027
+           44.15     -0.000743318
+           44.25      -0.00081345
+           44.35     -0.000872893
+           44.45     -0.000937865
+           44.55       -0.0010001
+           44.65      -0.00107031
+           44.75      -0.00113681
+           44.85       -0.0011832
+           44.95      -0.00123285
+           45.05      -0.00126864
+           45.15      -0.00128901
+           45.25      -0.00129216
+           45.35      -0.00125978
+           45.45      -0.00118258
+           45.55      -0.00106395
+           45.65     -0.000928791
+           45.75     -0.000771383
+           45.85     -0.000608895
+           45.95     -0.000429945
+           46.05     -0.000250046
+           46.15     -5.59184e-05
+           46.25      0.000141727
+           46.35      0.000354426
+           46.45      0.000581232
+           46.55      0.000811751
+           46.65       0.00107955
+           46.75       0.00135383
+           46.85       0.00166354
+           46.95       0.00200054
+           47.05       0.00238221
+           47.15       0.00281584
+           47.25       0.00331903
+           47.35       0.00390533
+           47.45       0.00460987
+           47.55       0.00542397
+           47.65       0.00642097
+           47.75       0.00761593
+           47.85       0.00908373
+           47.95        0.0108909
+           48.05        0.0131086
+           48.15        0.0158803
+           48.25        0.0193448
+           48.35        0.0237212
+           48.45        0.0292877
+           48.55                0
+           48.65                0
+           48.75                0
+           48.85                0
+           48.95                0
+           49.05                0
+           49.15                0
+           49.25                0
+           49.35                0
+           49.45                0
+           49.55                0
+           49.65                0
+           49.75                0
+           49.85                0
+           49.95                0
+           50.05                0
+           50.15                0
+           50.25                0
+           50.35                0
+           50.45                0
+           50.55                0
+           50.65                0
+           50.75                0
+           50.85                0
+           50.95                0
+           51.05                0
+           51.15                0
+           51.25                0
+           51.35                0
+           51.45                0
+&
