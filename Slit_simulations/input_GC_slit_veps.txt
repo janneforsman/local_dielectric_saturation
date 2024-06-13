@@ -26,8 +26,8 @@ Initialise from random configuration? (1 = yes, 0 = no)
 0
 Fraction of attempted cluster moves (max 0.5)
 0.05
-Fraction of attempted GC moves (max 0.5), chemical potential
-0.05 -18.9
+Fraction of attempted GC moves (max 0.5), chemical potential #####Note: to run Canonical simultations, the first number has to be 0.0!######
+0.0 -18.9
 Max cluster radius, cluster displacement size (in Å)
 10.0  1.6
 Name of coordinate input file
