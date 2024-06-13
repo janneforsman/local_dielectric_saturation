@@ -1,0 +1,14 @@
+Step size in r-space (in Å)
+0.005
+Diameters of the cation, anion (in Å)
+3.d0 3.d0
+Temperature of the system (in K)
+298.d0
+Bulk dielectric constant
+78.3
+Molar concentration of cations, anions (in mol/L)
+1.0 1.0
+Start from tau = 0 or previous iteration? (0 = zero, 1 = previous)
+0
+Picard mixing percentage
+0.5
